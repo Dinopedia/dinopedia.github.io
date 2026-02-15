@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+  </div>
+</header>
+<main class="wiki-shell quiz-shell">
+  <section class="hero hero-wiki">
+    <h2>Dino Quiz Arena</h2>
+    <p>Test your knowledge with customizable rounds.</p>
+  </section>
+
+  <section class="card-paper quiz-settings">
+    <div class="quiz-settings-grid">
+      <label>Question count
+        <input id="questionCount" class="control-input" type="number" min="3" max="30" value="10">
+      </label>
+      <label>Question type
+        <select id="questionType" class="control-select">
+          <option value="mixed">Mixed</option>
+          <option value="period">Period</option>
+          <option value="diet">Diet</option>
+          <option value="region">Region</option>
+        </select>
+      </label>
+      <button id="startQuiz" class="control-button" type="button">Start Quiz</button>
+    </div>
+  </section>
+
+  <section id="quizArea" class="card-paper quiz-area">
+    <h3>Ready?</h3>
+    <p>Choose settings and start a new round.</p>
+  </section>
+</main>
+<script src="theme.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>

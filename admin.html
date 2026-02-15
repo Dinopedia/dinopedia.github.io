@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Local Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+  </div>
+</header>
+<main class="wiki-shell">
+  <h2>Local Admin Editor</h2>
+  <p>This editor helps you manage data locally and export JSON files. (Browser cannot overwrite local files directly.)</p>
+
+  <section class="card-paper">
+    <h3>Index JSON</h3>
+    <textarea id="indexEditor" class="json-editor" spellcheck="false"></textarea>
+    <div class="article-toolbar">
+      <button id="loadIndex" class="control-button" type="button">Load index.json</button>
+      <button id="downloadIndex" class="control-button" type="button">Download index.json</button>
+    </div>
+  </section>
+
+  <section class="card-paper">
+    <h3>Article JSON</h3>
+    <input id="articleId" class="control-input" placeholder="dino id (e.g. trex)">
+    <textarea id="articleEditor" class="json-editor" spellcheck="false"></textarea>
+    <div class="article-toolbar">
+      <button id="loadArticle" class="control-button" type="button">Load article</button>
+      <button id="downloadArticle" class="control-button" type="button">Download article JSON</button>
+    </div>
+  </section>
+</main>
+<script src="theme.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

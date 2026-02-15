@@ -1,0 +1,158 @@
+{
+  "name": "Tyrannosaurus rex",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tyrannosaurus_Rex_Holotype.jpg",
+  "overview": "Tyrannosaurus rex was the apex predator of Late Cretaceous North America, possessing the most powerful bite force of any terrestrial animal known. Rather than slicing flesh, its jaws crushed bone in explosive fragmentation, allowing it to consume nearly entire carcasses.",
+  "scientificData": {
+    "period": "Late Cretaceous (68â€“66 million years ago)",
+    "diet": "Carnivore",
+    "location": "Western North America",
+    "classification": "Theropod",
+    "discovered": "1902 by Barnum Brown",
+    "length": "12â€“13 m",
+    "height": "4 m at hips",
+    "weight": "8â€“10 tonnes",
+    "speed": "20â€“27 km/h"
+  },
+  "externalAppearance": {
+    "skin": "Pebbly, non-overlapping scales (1â€“2 mm) similar to bird feet",
+    "lips": "Likely had fleshy lips covering teeth when mouth closed",
+    "coloration": "Counter-shaded with mottled greens/browns for camouflage",
+    "displayStructures": "Keratin-covered eye ridges possibly brightly colored"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Triceratops",
+      "Edmontosaurus"
+    ],
+    "strategy": "Bone-crushing ambush predator using neck torque to disable prey",
+    "biteForce": "Equivalent to weight of three school buses",
+    "cannibalism": "Confirmed by tooth marks on T. rex fossils"
+  },
+  "environment": {
+    "formations": [
+      "Hell Creek",
+      "Lance",
+      "Ferris"
+    ],
+    "climate": "Warm, humid, ~10â€“15Â°C hotter than modern North America",
+    "flora": [
+      "Flowering plants",
+      "Redwoods",
+      "Ferns",
+      "Ginkgo trees"
+    ],
+    "juvenileThreats": [
+      "Dakotaraptor",
+      "Quetzalcoatlus"
+    ]
+  },
+  "physiology": {
+    "heartRate": "30â€“40 bpm resting",
+    "heartMass": "Over 100 kg",
+    "stomachAcidPH": "1.0â€“1.5",
+    "digestiveLength": "10â€“15 m",
+    "coproliteSize": "Up to 44 cm long"
+  },
+  "growthStages": {
+    "hatchling": "Covered in proto-feathers; insectivore",
+    "juvenile": "Long-legged pursuit predator",
+    "adult": "Massive bone-crusher",
+    "oldAge": "Arthritic joints, worn teeth"
+  },
+  "famousSpecimens": [
+    "Sue (FMNH PR2081)",
+    "Stan (BHI 3033)",
+    "B-Rex (MOR 1125)",
+    "Wyrex (BHI 6230)",
+    "Scotty (RSM P2523.8)"
+  ],
+  "reproduction": {
+    "eggs": "Loaf-sized elongated eggs",
+    "clutchSize": "15â€“20 eggs",
+    "nesting": "Shallow mounds using rotting vegetation for heat",
+    "medullaryBone": "Confirms females produced calcium-rich tissue for eggs"
+  },
+  "biomechanics": {
+    "wishbone": "Massive furcula absorbed impact shock",
+    "pubicBoot": "Pelvic bone used as resting kickstand",
+    "footStructure": "Arctometatarsalian condition for strength and efficiency"
+  },
+  "molecularData": {
+    "softTissue": "Collagen proteins match modern birds",
+    "closestLivingRelatives": [
+      "Chicken",
+      "Ostrich"
+    ]
+  },
+  "pathologies": {
+    "injuries": "Healed fractures, infections, gout",
+    "tailFusion": "Spondylosis causing stiff tail",
+    "brainIssues": "Possible vascular tumors in older individuals"
+  },
+  "stats": {
+    "teeth": "58â€“60 constantly replaced",
+    "maxTooth": "30 cm including root",
+    "eyeSize": "12 cm diameter",
+    "tailWeight": "â‰ˆ1,000 kg"
+  },
+  "funFacts": [
+    "Could swallow bones whole and digest them",
+    "Juveniles filled a completely different ecological niche than adults",
+    "Had forward-facing eyes for depth perception",
+    "Likely relied heavily on smell to locate carcasses"
+  ],
+  "behaviorAndConflict": {
+    "territoriality": "Large individuals may have defended high-resource territories or carcass zones.",
+    "combatEvidence": "Healed bite marks and fractures suggest frequent dangerous encounters.",
+    "socialBehavior": "Adults were likely mostly solitary outside breeding periods.",
+    "mainRivals": "Other large predators and large herbivores capable of defensive injury."
+  },
+  "feedingPatterns": {
+    "killMethod": "Used crushing bite and neck-driven pulls to tear flesh and crack bones.",
+    "dailyIntake": "Likely required tens of kilograms of meat per day, with feast-and-famine cycles after major kills.",
+    "feedingStyle": "Combined active predation with opportunistic scavenging, especially when carcasses were available.",
+    "foodCompetition": "Likely competed with other large theropods and scavengers for carcasses."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Parental presence is plausible but direct evidence is limited.",
+    "nestingCycle": "Seasonal nesting on elevated, well-drained ground to reduce flood risk.",
+    "hatchlingSurvival": "Young likely faced high predation pressure and rapid growth requirements.",
+    "courtship": "Probably used visual display, vocalization, and scent cues during mating seasons."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Food-web breakdown reduced large prey availability.",
+    "timeline": "Disappeared at the Cretaceous-Paleogene boundary about 66 million years ago.",
+    "legacy": "Remains a model species for studying end-Cretaceous megafaunal extinction.",
+    "primaryDrivers": "Global ecosystem collapse after asteroid impact and climate disruption."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Specimens such as Sue and Stan transformed understanding of growth and anatomy.",
+    "museumImpact": "T. rex became a centerpiece taxon for public paleontology worldwide.",
+    "researchMilestones": "Modern CT scanning and biomechanics studies refined feeding and sensory models.",
+    "firstFinds": "Early material was collected in the western United States in the early 1900s."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Powerful hindlimb-driven bipedal gait with balanced trunk posture.",
+    "endurance": "Body mass favored efficient movement over sustained high speed.",
+    "maneuverability": "Strong tail and neck coordination supported turning and strike control.",
+    "acceleration": "Likely capable of short-burst acceleration rather than long sprints."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Apex predator and top scavenger in terminal Cretaceous ecosystems.",
+    "coexistingFauna": "Shared habitat with hadrosaurs, ceratopsians, crocodilians, and small theropods.",
+    "nicheShifts": "Juveniles and adults occupied different ecological roles through growth.",
+    "resourceDynamics": "Floodplain cycles likely controlled carcass availability and prey movement."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior likely included flexible feeding decisions and risk assessment.",
+    "smell": "Large olfactory bulbs suggest excellent scent detection over long distances.",
+    "hearing": "Inner-ear evidence indicates sensitivity to low-frequency sounds.",
+    "vision": "Forward-facing eyes provided strong depth perception for target tracking."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tyrannosaurus_Rex_Holotype.jpg",
+      "caption": "Tyrannosaurus rex reference image"
+    }
+  ]
+}

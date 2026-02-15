@@ -1,0 +1,153 @@
+{
+  "name": "Diplodocus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/CM_Diplodocus.jpg",
+  "overview": "Diplodocus was a long, whip-tailed sauropod from Late Jurassic North America, adapted for low-to-mid browsing and efficient long-distance movement.",
+  "scientificData": {
+    "diet": "Herbivore",
+    "weight": "12-20 tonnes",
+    "discovered": "1878 by Othniel C. Marsh",
+    "classification": "Diplodocid sauropod",
+    "speed": "Steady walking locomotion",
+    "period": "Late Jurassic (about 154-150 million years ago)",
+    "height": "4-5 m at shoulders",
+    "location": "North America",
+    "length": "24-27 m"
+  },
+  "externalAppearance": {
+    "lips": "Likely soft tissue covering narrow jaws",
+    "skin": "Scaly skin with occasional keratinous structures",
+    "displayStructures": "Extremely long neck and whip-like tail",
+    "coloration": "Likely cryptic earth tones"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Ground and mid-height foliage",
+      "Ferns",
+      "Conifer shoots"
+    ],
+    "biteForce": "Low bite force; stripping rather than chewing",
+    "cannibalism": "No evidence",
+    "strategy": "Raking vegetation with peg-like teeth"
+  },
+  "environment": {
+    "climate": "Seasonal floodplain with river channels",
+    "formations": [
+      "Morrison Formation"
+    ],
+    "juvenileThreats": [
+      "Allosaurus",
+      "Torvosaurus"
+    ],
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Horsetails"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Low resting rate with large circulatory demand",
+    "coproliteSize": "Large fibrous coprolites expected",
+    "digestiveLength": "Very long gut for plant breakdown",
+    "stomachAcidPH": "Acidic digestive system with extended fermentation",
+    "heartMass": "Large heart needed for long body plan"
+  },
+  "growthStages": {
+    "hatchling": "Small-bodied hatchling with shorter neck/tail proportions",
+    "oldAge": "Vertebral stress and joint wear likely",
+    "juvenile": "Rapid elongation of neck and tail",
+    "adult": "Long-bodied high-efficiency browser"
+  },
+  "famousSpecimens": [
+    "CM 84",
+    "AMNH 223",
+    "Dippy casts worldwide"
+  ],
+  "reproduction": {
+    "medullaryBone": "Not conclusively reported",
+    "nesting": "Ground nests in loose substrates",
+    "eggs": "Sauropod eggs likely laid in grouped nests",
+    "clutchSize": "Potentially high egg counts over repeated lays"
+  },
+  "biomechanics": {
+    "pubicBoot": "Pelvic structure supported massive gut and tail musculature",
+    "wishbone": "Not applicable",
+    "footStructure": "Columnar limbs with broad trackways"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed molecular sequence",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant)"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Tail and limb stress marks in some sauropod fossils",
+    "tailFusion": "Occasional vertebral pathologies"
+  },
+  "stats": {
+    "maxTooth": "Narrow crowns suited to stripping foliage",
+    "teeth": "Slim peg-like teeth concentrated at jaw front",
+    "eyeSize": "Moderate lateral eyes",
+    "tailWeight": "Large posterior mass with potential whip-crack dynamics"
+  },
+  "funFacts": [
+    "Diplodocus casts became icons of natural history museums",
+    "Its tail may have produced loud whip-like cracks",
+    "Its body proportions were among the most elongate of sauropods"
+  ],
+  "behaviorAndConflict": {
+    "competition": "Likely competed with other giant herbivores for water and grazing corridors.",
+    "socialBehavior": "Potentially gregarious with age-structured groups moving across floodplains.",
+    "mainRivals": "Predation pressure from large theropods concentrated on juveniles/subadults.",
+    "defensiveBehavior": "Tail could function as deterrent and possibly high-speed whip-like weapon."
+  },
+  "feedingPatterns": {
+    "preferredPlants": "Ferns, horsetails, and low-to-mid conifer growth.",
+    "dailyIntake": "Consumed large volumes of vegetation continuously across wide home ranges.",
+    "feedingStyle": "Used peg-like teeth to rake foliage rather than chew extensively.",
+    "digestiveStrategy": "Long retention time and fermentation were key to nutrient gain."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Long-term care is considered unlikely in diplodocids.",
+    "nestingCycle": "Probably nested seasonally in large ground-nesting colonies.",
+    "hatchlingSurvival": "Many hatchlings likely died early, balanced by high reproductive output.",
+    "courtship": "Likely relied on size, posture, and movement displays during mating season."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Vegetation and herbivore-community shifts likely altered carrying capacity.",
+    "timeline": "Disappeared before the Cretaceous in regional turnover events.",
+    "legacy": "Fundamental for understanding sauropod body-plan extremes.",
+    "primaryDrivers": "Long-interval ecosystem and faunal replacement patterns."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Complete skeletons supported detailed reconstructions of extreme body elongation.",
+    "museumImpact": "Diplodocus casts were globally distributed and hugely influential.",
+    "researchMilestones": "Tail dynamics and neck posture remain active biomechanical topics.",
+    "firstFinds": "Named in the late 19th century from Morrison Formation material."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Efficient quadrupedal movement with high endurance at low speed.",
+    "endurance": "Well suited for long-range movement between feeding patches.",
+    "maneuverability": "Long tail and neck required careful whole-body turning mechanics.",
+    "acceleration": "Low acceleration expected due to body length and mass."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Massive bulk-feeding herbivore in Jurassic food webs.",
+    "coexistingFauna": "Shared habitats with brachiosaurids, stegosaurs, and allosaurids.",
+    "nicheShifts": "Different growth stages probably varied in feeding height and habitat risk.",
+    "resourceDynamics": "Large groups likely tracked seasonal floodplain productivity."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior probably emphasized route memory and social spacing.",
+    "smell": "Likely used olfactory cues for migration and food-site selection.",
+    "hearing": "May have detected low-frequency signals in open floodplain settings.",
+    "vision": "Lateral eye placement favored broad environmental awareness."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/CM_Diplodocus.jpg",
+      "caption": "Diplodocus reference image"
+    }
+  ]
+}

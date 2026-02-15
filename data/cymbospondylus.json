@@ -1,0 +1,146 @@
+{
+  "name": "Cymbospondylus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cymbospondylus_buchseri_skeleton_01.jpg/330px-Cymbospondylus_buchseri_skeleton_01.jpg",
+  "overview": "Cymbospondylus was an early large-bodied ichthyosaur showing rapid marine reptile diversification after the end-Permian crisis.",
+  "scientificData": {
+    "type": "Marine Reptile",
+    "period": "Middle Triassic (247-237 million years ago)",
+    "diet": "Carnivore",
+    "location": "North America, Europe",
+    "classification": "Ichthyosaur",
+    "discovered": "Documented from fossil evidence in peer-reviewed paleontological studies",
+    "length": "Estimated from fossil material and comparative scaling",
+    "height": "Estimated from skeletal reconstruction",
+    "weight": "Estimated from volumetric and biomechanical models",
+    "speed": "Inferred from anatomy and locomotor mechanics"
+  },
+  "externalAppearance": {
+    "skin": "Integument and surface structures are inferred from fossils and close relatives.",
+    "lips": "Soft tissue around jaws remains model-dependent in current reconstructions.",
+    "coloration": "Coloration is uncertain and inferred from habitat and behavior.",
+    "displayStructures": "Likely used cranial or body display traits for signaling."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Dietary targets depended on habitat and trophic role"
+    ],
+    "strategy": "Feeding strategy likely reflected anatomy, age, and ecological pressure.",
+    "biteForce": "Jaw performance inferred from skull and muscle attachment morphology.",
+    "cannibalism": "No broad consensus without direct specimen-level evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely varied with body mass, metabolism, and ecosystem productivity.",
+    "feedingStyle": "Likely combined opportunistic feeding with seasonal resource tracking.",
+    "preferredFood": "Diet likely shifted through growth stages.",
+    "foodCompetition": "Likely competed with coexisting vertebrates for key resources."
+  },
+  "environment": {
+    "formations": [
+      "Known from major Mesozoic fossil-bearing formations"
+    ],
+    "climate": "Regional climate varied through time and locality.",
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Early flowering plants"
+    ],
+    "juvenileThreats": [
+      "Predation pressure was highest in early life stages"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Behavior likely ranged from solitary movement to temporary aggregations.",
+    "territoriality": "Competition likely increased near nesting grounds and concentrated food.",
+    "mainRivals": "Rivals included predators, competitors, or defended prey species.",
+    "combatEvidence": "Injury patterns in related taxa suggest periodic conflict."
+  },
+  "reproduction": {
+    "eggs": "Egg and reproductive traits varied by clade and ecology.",
+    "clutchSize": "Likely varied with body size and reproductive strategy.",
+    "nesting": "Nest placement likely balanced heat, drainage, and protection.",
+    "medullaryBone": "Reproductive tissue evidence is known in some reptile lineages."
+  },
+  "breedingAndNesting": {
+    "courtship": "Likely involved visual, postural, and possibly acoustic signals.",
+    "nestingCycle": "Likely seasonal and linked to local climate and food supply.",
+    "parentalCare": "Care strategy likely varied by lineage.",
+    "hatchlingSurvival": "Juveniles likely faced high early mortality."
+  },
+  "physiology": {
+    "heartRate": "Estimated by comparative physiology and scaling models.",
+    "heartMass": "Likely scaled with body size and metabolic demand.",
+    "stomachAcidPH": "Likely matched trophic strategy and digestive requirements.",
+    "digestiveLength": "Digestive profile likely reflected dietary specialization.",
+    "coproliteSize": "Coprolites provide indirect evidence where preserved."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion reflected limb proportions, posture, and center of mass.",
+    "acceleration": "Burst performance depended on musculoskeletal design.",
+    "endurance": "Movement range likely tracked resource distribution.",
+    "maneuverability": "Turning and stability reflected body plan and tail/neck control."
+  },
+  "growthStages": {
+    "hatchling": "Early stage with high vulnerability and rapid growth.",
+    "juvenile": "Likely occupied a different ecological role than adults.",
+    "adult": "Mature stage with peak ecological and reproductive function.",
+    "oldAge": "Late stage with accumulated skeletal wear."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Bone architecture balanced strength, mass, and mobility.",
+    "limbFunction": "Limb function reflected locomotor and ecological specialization.",
+    "tailRole": "Tail likely contributed to balance, signaling, and maneuver control."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual function likely reflected predatory and anti-predatory demands.",
+    "smell": "Olfaction likely supported foraging and intraspecies communication.",
+    "hearing": "Auditory sensitivity likely captured environmental and social cues.",
+    "cognition": "Behavior likely combined instinctive patterns with flexible responses."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Known from fossil discoveries documented in paleontological literature.",
+    "majorDiscoveries": "New specimens continue to refine anatomical interpretation.",
+    "researchMilestones": "Imaging and biomechanical modeling improved reconstructions.",
+    "museumImpact": "Specimens are widely used in education and public science outreach."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Occupied a distinct trophic role in its ecosystem.",
+    "coexistingFauna": "Shared habitat with diverse reptiles, fish, and early birds/mammals.",
+    "resourceDynamics": "Seasonality and habitat shifts likely shaped population patterns.",
+    "nicheShifts": "Ecological role likely changed through ontogeny."
+  },
+  "pathologies": {
+    "injuries": "Some fossil material shows trauma consistent with ecological stress.",
+    "stressDamage": "Skeletal stress markers can reflect movement and behavior.",
+    "diseaseSignals": "Pathological signs are present in select specimens."
+  },
+  "molecularData": {
+    "softTissue": "Molecular preservation is rare and strongly context-dependent.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Tooth form and count varied by clade and diet.",
+    "maxTooth": "Largest teeth varied by jaw position and age.",
+    "eyeSize": "Orbit size informs sensory inference where preserved.",
+    "tailWeight": "Tail mass reflected locomotor and stabilizing function."
+  },
+  "extinctionContext": {
+    "timeline": "Lineage survival depended on regional and global change through time.",
+    "primaryDrivers": "Environmental shifts and food-web instability shaped persistence.",
+    "immediateEffects": "Habitat disruption reduced ecosystem resilience.",
+    "legacy": "Fossils continue to inform reconstructions of Mesozoic biodiversity."
+  },
+  "funFacts": [
+    "Its fossils are used to refine modern paleoart and biomechanical models.",
+    "New specimen discoveries can significantly update scientific interpretations.",
+    "Growth stage likely changed ecological role and behavior."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cymbospondylus_buchseri_skeleton_01.jpg/330px-Cymbospondylus_buchseri_skeleton_01.jpg",
+      "caption": "Cymbospondylus reference image"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Allosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Big_Al_2_cast.jpg",
+  "overview": "Allosaurus was a dominant large predator of the Late Jurassic Morrison ecosystem, with a lightly built skull and powerful forelimbs for seizing prey.",
+  "scientificData": {
+    "diet": "Carnivore",
+    "weight": "1.5-2.5 tonnes",
+    "discovered": "1877 by Othniel C. Marsh",
+    "classification": "Allosaurid theropod",
+    "speed": "Moderate pursuit speed",
+    "period": "Late Jurassic (155-145 million years ago)",
+    "height": "3-3.5 m at hips",
+    "location": "North America and possible Europe",
+    "length": "8-11 m"
+  },
+  "externalAppearance": {
+    "lips": "Likely lips covering teeth at rest",
+    "skin": "Scaly skin with possible display coloration",
+    "displayStructures": "Bony brow crests above eyes",
+    "coloration": "Likely mottled camouflage in woodland-floodplain settings"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Stegosaurus",
+      "Sauropod juveniles",
+      "Ornithopods"
+    ],
+    "biteForce": "Moderate bite with strong cranial kinesis hypotheses",
+    "cannibalism": "Some evidence suggested from bite marks",
+    "strategy": "Slash-and-pull feeding with neck-driven strikes"
+  },
+  "environment": {
+    "climate": "Seasonal semiarid floodplains",
+    "formations": [
+      "Morrison Formation"
+    ],
+    "juvenileThreats": [
+      "Larger conspecifics",
+      "Other large predators"
+    ],
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Cycads"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Likely elevated compared with large herbivores",
+    "coproliteSize": "Large carnivore coprolites known from related ecosystems",
+    "digestiveLength": "Carnivorous digestive tract of moderate length",
+    "stomachAcidPH": "Highly acidic carnivore digestion",
+    "heartMass": "Large theropod cardiovascular profile"
+  },
+  "growthStages": {
+    "hatchling": "Small featherless/scaled hatchling",
+    "oldAge": "Healed trauma common in mature individuals",
+    "juvenile": "Fast-growing long-limbed predator",
+    "adult": "Apex predator with robust skull"
+  },
+  "famousSpecimens": [
+    "Big Al (MOR 693)",
+    "AMNH 680",
+    "Cleveland-Lloyd quarry specimens"
+  ],
+  "reproduction": {
+    "medullaryBone": "Reported in some theropods, not secure for all Allosaurus material",
+    "nesting": "Ground nest scrapes in sheltered sites",
+    "eggs": "Theropod elongated eggs expected",
+    "clutchSize": "Likely moderate clutches"
+  },
+  "biomechanics": {
+    "pubicBoot": "Pelvic anatomy supports balance and locomotion",
+    "wishbone": "Furcula likely present as in many theropods",
+    "footStructure": "Three-toed weight-bearing hindlimbs with strong claws"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed molecular sequence",
+    "closestLivingRelatives": [
+      "Birds"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Frequent healed fractures and infections in fossils",
+    "tailFusion": "Occasional vertebral pathologies observed"
+  },
+  "stats": {
+    "maxTooth": "Large blade-like teeth for slicing",
+    "teeth": "Dozens of serrated recurved teeth",
+    "eyeSize": "Forward-biased predator vision",
+    "tailWeight": "Substantial balancing tail for maneuvering"
+  },
+  "funFacts": [
+    "Many skeletons show healed injuries, suggesting a hard predatory lifestyle",
+    "It coexisted with giant sauropods in the Morrison ecosystem",
+    "Its skull may have tolerated high impact feeding behavior"
+  ],
+  "behaviorAndConflict": {
+    "territoriality": "Competition over carcasses and hunting grounds likely caused frequent conflict.",
+    "combatEvidence": "High rates of healed injuries suggest repeated violent interactions.",
+    "socialBehavior": "May have shown flexible behavior from solitary to temporary group feeding.",
+    "mainRivals": "Other large theropods and dangerous herbivores such as Stegosaurus."
+  },
+  "feedingPatterns": {
+    "feedingCompetition": "Frequently competed with other large carnivores and conspecifics.",
+    "preyRange": "From medium herbivores to juvenile sauropods when opportunities arose.",
+    "dailyIntake": "Likely alternated between active hunts and opportunistic scavenging.",
+    "feedingStyle": "Used slash-and-tear feeding with serrated teeth and neck-driven strikes."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Not clearly documented; limited early-life protection is possible.",
+    "nestingCycle": "Likely seasonal nesting in open or lightly vegetated ground sites.",
+    "hatchlingSurvival": "Juveniles likely filled different ecological roles before adult size.",
+    "courtship": "Crest display and body posture may have influenced mate selection."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Changes in prey structure and habitat composition likely reduced dominance.",
+    "timeline": "Disappeared by the end of the Jurassic in regional turnover.",
+    "legacy": "A critical reference taxon for theropod evolution and predator ecology.",
+    "primaryDrivers": "Large-scale faunal replacement and environmental transitions."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Cleveland-Lloyd quarry specimens revealed population-level variation and trauma.",
+    "museumImpact": "A defining large predator of Jurassic museum displays.",
+    "researchMilestones": "Skull mechanics studies revised assumptions about feeding style.",
+    "firstFinds": "Described during the Bone Wars in the late 19th century."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Bipedal predator gait with strong hindlimb propulsion and dynamic neck use.",
+    "endurance": "Likely moderate endurance with reliance on opportunistic encounters.",
+    "maneuverability": "Balanced tail and flexible neck improved strike positioning.",
+    "acceleration": "Capable of rapid approach bursts for ambush-strike feeding."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Top predatory pressure in many Morrison local food webs.",
+    "coexistingFauna": "Coexisted with giant sauropods, stegosaurs, and other theropods.",
+    "nicheShifts": "Ontogenetic changes probably shifted prey preference over time.",
+    "resourceDynamics": "Carcass competition and seasonal prey movement likely drove behavior."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Injury-heavy fossils suggest adaptable behavior under frequent ecological stress.",
+    "smell": "Likely used scent to locate carcasses and monitor competitors.",
+    "hearing": "Likely detected low-frequency cues useful for territorial awareness.",
+    "vision": "Predator-oriented visual system likely supported depth and motion tracking."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Big_Al_2_cast.jpg",
+      "caption": "Allosaurus reference image"
+    }
+  ]
+}

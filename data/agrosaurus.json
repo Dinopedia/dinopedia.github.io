@@ -1,0 +1,170 @@
+{
+  "name": "Agrosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Albertosaurus_sarcophagus_cast.jpg",
+  "overview": "Agrosaurus is a real prehistoric taxon included in Dino-pedia from published genus lists.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Mesozoic",
+    "diet": "Unknown",
+    "location": "Various regions",
+    "classification": "Dinosauria",
+    "discovered": "Summarized from published paleontological records",
+    "length": "Estimated from fossil material and comparative reconstructions",
+    "height": "Estimated from posture and skeletal proportions",
+    "weight": "Estimated from scaling and biomechanical models",
+    "speed": "Inferred from anatomy and locomotor modeling"
+  },
+  "externalAppearance": {
+    "skin": "External appearance is inferred from fossil evidence and close relatives.",
+    "lips": "Soft tissue features remain uncertain and model-dependent.",
+    "coloration": "Coloration is uncertain and inferred from ecology.",
+    "displayStructures": "Likely used anatomical structures for display and recognition."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Diet likely depended on habitat and trophic role"
+    ],
+    "strategy": "Feeding behavior likely reflected anatomy, age, and local ecosystem.",
+    "biteForce": "Performance inferred from skull and muscle attachment morphology.",
+    "cannibalism": "No broad consensus without specimen-specific trace evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely varied with body mass and ecosystem productivity.",
+    "feedingStyle": "Likely combined opportunistic feeding with seasonal resource tracking.",
+    "preferredFood": "Diet likely changed through growth stages.",
+    "foodCompetition": "Likely competed with coexisting vertebrates for resources."
+  },
+  "environment": {
+    "formations": [
+      "Known from fossil-bearing Mesozoic formations"
+    ],
+    "climate": "Regional climate varied through time and locality.",
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Early flowering plants"
+    ],
+    "juvenileThreats": [
+      "Predation pressure was likely highest in early life stages"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Behavior likely ranged from solitary movement to temporary grouping.",
+    "territoriality": "Competition likely increased around nesting zones and dense resources.",
+    "mainRivals": "Rivals included predators, competitors, or defended prey species.",
+    "combatEvidence": "Injury evidence in related taxa indicates periodic conflict."
+  },
+  "reproduction": {
+    "eggs": "Reproductive traits varied by clade and ecology.",
+    "clutchSize": "Likely varied with body size and reproductive strategy.",
+    "nesting": "Nesting likely balanced heat, drainage, and protection.",
+    "medullaryBone": "Reproductive tissue evidence is known in some related lineages."
+  },
+  "breedingAndNesting": {
+    "courtship": "Likely included visual and postural signaling.",
+    "nestingCycle": "Likely seasonal and linked to climate and food availability.",
+    "parentalCare": "Parental strategy likely varied by lineage.",
+    "hatchlingSurvival": "Juveniles likely faced high early mortality pressure."
+  },
+  "physiology": {
+    "heartRate": "Estimated by comparative physiology and allometric scaling.",
+    "heartMass": "Likely scaled with body size and metabolic demand.",
+    "stomachAcidPH": "Likely aligned with trophic strategy and digestive demands.",
+    "digestiveLength": "Digestive profile likely reflected diet specialization.",
+    "coproliteSize": "Coprolites provide indirect dietary evidence where preserved."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion reflected limb architecture and center-of-mass control.",
+    "acceleration": "Burst performance depended on musculoskeletal design.",
+    "endurance": "Range movement likely tracked seasonal resource gradients.",
+    "maneuverability": "Turning and stability reflected body plan and tail/neck control."
+  },
+  "growthStages": {
+    "hatchling": "Early stage with rapid development and high vulnerability.",
+    "juvenile": "Likely occupied ecological roles that differed from adults.",
+    "adult": "Mature stage with peak ecological and reproductive function.",
+    "oldAge": "Late stage with cumulative skeletal wear and reduced performance."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Bone structure balanced strength, mass, and mobility.",
+    "limbFunction": "Limb function reflected locomotor and ecological specialization.",
+    "tailRole": "Tail likely supported balance, maneuvering, and signaling."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual performance likely matched ecological and behavioral demands.",
+    "smell": "Olfaction likely supported foraging and communication.",
+    "hearing": "Auditory sensitivity likely captured environmental cues.",
+    "cognition": "Behavior likely mixed instinctive patterns with adaptive responses."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Known from published fossil discoveries and subsequent revision.",
+    "majorDiscoveries": "Additional finds continue to refine taxonomy and anatomy.",
+    "researchMilestones": "Imaging and biomechanical modeling improved reconstructions.",
+    "museumImpact": "Specimens contribute to education and public science outreach."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Occupied a distinct role in local food webs.",
+    "coexistingFauna": "Shared habitats with diverse contemporaneous vertebrates.",
+    "resourceDynamics": "Seasonality likely influenced distribution and behavior.",
+    "nicheShifts": "Ecological role likely shifted through ontogeny."
+  },
+  "pathologies": {
+    "injuries": "Some fossils preserve trauma consistent with ecological stress.",
+    "stressDamage": "Skeletal stress markers can reflect locomotor load.",
+    "diseaseSignals": "Pathological evidence appears in selected specimens."
+  },
+  "molecularData": {
+    "softTissue": "Molecular preservation is rare and context-dependent.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Tooth form and count varied by clade and ecology.",
+    "maxTooth": "Largest tooth dimensions varied by position and age.",
+    "eyeSize": "Orbit dimensions inform sensory interpretations.",
+    "tailWeight": "Tail mass reflected balancing and locomotor function."
+  },
+  "extinctionContext": {
+    "timeline": "Lineage persistence depended on regional and global change.",
+    "primaryDrivers": "Environmental turnover and food-web shifts shaped survival.",
+    "immediateEffects": "Habitat and resource disruption reduced ecological stability.",
+    "legacy": "Fossils continue to refine Mesozoic biodiversity reconstructions."
+  },
+  "funFacts": [
+    "Agrosaurus is a real prehistoric taxon in Dino-pedia.",
+    "New fossil finds can significantly update scientific reconstructions.",
+    "Ontogeny likely changed ecological role and behavior."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Albertosaurus_sarcophagus_cast.jpg",
+      "caption": "Agrosaurus reference image"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/On_Agrosaurus_macgillivrayi_%28Seeley%29%2C_a_saurischian_reptile_from_the_N.E._coast_of_Australia_%28IA_b22412633%29.pdf/page1-900px-On_Agrosaurus_macgillivrayi_%28Seeley%29%2C_a_saurischian_reptile_from_the_N.E._coast_of_Australia_%28IA_b22412633%29.pdf.jpg",
+      "caption": "On Agrosaurus macgillivrayi (Seeley), a saurischian reptile from the N.E. coast of Australia (IA b22412633)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Annals_of_the_South_African_Museum_%3D_Annale_van_die_Suid-Afrikaanse_Museum_%28IA_annalsofsoutha6961976sout%29.pdf/page1-900px-Annals_of_the_South_African_Museum_%3D_Annale_van_die_Suid-Afrikaanse_Museum_%28IA_annalsofsoutha6961976sout%29.pdf.jpg",
+      "caption": "Annals of the South African Museum = Annale van die Suid-Afrikaanse Museum (IA annalsofsoutha6961976sout)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/On_Hortalotarsus_skirtopodus%2C_a_new_saurischian_fossil_from_Barkly_East%2C_Cape_Colony_%28IA_b2241275x%29.pdf/page1-900px-On_Hortalotarsus_skirtopodus%2C_a_new_saurischian_fossil_from_Barkly_East%2C_Cape_Colony_%28IA_b2241275x%29.pdf.jpg",
+      "caption": "On Hortalotarsus skirtopodus, a new saurischian fossil from Barkly East, Cape Colony (IA b2241275x)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/The_Quarterly_journal_of_the_Geological_Society_of_London_%28IA_quarterlyjournal15018geol%29.pdf/page1-900px-The_Quarterly_journal_of_the_Geological_Society_of_London_%28IA_quarterlyjournal15018geol%29.pdf.jpg",
+      "caption": "The Quarterly journal of the Geological Society of London (IA quarterlyjournal15018geol)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/On_Euskelesaurus_brownii_%28Huxley%29_%28IA_b22412761%29.pdf/page1-900px-On_Euskelesaurus_brownii_%28Huxley%29_%28IA_b22412761%29.pdf.jpg",
+      "caption": "On Euskelesaurus brownii (Huxley) (IA b22412761)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/On_Thecodontosaurus_and_Palaeosaurus_%28IA_b22412797%29.pdf/page1-900px-On_Thecodontosaurus_and_Palaeosaurus_%28IA_b22412797%29.pdf.jpg",
+      "caption": "On Thecodontosaurus and Palaeosaurus (IA b22412797)"
+    }
+  ]
+}

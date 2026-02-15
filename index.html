@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia</title>
+<link rel="stylesheet" href="style.css">
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body class="home-page">
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo" alt="Dino-pedia logo">
+        <div>
+          <h1>Dino-pedia</h1>
+          <p class="brand-subtitle">Prehistoric species reference archive</p>
+        </div>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a class="util-link" href="timeline.html">Timeline</a>
+      <a class="util-link" href="compare.html">Compare</a>
+      <a class="util-link" href="quality.html">Audit</a>
+      <a class="util-link" id="randomArticleLink" href="dino.html">Random</a>
+      <a class="util-link" href="#contactSection">Contact</a>
+      <a class="util-link" href="admin.html">Editor</a>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">Dark mode</button>
+    </div>
+  </div>
+</header>
+
+<main class="wiki-shell">
+  <section class="hero hero-wiki">
+    <h2>Digital Dinosaur Encyclopedia</h2>
+    <p>Browse, compare, quiz yourself, and build your own prehistoric research list.</p>
+  </section>
+
+  <section class="controls controls-wiki" aria-label="Search and filter dinosaurs">
+    <input id="searchInput" class="control-input" type="search" placeholder="Search by name or region" aria-label="Search dinosaurs">
+    <button id="toggleAdvanced" class="control-button" type="button" aria-expanded="false">Advanced Search</button>
+    <button id="clearFilters" class="control-button" type="button">Clear</button>
+  </section>
+
+  <section id="advancedPanel" class="advanced-panel card-paper" hidden>
+    <h3>Advanced Search</h3>
+    <div class="advanced-grid">
+      <select id="typeFilter" class="control-select" aria-label="Filter by type">
+        <option value="">All Types</option>
+      </select>
+      <select id="periodFilter" class="control-select" aria-label="Filter by period">
+        <option value="">All Periods</option>
+      </select>
+      <select id="dietFilter" class="control-select" aria-label="Filter by diet">
+        <option value="">All Diets</option>
+      </select>
+      <select id="sortOrder" class="control-select" aria-label="Sort dinosaurs">
+        <option value="name-asc">Sort: Name A-Z</option>
+        <option value="name-desc">Sort: Name Z-A</option>
+        <option value="period-asc">Sort: Period A-Z</option>
+        <option value="diet-asc">Sort: Diet A-Z</option>
+      </select>
+      <label class="toggle-filter" for="newOnlyFilter">
+        <input id="newOnlyFilter" type="checkbox">
+        <span>New only</span>
+      </label>
+      <label class="toggle-filter" for="favoritesOnlyFilter">
+        <input id="favoritesOnlyFilter" type="checkbox">
+        <span>Favorites only</span>
+      </label>
+    </div>
+
+    <section class="timeline" aria-label="Geologic timeline filter">
+      <h3>Timeline</h3>
+      <div id="timelineFilters" class="timeline-filters"></div>
+    </section>
+
+    <section class="regions" aria-label="Region filter">
+      <h3>Regions</h3>
+      <div id="regionFilters" class="region-filters"></div>
+    </section>
+  </section>
+
+  <div class="wiki-grid">
+    <aside class="wiki-aside card-paper">
+      <h3>About this index</h3>
+      <p>Use timeline, region, and advanced filters to narrow your list. Mark favorites, add dinosaurs to comparison, or jump into quiz mode.</p>
+      <p>All data is JSON-driven and can be expanded using the local editor.</p>
+      <h3>Explore Modes</h3>
+      <p><a class="read-link" href="timeline.html">Open timeline page</a></p>
+      <p><a class="read-link" href="quiz.html">Start quiz mode</a></p>
+      <p><a class="read-link" href="compare.html">Open comparison lab</a></p>
+    </aside>
+
+    <section class="wiki-content" aria-label="Dinosaur entries">
+      <section id="status" class="status status-paper" aria-live="polite">Loading dinosaurs...</section>
+      <section id="dinoGallery" class="gallery gallery-list" aria-label="Dinosaur gallery"></section>
+    </section>
+  </div>
+
+  <section id="contactSection" class="card-paper contact-block" aria-label="Contact Dino-pedia">
+    <h3>Contact Dino-pedia</h3>
+    <p>Email: <a class="read-link" href="mailto:jaxbarrett2020@gmail.com">jaxbarrett2020@gmail.com</a></p>
+    <div class="contact-actions">
+      <a
+        class="control-button"
+        href="mailto:jaxbarrett2020@gmail.com?subject=Dino-pedia%20Outdated%20Info%20Report&body=Hi%20Dino-pedia%2C%0A%0APlease%20review%20outdated%20information%20on%20this%20page%3A%20%0A%0AWhat%20looks%20outdated%3A%20%0A%0AThanks."
+      >Report outdated info</a>
+      <a
+        class="control-button"
+        href="mailto:jaxbarrett2020@gmail.com?subject=Dino-pedia%20Article%20Request%20or%20Edit&body=Hi%20Dino-pedia%2C%0A%0AI%20want%20to%20request%20a%20new%20dinosaur%20article%20or%20edit%20an%20existing%20one.%0A%0ARequested%20dinosaur%2Farticle%3A%20%0A%0ARequested%20changes%3A%20%0A%0AThanks."
+      >Request new/edit article</a>
+    </div>
+  </section>
+</main>
+
+<section id="dailyModal" class="daily-side-panel" hidden role="complementary" aria-labelledby="dailyModalTitle">
+  <div class="daily-side-card card-paper">
+    <h3 id="dailyModalTitle">Daily Did You Know</h3>
+    <p id="dailyFact">Loading today's spotlight...</p>
+    <div class="article-toolbar">
+      <a id="dailyLink" class="read-link" href="#">Open featured dinosaur</a>
+      <button id="dailyClose" class="control-button" type="button">Close</button>
+    </div>
+  </div>
+</section>
+
+<section id="compareTray" class="compare-tray" hidden>
+  <div class="compare-tray-inner">
+    <span id="compareCount">0 selected</span>
+    <a id="openCompareLink" class="read-link" href="compare.html">Open comparison</a>
+    <button id="clearCompare" class="control-button" type="button">Clear compare</button>
+  </div>
+</section>
+
+<script src="theme.js"></script>
+<script src="home.js"></script>
+</body>
+</html>

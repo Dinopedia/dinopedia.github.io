@@ -1,0 +1,152 @@
+{
+  "name": "Stegosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Journal.pone.0138352.g001A.jpg",
+  "overview": "Stegosaurus was a plated herbivore from the Late Jurassic, famous for its double row of dorsal plates and tail spikes used in defense.",
+  "scientificData": {
+    "diet": "Herbivore",
+    "weight": "3-5 tonnes",
+    "discovered": "1877 by Othniel C. Marsh",
+    "classification": "Stegosaurian ornithischian",
+    "speed": "Slow to moderate",
+    "period": "Late Jurassic (about 155-150 million years ago)",
+    "height": "3 m",
+    "location": "North America",
+    "length": "7-9 m"
+  },
+  "externalAppearance": {
+    "lips": "Beaked front snout likely covered by keratin",
+    "skin": "Scaly with osteoderms and large dermal plates",
+    "displayStructures": "Large dorsal plates and thagomizer tail spikes",
+    "coloration": "Possible high-contrast display coloration on plates"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Low shrubs",
+      "Ferns",
+      "Cycads"
+    ],
+    "biteForce": "Weak bite, relying on gut processing",
+    "cannibalism": "No evidence",
+    "strategy": "Low browsing with narrow snout"
+  },
+  "environment": {
+    "climate": "Seasonal semiarid floodplain",
+    "formations": [
+      "Morrison Formation"
+    ],
+    "juvenileThreats": [
+      "Allosaurus",
+      "Ceratosaurus"
+    ],
+    "flora": [
+      "Ferns",
+      "Conifers",
+      "Cycads"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Likely low-to-moderate reptilian-avian intermediate",
+    "coproliteSize": "Medium-large herbivore coprolites expected",
+    "digestiveLength": "Long herbivore gut",
+    "stomachAcidPH": "Adapted for plant digestion with long retention times",
+    "heartMass": "Moderate for large herbivore body plan"
+  },
+  "growthStages": {
+    "hatchling": "Small spiked juvenile with reduced plate size",
+    "oldAge": "Plate wear and limb arthritis likely",
+    "juvenile": "Rapid plate growth and tail weapon development",
+    "adult": "Heavily plated grazer-browser"
+  },
+  "famousSpecimens": [
+    "USNM 4934",
+    "Sophie (NHMUK R36730)"
+  ],
+  "reproduction": {
+    "medullaryBone": "Not confirmed",
+    "nesting": "Ground nesting in protected sites",
+    "eggs": "Likely small clutches in shallow nests",
+    "clutchSize": "Estimated 5-15 eggs"
+  },
+  "biomechanics": {
+    "pubicBoot": "Robust pelvis supporting heavy gut",
+    "wishbone": "Not applicable",
+    "footStructure": "Short forelimbs and longer hindlimbs with broad feet"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed molecular sequence",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant)"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Tail spike trauma documented in some fossils",
+    "tailFusion": "Occasional vertebral issues in stegosaurs"
+  },
+  "stats": {
+    "maxTooth": "Limited wear compared with hadrosaurs",
+    "teeth": "Small leaf-shaped teeth",
+    "eyeSize": "Relatively small eyes",
+    "tailWeight": "Muscular tail used as active defense"
+  },
+  "funFacts": [
+    "Its tail weapon is nicknamed the thagomizer",
+    "Plates were likely used for display and maybe thermoregulation",
+    "Stegosaurus had a very small skull relative to body size"
+  ],
+  "behaviorAndConflict": {
+    "socialBehavior": "Could have formed small groups but may often have been dispersed feeders.",
+    "defensiveCombat": "Used thagomizer tail spikes as primary close-range defense.",
+    "mainRivals": "Large theropods such as Allosaurus likely targeted vulnerable individuals.",
+    "conflictEvidence": "Some fossils suggest traumatic injuries consistent with predator encounters."
+  },
+  "feedingPatterns": {
+    "preferredPlants": "Ferns, cycads, and soft conifer shoots in Jurassic floodplains.",
+    "dailyIntake": "Likely fed for long periods daily on low-growing vegetation.",
+    "feedingStyle": "Cropping and stripping plant matter with a narrow beaked snout.",
+    "digestiveStrategy": "Relied on gut fermentation rather than heavy oral processing."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Extended parental care is uncertain and currently weakly supported.",
+    "nestingCycle": "Likely seasonal nesting in shallow ground nests.",
+    "hatchlingSurvival": "Young likely relied on concealment until tail weapon development.",
+    "courtship": "Plate size and coloration may have served a visual role in mating displays."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Habitat restructuring likely reduced suitable feeding niches.",
+    "timeline": "Declined by the end of the Jurassic.",
+    "legacy": "A key case for understanding display structures in herbivorous dinosaurs.",
+    "primaryDrivers": "Long-term ecosystem turnover and competition changes."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Well-preserved plate and tail-spike material refined display/defense models.",
+    "museumImpact": "A cornerstone species in public understanding of Jurassic herbivores.",
+    "researchMilestones": "Plate vascularization studies examined thermoregulation hypotheses.",
+    "firstFinds": "Discovered during the late-19th-century Bone Wars."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Quadrupedal locomotion with hindlimb-dominant propulsion.",
+    "endurance": "Adapted for prolonged low-speed browsing activity.",
+    "maneuverability": "Tail mobility provided rapid defensive arcs at close range.",
+    "acceleration": "Short bursts possible, but sustained speed was limited."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Large low-browser influencing understory vegetation.",
+    "coexistingFauna": "Coexisted with sauropods and major theropod predators.",
+    "nicheShifts": "Juveniles probably selected more protected terrain than adults.",
+    "resourceDynamics": "Feeding areas likely tracked seasonal moisture and plant growth."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior likely centered on defensive response and routine feeding patterns.",
+    "smell": "Olfaction probably aided foraging and conspecific recognition.",
+    "hearing": "Likely sensitive to low and mid-range frequencies in open habitats.",
+    "vision": "Likely relied on broad peripheral awareness to detect approaching predators."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Journal.pone.0138352.g001A.jpg",
+      "caption": "Stegosaurus reference image"
+    }
+  ]
+}
