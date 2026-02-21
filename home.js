@@ -401,6 +401,17 @@ function humanizeField(value, fallback = "Unknown") {
   return isUnknownLike(value) ? fallback : normalizeText(value);
 }
 
+function dietAdjective(value) {
+  const v = normalizeText(value).toLowerCase();
+  if (!v || v === "unknown" || v === "unknown diet") return "";
+  return v
+    .replace(/\bcarnivore\b/g, "carnivorous")
+    .replace(/\bherbivore\b/g, "herbivorous")
+    .replace(/\bomnivore\b/g, "omnivorous")
+    .replace(/\bpiscivore\b/g, "piscivorous")
+    .replace(/\binsectivore\b/g, "insectivorous");
+}
+
 function qualityScore(dino) {
   const fields = [dino?.type, dino?.period, dino?.diet, dino?.where];
   const known = fields.filter((value) => !isUnknownLike(value) && normalizeText(value).toLowerCase() !== "mesozoic").length;
@@ -614,11 +625,13 @@ function createCard(dino) {
   qBadge.textContent = qualityLabel(qScore);
   headerRight.appendChild(qBadge);
 
+  const isFav = state.favorites.has(dino.id);
   const faveBtn = createIconButton(
-    state.favorites.has(dino.id) ? "? Favorite" : "? Favorite",
+    isFav ? "★ Favorited" : "☆ Favorite",
     "mini-btn",
     () => toggleFavorite(dino.id)
   );
+  if (isFav) faveBtn.classList.add("is-favorited");
 
   const compareBtn = createIconButton(
     state.compare.includes(dino.id) ? "Compared" : "+ Compare",
@@ -653,7 +666,10 @@ function createCard(dino) {
   const diet = humanizeField(dino.diet, "Unknown diet");
   const period = humanizeField(dino.period, "Unknown period");
   const region = humanizeField(dino.where, "Unknown region");
-  description.textContent = `${dino.name} is a ${diet.toLowerCase()} ${entityType.toLowerCase()} from the ${period}, known from ${region}.`;
+  const dietAdj = dietAdjective(diet);
+  description.textContent = dietAdj
+    ? `${dino.name} is a ${dietAdj} ${entityType.toLowerCase()} from the ${period}, known from ${region}.`
+    : `${dino.name} is a ${entityType.toLowerCase()} from the ${period}, known from ${region}; its diet is currently uncertain.`;
 
   const facts = document.createElement("dl");
   facts.className = "fact-table";

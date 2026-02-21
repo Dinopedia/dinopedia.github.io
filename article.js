@@ -287,6 +287,17 @@ function humanizeField(value, fallback = "Unknown") {
   return isUnknownLike(value) ? fallback : polishDataPhrase(String(value));
 }
 
+function dietAdjective(value) {
+  const v = textFix(String(value || "")).trim().toLowerCase();
+  if (!v || v === "unknown" || v === "unknown diet") return "";
+  return v
+    .replace(/\bcarnivore\b/g, "carnivorous")
+    .replace(/\bherbivore\b/g, "herbivorous")
+    .replace(/\bomnivore\b/g, "omnivorous")
+    .replace(/\bpiscivore\b/g, "piscivorous")
+    .replace(/\binsectivore\b/g, "insectivorous");
+}
+
 function sentenceCase(text) {
   const clean = textFix(String(text || "")).trim();
   if (!clean) return "";
@@ -308,6 +319,22 @@ function normalizeSentence(text) {
   return out;
 }
 
+function shouldHideCannibalismField(key, value) {
+  if (String(key || "").toLowerCase() !== "cannibalism") return false;
+  const v = textFix(String(value || "")).trim().toLowerCase();
+  if (!v) return true;
+  const hidePatterns = [
+    "has not been demonstrated",
+    "not been demonstrated",
+    "no broad consensus",
+    "no consensus",
+    "no direct evidence",
+    "not supported",
+    "not confirmed",
+    "unknown"
+  ];
+  return hidePatterns.some((p) => v.includes(p));
+}
 function isBoundaryChar(ch) {
   return !ch || !/[a-z0-9]/i.test(ch);
 }
@@ -689,6 +716,7 @@ function objectToNarrative(sectionKey, obj, dinoName) {
 function renderNarrativeSection(section, sectionKey, value, dinoName) {
   let appended = 0;
   Object.entries(value).forEach(([key, itemValue]) => {
+    if (shouldHideCannibalismField(key, itemValue)) return;
     if (!hasSubstantiveData(itemValue)) return;
     const sub = document.createElement("div");
     sub.className = "detail-subsection";
@@ -731,6 +759,7 @@ function renderListSection(section, value) {
     section.appendChild(paragraph);
   } else if (value && typeof value === "object") {
     Object.entries(value).forEach(([k, v]) => {
+      if (shouldHideCannibalismField(k, v)) return;
       const sub = document.createElement("div");
       sub.className = "detail-subsection";
       sub.dataset.topic = slugify(k);
@@ -2007,6 +2036,7 @@ function buildDinoInsight(base, detail) {
   const diet = humanizeField(scientific.diet || base?.diet, "an uncertain diet");
   const location = humanizeField(scientific.location || base?.where, "uncertain regions");
   const type = humanizeField(base?.type || scientific.type, "prehistoric animal");
+  const dietTypePhrase = dietAdjective(diet) ? `${dietAdjective(diet)} ${String(type).toLowerCase()}` : `${String(type).toLowerCase()} with uncertain diet`;
   const length = !isUnknownLike(scientific.length) ? `Length estimates include ${scientific.length}.` : "";
   const weight = !isUnknownLike(scientific.weight) ? `Mass estimates include ${scientific.weight}.` : "";
 
@@ -2034,7 +2064,7 @@ function buildDinoInsight(base, detail) {
   const para = document.createElement("p");
   renderLinkedText(
     para,
-    `${name} is currently understood as a ${diet.toLowerCase()} ${String(type).toLowerCase()} from ${period}, documented from ${location}. ${length} ${weight} This article combines index data, detailed notes, and linked taxa so you can compare evidence in one place.`,
+    `${name} is currently understood as a ${dietTypePhrase} from ${period}, documented from ${location}. ${length} ${weight} This article combines index data, detailed notes, and linked taxa so you can compare evidence in one place.`,
     dinoId
   );
 
@@ -2102,8 +2132,10 @@ function buildRelated(base) {
 function syncToolbarButtons() {
   const favorites = getFavorites();
   const compare = getCompare();
+  const isFav = favorites.has(dinoId);
 
-  favBtn.textContent = favorites.has(dinoId) ? "? Favorited" : "? Favorite";
+  favBtn.textContent = isFav ? "\u2605 Favorited" : "\u2606 Favorite";
+  favBtn.classList.toggle("is-favorited", isFav);
   compareBtn.textContent = compare.includes(dinoId) ? "Compared" : "+ Compare";
 }
 
