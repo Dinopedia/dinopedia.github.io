@@ -1,18 +1,31 @@
 {
   "name": "Nyctosaurus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Dinosaurs_at_CMNH_49.JPG/960px-Dinosaurs_at_CMNH_49.JPG",
+<<<<<<< HEAD
   "overview": "Nyctosaurus is a aerial reptile currently documented from Late Cretaceous (85-84 million years ago) in North America. Current interpretation suggests a piscivore feeding profile. It is typically classified as Pterosaur. Evidence quality for Nyctosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
   "scientificData": {
     "type": "Aerial Reptile",
+=======
+  "overview": "Nyctosaurus was a lightweight pterosaur recognized by its dramatic antler-like crest in some reconstructions.",
+  "scientificData": {
+    "type": "Avian Reptile",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "period": "Late Cretaceous (85-84 million years ago)",
     "diet": "Piscivore",
     "location": "North America",
     "classification": "Pterosaur",
     "discovered": "Documented from fossil evidence in peer-reviewed paleontological studies",
+<<<<<<< HEAD
     "length": "Unknown. currently unresolved from available fossil evidence.",
     "height": "Estimated from skeletal reconstruction; exact value remains uncertain.",
     "weight": "Estimated from volumetric and biomechanical models; exact value remains uncertain.",
     "speed": "Unknown. anatomy does not yet constrain this value strongly enough."
+=======
+    "length": "Estimated from fossil material and comparative scaling",
+    "height": "Estimated from skeletal reconstruction",
+    "weight": "Estimated from volumetric and biomechanical models",
+    "speed": "Inferred from anatomy and locomotor mechanics"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Integument and surface structures are inferred from fossils and close relatives.",
@@ -30,7 +43,11 @@
   },
   "feedingPatterns": {
     "dailyIntake": "Likely varied with body mass, metabolism, and ecosystem productivity.",
+<<<<<<< HEAD
     "feedingStyle": "Feeding style is uncertain and inferred from limited fossil evidence.",
+=======
+    "feedingStyle": "Likely combined opportunistic feeding with seasonal resource tracking.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "preferredFood": "Diet likely shifted through growth stages.",
     "foodCompetition": "Likely competed with coexisting vertebrates for key resources."
   },
@@ -38,7 +55,11 @@
     "formations": [
       "Known from major Mesozoic fossil-bearing formations"
     ],
+<<<<<<< HEAD
     "climate": "Local climate remains uncertain and is reconstructed from incomplete environmental proxies.",
+=======
+    "climate": "Regional climate varied through time and locality.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "flora": [
       "Conifers",
       "Ferns",
@@ -51,12 +72,20 @@
   "behaviorAndConflict": {
     "socialBehavior": "Behavior likely ranged from solitary movement to temporary aggregations.",
     "territoriality": "Competition likely increased near nesting grounds and concentrated food.",
+<<<<<<< HEAD
     "mainRivals": "Specific ecological rivals are not firmly documented.",
+=======
+    "mainRivals": "Rivals included predators, competitors, or defended prey species.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "combatEvidence": "Injury patterns in related taxa suggest periodic conflict."
   },
   "reproduction": {
     "eggs": "Egg and reproductive traits varied by clade and ecology.",
+<<<<<<< HEAD
     "clutchSize": "Clutch size remains uncertain for this taxon.",
+=======
+    "clutchSize": "Likely varied with body size and reproductive strategy.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "nesting": "Nest placement likely balanced heat, drainage, and protection.",
     "medullaryBone": "Reproductive tissue evidence is known in some reptile lineages."
   },
@@ -68,26 +97,44 @@
   },
   "physiology": {
     "heartRate": "Estimated by comparative physiology and scaling models.",
+<<<<<<< HEAD
     "heartMass": "Organ scaling is inferred from comparative models and remains uncertain.",
+=======
+    "heartMass": "Likely scaled with body size and metabolic demand.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "stomachAcidPH": "Likely matched trophic strategy and digestive requirements.",
     "digestiveLength": "Digestive profile likely reflected dietary specialization.",
     "coproliteSize": "Coprolites provide indirect evidence where preserved."
   },
   "locomotionAndAthletics": {
     "gait": "Locomotion reflected limb proportions, posture, and center of mass.",
+<<<<<<< HEAD
     "acceleration": "Acceleration has not yet been directly estimated.",
     "endurance": "Movement range likely tracked resource distribution.",
     "maneuverability": "Maneuverability is inferred rather than directly measured."
+=======
+    "acceleration": "Burst performance depended on musculoskeletal design.",
+    "endurance": "Movement range likely tracked resource distribution.",
+    "maneuverability": "Turning and stability reflected body plan and tail/neck control."
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "growthStages": {
     "hatchling": "Early stage with high vulnerability and rapid growth.",
     "juvenile": "Likely occupied a different ecological role than adults.",
+<<<<<<< HEAD
     "adult": "Adult life-history profile is still incompletely known.",
+=======
+    "adult": "Mature stage with peak ecological and reproductive function.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "oldAge": "Late stage with accumulated skeletal wear."
   },
   "biomechanics": {
     "skeletalStrength": "Bone architecture balanced strength, mass, and mobility.",
+<<<<<<< HEAD
     "limbFunction": "Detailed limb-function modeling is currently limited.",
+=======
+    "limbFunction": "Limb function reflected locomotor and ecological specialization.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "tailRole": "Tail likely contributed to balance, signaling, and maneuver control."
   },
   "sensoryAndIntelligence": {
@@ -99,7 +146,11 @@
   "fossilDiscoveryHistory": {
     "firstFinds": "Known from fossil discoveries documented in paleontological literature.",
     "majorDiscoveries": "New specimens continue to refine anatomical interpretation.",
+<<<<<<< HEAD
     "researchMilestones": "Modern imaging and modeling continue to refine reconstruction quality.",
+=======
+    "researchMilestones": "Imaging and biomechanical modeling improved reconstructions.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "museumImpact": "Specimens are widely used in education and public science outreach."
   },
   "paleoecology": {
@@ -142,6 +193,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Dinosaurs_at_CMNH_49.JPG/960px-Dinosaurs_at_CMNH_49.JPG",
       "caption": "Nyctosaurus reference image"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Nyctosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -150,3 +202,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

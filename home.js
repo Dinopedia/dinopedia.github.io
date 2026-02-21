@@ -4,11 +4,17 @@ const searchInput = document.getElementById("searchInput");
 const typeFilter = document.getElementById("typeFilter");
 const periodFilter = document.getElementById("periodFilter");
 const dietFilter = document.getElementById("dietFilter");
+<<<<<<< HEAD
 const qualityFilter = document.getElementById("qualityFilter");
 const sortOrder = document.getElementById("sortOrder");
 const newOnlyFilter = document.getElementById("newOnlyFilter");
 const favoritesOnlyFilter = document.getElementById("favoritesOnlyFilter");
 const secretOnlyFilter = document.getElementById("secretOnlyFilter");
+=======
+const sortOrder = document.getElementById("sortOrder");
+const newOnlyFilter = document.getElementById("newOnlyFilter");
+const favoritesOnlyFilter = document.getElementById("favoritesOnlyFilter");
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 const clearFiltersBtn = document.getElementById("clearFilters");
 const timelineFiltersEl = document.getElementById("timelineFilters");
 const regionFiltersEl = document.getElementById("regionFilters");
@@ -30,6 +36,7 @@ const DAILY_SEEN_KEY = "dinoPediaDailySeen";
 const PAGE_SIZE = 24;
 const ERAS = ["All", "Triassic", "Jurassic", "Cretaceous"];
 const wikiThumbCache = new Map();
+<<<<<<< HEAD
 const speciesPreviewCache = new Map();
 const speciesNarrativeCache = new Map();
 const speciesProfileCache = new Map();
@@ -56,15 +63,26 @@ const state = {
   allDinosaurs: [],
   speciesIndex: new Map(),
   speciesProfiles: new Map(),
+=======
+
+const state = {
+  allDinosaurs: [],
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   search: "",
   type: "",
   period: "",
   diet: "",
+<<<<<<< HEAD
   quality: "",
   sort: "name-asc",
   newOnly: false,
   favoritesOnly: false,
   secretOnly: false,
+=======
+  sort: "name-asc",
+  newOnly: false,
+  favoritesOnly: false,
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   era: "All",
   region: "",
   visibleCount: PAGE_SIZE,
@@ -72,6 +90,7 @@ const state = {
   compare: []
 };
 
+<<<<<<< HEAD
 function isHiddenEntry(dino) {
   return Boolean(dino && dino.hidden);
 }
@@ -94,12 +113,15 @@ function getBrowseDinosaurs() {
   });
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function imagePath(path) {
   if (!path) return "";
   if (/^https?:\/\//i.test(path)) return path;
   return path.startsWith("images/") ? path : `images/${path}`;
 }
 
+<<<<<<< HEAD
 function imageDedupKey(url) {
   const raw = normalizeText(url).toLowerCase();
   if (!raw) return "";
@@ -112,6 +134,8 @@ function imageDedupKey(url) {
   }
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 async function getWikiThumbByName(name) {
   const key = normalizeText(name);
   if (!key) return "";
@@ -133,6 +157,7 @@ async function getWikiThumbByName(name) {
   }
 }
 
+<<<<<<< HEAD
 async function getCommonsThumbByQuery(query) {
   const q = normalizeText(query);
   if (!q) return "";
@@ -226,12 +251,21 @@ function attachSmartImageFallback(imgEl, dino) {
   buildEntityImageCandidates(name, genus, original).then((candidates) => {
     applyImageCandidates(imgEl, candidates, "images/no-image.svg");
   });
+=======
+function attachSmartImageFallback(imgEl, dino) {
+  imgEl.onerror = async () => {
+    imgEl.onerror = null;
+    const wikiThumb = await getWikiThumbByName(dino.name);
+    imgEl.src = wikiThumb || "images/trex-skull.png";
+  };
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 function normalizeText(value) {
   return String(value || "").trim();
 }
 
+<<<<<<< HEAD
 function getSpeciesEntriesForCard(dino) {
   const id = normalizeText(dino?.id).toLowerCase();
   if (!id || id === "pigeon") return [];
@@ -419,6 +453,8 @@ function qualityTier(score) {
   return "basic";
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function getEra(period) {
   const p = normalizeText(period).toLowerCase();
   if (p.includes("triassic")) return "Triassic";
@@ -457,11 +493,17 @@ function updateUrlParams() {
   if (state.type) params.set("type", state.type);
   if (state.period) params.set("period", state.period);
   if (state.diet) params.set("diet", state.diet);
+<<<<<<< HEAD
   if (state.quality) params.set("quality", state.quality);
   if (state.sort !== "name-asc") params.set("sort", state.sort);
   if (state.newOnly) params.set("new", "1");
   if (state.favoritesOnly) params.set("fav", "1");
   if (state.secretOnly) params.set("secret", "1");
+=======
+  if (state.sort !== "name-asc") params.set("sort", state.sort);
+  if (state.newOnly) params.set("new", "1");
+  if (state.favoritesOnly) params.set("fav", "1");
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (state.era !== "All") params.set("era", state.era);
   if (state.region) params.set("region", state.region);
 
@@ -475,21 +517,33 @@ function loadStateFromUrl() {
   state.type = params.get("type") || "";
   state.period = params.get("period") || "";
   state.diet = params.get("diet") || "";
+<<<<<<< HEAD
   state.quality = params.get("quality") || "";
   state.sort = params.get("sort") || "name-asc";
   state.newOnly = params.get("new") === "1";
   state.favoritesOnly = params.get("fav") === "1";
   state.secretOnly = params.get("secret") === "1";
+=======
+  state.sort = params.get("sort") || "name-asc";
+  state.newOnly = params.get("new") === "1";
+  state.favoritesOnly = params.get("fav") === "1";
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   state.era = params.get("era") || "All";
   state.region = params.get("region") || "";
 
   searchInput.value = state.search;
   if (typeFilter) typeFilter.value = state.type;
+<<<<<<< HEAD
   if (qualityFilter) qualityFilter.value = state.quality;
   sortOrder.value = state.sort;
   newOnlyFilter.checked = state.newOnly;
   favoritesOnlyFilter.checked = state.favoritesOnly;
   if (secretOnlyFilter) secretOnlyFilter.checked = state.secretOnly;
+=======
+  sortOrder.value = state.sort;
+  newOnlyFilter.checked = state.newOnly;
+  favoritesOnlyFilter.checked = state.favoritesOnly;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 function setSelectOptions(selectEl, values, placeholder) {
@@ -596,6 +650,7 @@ function createCard(dino) {
     headerRight.appendChild(badge);
   }
 
+<<<<<<< HEAD
   if (isHiddenEntry(dino)) {
     const secretBadge = document.createElement("span");
     secretBadge.className = "type-badge secret-badge";
@@ -603,17 +658,22 @@ function createCard(dino) {
     headerRight.appendChild(secretBadge);
   }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   const typeBadge = document.createElement("span");
   typeBadge.className = "type-badge";
   typeBadge.textContent = dino.type || "Dinosaur";
   headerRight.appendChild(typeBadge);
 
+<<<<<<< HEAD
   const qBadge = document.createElement("span");
   const qScore = qualityScore(dino);
   qBadge.className = `type-badge quality-badge quality-${qScore >= 3 ? "high" : qScore >= 2 ? "mid" : "low"}`;
   qBadge.textContent = qualityLabel(qScore);
   headerRight.appendChild(qBadge);
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   const faveBtn = createIconButton(
     state.favorites.has(dino.id) ? "★ Favorite" : "☆ Favorite",
     "mini-btn",
@@ -639,6 +699,10 @@ function createCard(dino) {
 
   const thumb = document.createElement("img");
   thumb.className = "entry-thumb";
+<<<<<<< HEAD
+=======
+  thumb.src = imagePath(dino.image);
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   thumb.alt = dino.name;
   thumb.loading = "lazy";
   thumb.decoding = "async";
@@ -649,11 +713,16 @@ function createCard(dino) {
 
   const description = document.createElement("p");
   description.className = "entry-description";
+<<<<<<< HEAD
   const entityType = humanizeField(dino.type, "Prehistoric animal");
   const diet = humanizeField(dino.diet, "Unknown diet");
   const period = humanizeField(dino.period, "Unknown period");
   const region = humanizeField(dino.where, "Unknown region");
   description.textContent = `${dino.name} is a ${diet.toLowerCase()} ${entityType.toLowerCase()} from the ${period}, known from ${region}.`;
+=======
+  const entityType = dino.type || "Dinosaur";
+  description.textContent = `${dino.name} is a ${String(dino.diet || "unknown diet").toLowerCase()} ${entityType.toLowerCase()} from the ${dino.period || "unknown period"}, known from ${dino.where || "unknown regions"}.`;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
   const facts = document.createElement("dl");
   facts.className = "fact-table";
@@ -677,6 +746,7 @@ function createCard(dino) {
   details.append(description, facts, chipRow);
   body.append(thumb, details);
   card.append(header, body);
+<<<<<<< HEAD
 
   const speciesEntries = getSpeciesEntriesForCard(dino);
   if (speciesEntries.length > 0) {
@@ -817,6 +887,8 @@ function createCard(dino) {
     card.appendChild(dropdown);
   }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   return card;
 }
 
@@ -824,22 +896,30 @@ function matchesFilters(dino) {
   const search = state.search.toLowerCase();
   const searchable = `${dino.name || ""} ${dino.where || ""}`.toLowerCase();
   const era = getEra(dino.period);
+<<<<<<< HEAD
   const qTier = qualityTier(qualityScore(dino));
   const qualityPass =
     !state.quality ||
     (state.quality === "high" && qTier === "high") ||
     (state.quality === "moderate" && (qTier === "high" || qTier === "moderate")) ||
     (state.quality === "basic" && (qTier === "high" || qTier === "moderate" || qTier === "basic"));
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
   return (
     (!search || searchable.includes(search)) &&
     (!state.type || (dino.type || "Dinosaur") === state.type) &&
     (!state.period || dino.period === state.period) &&
     (!state.diet || dino.diet === state.diet) &&
+<<<<<<< HEAD
     qualityPass &&
     (!state.newOnly || Boolean(dino.isNew)) &&
     (!state.favoritesOnly || state.favorites.has(dino.id)) &&
     (!state.secretOnly || isHiddenEntry(dino)) &&
+=======
+    (!state.newOnly || Boolean(dino.isNew)) &&
+    (!state.favoritesOnly || state.favorites.has(dino.id)) &&
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     (state.era === "All" || era === state.era) &&
     (!state.region || dino.where === state.region)
   );
@@ -857,9 +937,12 @@ function sortDinosaurs(items) {
     case "diet-asc":
       sorted.sort((a, b) => normalizeText(a.diet).localeCompare(normalizeText(b.diet)) || normalizeText(a.name).localeCompare(normalizeText(b.name)));
       break;
+<<<<<<< HEAD
     case "quality-desc":
       sorted.sort((a, b) => qualityScore(b) - qualityScore(a) || normalizeText(a.name).localeCompare(normalizeText(b.name)));
       break;
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     default:
       sorted.sort((a, b) => normalizeText(a.name).localeCompare(normalizeText(b.name)));
   }
@@ -885,7 +968,11 @@ function isUnknownEntry(dino) {
 
 function getDisplayGroup(dino) {
   const type = dino.type || "Dinosaur";
+<<<<<<< HEAD
   if (type === "Avian Reptile" || type === "Aerial Reptile") return "Aerial";
+=======
+  if (type === "Avian Reptile") return "Aerial";
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (type === "Marine Reptile") return "Marine";
   if (type === "Dinosaur" && !isUnknownEntry(dino)) return "Known dinos";
   return "Unknown";
@@ -1051,13 +1138,21 @@ function closeDailyModal() {
 }
 
 async function showDailyPopupIfNeeded() {
+<<<<<<< HEAD
   const pool = getPublicDinosaurs();
   if (pool.length === 0) return;
+=======
+  if (state.allDinosaurs.length === 0) return;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
   const seed = getDailySeed();
   const seenFor = localStorage.getItem(DAILY_SEEN_KEY);
 
+<<<<<<< HEAD
   const picked = pool[hashString(seed) % pool.length];
+=======
+  const picked = state.allDinosaurs[hashString(seed) % state.allDinosaurs.length];
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   let fact = `${picked.name} lived in ${picked.where} during the ${picked.period}.`;
 
   try {
@@ -1084,8 +1179,12 @@ async function showDailyPopupIfNeeded() {
 }
 
 function render() {
+<<<<<<< HEAD
   const pool = getBrowseDinosaurs();
   const filtered = sortDinosaurs(pool.filter(matchesFilters));
+=======
+  const filtered = sortDinosaurs(state.allDinosaurs.filter(matchesFilters));
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   const orderedFiltered = orderBySection(filtered);
   const visible = orderedFiltered.slice(0, state.visibleCount);
 
@@ -1100,7 +1199,11 @@ function render() {
     renderGroupedCards(visible, orderedFiltered);
   }
 
+<<<<<<< HEAD
   statusEl.textContent = `${visible.length} of ${orderedFiltered.length} matching entries shown (${pool.length} total).`;
+=======
+  statusEl.textContent = `${visible.length} of ${orderedFiltered.length} matching entries shown (${state.allDinosaurs.length} total).`;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   renderLoadMore(orderedFiltered.length);
   renderTimelineFilters();
   renderRegionFilters();
@@ -1111,8 +1214,12 @@ function render() {
 
 function updateRandomArticleLink(pool) {
   if (!randomArticleLink) return;
+<<<<<<< HEAD
   const publicPool = getPublicDinosaurs();
   const source = Array.isArray(pool) && pool.length > 0 ? pool : publicPool;
+=======
+  const source = Array.isArray(pool) && pool.length > 0 ? pool : state.allDinosaurs;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (!Array.isArray(source) || source.length === 0) {
     randomArticleLink.href = "dino.html";
     return;
@@ -1125,7 +1232,10 @@ function updateRandomArticleLink(pool) {
 function bindEvents() {
   searchInput.addEventListener("input", (event) => {
     state.search = event.target.value.trim();
+<<<<<<< HEAD
     maybeTriggerSearchEasterEgg(state.search);
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     state.visibleCount = PAGE_SIZE;
     render();
   });
@@ -1150,6 +1260,7 @@ function bindEvents() {
     render();
   });
 
+<<<<<<< HEAD
   if (qualityFilter) {
     qualityFilter.addEventListener("change", (event) => {
       state.quality = event.target.value;
@@ -1158,6 +1269,8 @@ function bindEvents() {
     });
   }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   sortOrder.addEventListener("change", (event) => {
     state.sort = event.target.value;
     state.visibleCount = PAGE_SIZE;
@@ -1176,6 +1289,7 @@ function bindEvents() {
     render();
   });
 
+<<<<<<< HEAD
   if (secretOnlyFilter) {
     secretOnlyFilter.addEventListener("change", (event) => {
       state.secretOnly = event.target.checked;
@@ -1184,6 +1298,8 @@ function bindEvents() {
     });
   }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   clearCompareBtn.addEventListener("click", () => {
     state.compare = [];
     persistSets();
@@ -1209,11 +1325,17 @@ function bindEvents() {
     state.type = "";
     state.period = "";
     state.diet = "";
+<<<<<<< HEAD
     state.quality = "";
     state.sort = "name-asc";
     state.newOnly = false;
     state.favoritesOnly = false;
     state.secretOnly = false;
+=======
+    state.sort = "name-asc";
+    state.newOnly = false;
+    state.favoritesOnly = false;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     state.era = "All";
     state.region = "";
     state.visibleCount = PAGE_SIZE;
@@ -1222,11 +1344,17 @@ function bindEvents() {
     if (typeFilter) typeFilter.value = "";
     periodFilter.value = "";
     dietFilter.value = "";
+<<<<<<< HEAD
     if (qualityFilter) qualityFilter.value = "";
     sortOrder.value = "name-asc";
     newOnlyFilter.checked = false;
     favoritesOnlyFilter.checked = false;
     if (secretOnlyFilter) secretOnlyFilter.checked = false;
+=======
+    sortOrder.value = "name-asc";
+    newOnlyFilter.checked = false;
+    favoritesOnlyFilter.checked = false;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
     render();
   });
@@ -1238,6 +1366,7 @@ async function loadGallery() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     state.allDinosaurs = await response.json();
+<<<<<<< HEAD
     try {
       const speciesResponse = await fetch("data/species-index.json", { cache: "no-store" });
       if (speciesResponse.ok) {
@@ -1271,6 +1400,12 @@ async function loadGallery() {
     setSelectOptions(typeFilter, uniqueSortedValues(publicPool.map((d) => ({ ...d, type: d.type || "Dinosaur" })), "type"), "All Types");
     setSelectOptions(periodFilter, uniqueSortedValues(publicPool, "period"), "All Periods");
     setSelectOptions(dietFilter, uniqueSortedValues(publicPool, "diet"), "All Diets");
+=======
+
+    setSelectOptions(typeFilter, uniqueSortedValues(state.allDinosaurs.map((d) => ({ ...d, type: d.type || "Dinosaur" })), "type"), "All Types");
+    setSelectOptions(periodFilter, uniqueSortedValues(state.allDinosaurs, "period"), "All Periods");
+    setSelectOptions(dietFilter, uniqueSortedValues(state.allDinosaurs, "diet"), "All Diets");
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
     if (typeFilter && [...typeFilter.options].some((opt) => opt.value === state.type)) typeFilter.value = state.type;
     else state.type = "";

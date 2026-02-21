@@ -1,7 +1,11 @@
 {
   "name": "Gallimimus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Gallimimus_bullatus.001_-_Natural_History_Museum_of_London.JPG",
+<<<<<<< HEAD
   "overview": "Gallimimus is a unknown currently documented from Late Cretaceous in Asia. Current interpretation suggests a omnivore feeding profile. It is typically classified as Ornithomimid. Evidence quality for Gallimimus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "overview": "Gallimimus was a Late Cretaceous dinosaur from Asia. It is one of the notable omnivore members of the Ornithomimid lineage.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "period": "Late Cretaceous",
     "diet": "Omnivore",
@@ -11,13 +15,21 @@
     "length": "Size estimates vary by specimen and reconstruction",
     "height": "Body height depended on age and posture",
     "weight": "Mass estimates differ across studies",
+<<<<<<< HEAD
     "speed": "Likely adapted to its ecological niche",
     "type": "Unknown"
+=======
+    "speed": "Likely adapted to its ecological niche"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Body covering likely included scales, and in some lineages feather-like structures.",
     "lips": "Mouth soft tissue is debated and may have varied by clade.",
+<<<<<<< HEAD
     "coloration": "Exact colors are Unknown. camouflage and display were both likely important.",
+=======
+    "coloration": "Exact colors are unknown; camouflage and display were both likely important.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "displayStructures": "Crests, horns, plates, sails, or feathers may have been used for communication and defense."
   },
   "huntingAndDiet": {
@@ -140,6 +152,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Gallimimus_bullatus.001_-_Natural_History_Museum_of_London.JPG",
       "caption": "Gallimimus reference image"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Gallimimus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -148,3 +161,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

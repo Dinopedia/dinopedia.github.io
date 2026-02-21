@@ -1,7 +1,11 @@
 {
   "name": "Ankylosaurus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ankylosaur_head_-_cast_-_Custer_County_Montana_-_Museum_of_the_Rockies_-_2013-07-08.jpg",
+<<<<<<< HEAD
   "overview": "Ankylosaurus is a dinosaur currently documented from Late Cretaceous (68-66 million years ago) in Western North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Ankylosaurid ornithischian. Evidence quality for Ankylosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "overview": "Ankylosaurus was a heavily armored herbivore from Late Cretaceous North America, equipped with osteoderm armor and a powerful tail club.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Herbivore",
     "weight": "5-8 tonnes",
@@ -11,8 +15,12 @@
     "period": "Late Cretaceous (68-66 million years ago)",
     "height": "1.7 m",
     "location": "Western North America",
+<<<<<<< HEAD
     "length": "6-8 m",
     "type": "Dinosaur"
+=======
+    "length": "6-8 m"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Beaked snout likely sheathed in keratin",
@@ -149,6 +157,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ankylosaur_head_-_cast_-_Custer_County_Montana_-_Museum_of_the_Rockies_-_2013-07-08.jpg",
       "caption": "Ankylosaurus reference image"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Ankylosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -157,3 +166,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

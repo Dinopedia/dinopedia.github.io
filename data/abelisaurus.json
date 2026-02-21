@@ -1,5 +1,6 @@
 {
   "name": "Abelisaurus",
+<<<<<<< HEAD
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Abelisaurus_skull.jpg/330px-Abelisaurus_skull.jpg",
   "overview": "Abelisaurus is a dinosaur currently documented from Late Cretaceous (about 72-66 million years ago) in Patagonia, Argentina (South America). Current interpretation suggests a carnivore feeding profile. It is typically classified as Theropoda, Abelisauridae. Evidence quality for Abelisaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
   "scientificData": {
@@ -13,6 +14,20 @@
     "weight": "Estimated about 1.2-2.0 tonnes (average reconstructions around ~1.5 tonnes)",
     "speed": "Likely moderate pursuit speed, often modeled around 25-30 km/h",
     "type": "Dinosaur"
+=======
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Abelisaurus_skull.jpg",
+  "overview": "Abelisaurus was a Late Cretaceous dinosaur from South America, and is commonly discussed in studies of theropod evolution.",
+  "scientificData": {
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "location": "South America",
+    "classification": "Theropod",
+    "discovered": "Described from fossil material in paleontological literature",
+    "length": "Varies by specimen",
+    "height": "Varies by posture and growth stage",
+    "weight": "Estimated from comparative scaling",
+    "speed": "Inferred from anatomy and biomechanics"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Likely had scale-dominated body covering, with clade-specific variation.",
@@ -22,6 +37,7 @@
   },
   "huntingAndDiet": {
     "prey": [
+<<<<<<< HEAD
       "Medium to large terrestrial vertebrates in Late Cretaceous Patagonia",
       "Likely opportunistic predation and scavenging where available"
     ],
@@ -34,6 +50,19 @@
     "feedingStyle": "Likely a mixed strategy of active predation plus opportunistic scavenging.",
     "preferredFood": "Likely focused on available medium-large prey, with size preference shifting during growth.",
     "foodCompetition": "Likely competed with other large carnivorous theropods and carrion feeders in its ecosystem."
+=======
+      "Food targets depended on diet and habitat"
+    ],
+    "strategy": "Feeding strategy reflected anatomy, competition, and local resources.",
+    "biteForce": "Jaw performance varied with skull structure.",
+    "cannibalism": "No broad consensus without specimen-specific evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely varied with body mass, temperature, and ecosystem productivity.",
+    "feedingStyle": "Foraging likely tracked seasonal resource peaks.",
+    "preferredFood": "Diet likely shifted across growth stages.",
+    "foodCompetition": "Competition with coexisting fauna likely influenced behavior."
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "environment": {
     "formations": [
@@ -48,10 +77,17 @@
     ]
   },
   "behaviorAndConflict": {
+<<<<<<< HEAD
     "socialBehavior": "Most reconstructions treat adults as primarily solitary outside possible breeding overlap.",
     "territoriality": "Likely showed localized territorial or dominance behavior around carcasses and high-resource zones.",
     "mainRivals": "Potential rivals included other large theropods and heavily defended herbivores.",
     "combatEvidence": "Direct Abelisaurus evidence is limited, but trauma in related abelisaurids supports periodic intraspecific or predatory conflict."
+=======
+    "socialBehavior": "Behavior likely ranged from solitary to temporary aggregation.",
+    "territoriality": "Resource concentration likely increased conflict frequency.",
+    "mainRivals": "Rivals included predators, competitors, or defended herbivores.",
+    "combatEvidence": "Healed injuries in related taxa suggest periodic physical conflict."
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "reproduction": {
     "eggs": "Egg characteristics differed by lineage and nesting ecology.",
@@ -66,7 +102,11 @@
     "hatchlingSurvival": "Juveniles faced high mortality and rapid selection pressure."
   },
   "physiology": {
+<<<<<<< HEAD
     "heartRate": "Inferred from comparative physiology and body size; still uncertain.",
+=======
+    "heartRate": "Inferred from comparative physiology and body size.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "heartMass": "Scaled with mass and metabolic demand.",
     "stomachAcidPH": "Likely matched trophic strategy.",
     "digestiveLength": "Digestive structure reflected diet specialization.",
@@ -113,17 +153,28 @@
     "diseaseSignals": "Some specimens preserve infection or abnormal growth."
   },
   "molecularData": {
+<<<<<<< HEAD
     "softTissue": "Molecular evidence is extremely rare and currently unavailable for most specimens.",
+=======
+    "softTissue": "Molecular preservation is rare and context-dependent.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "closestLivingRelatives": [
       "Birds",
       "Crocodilians (distant archosaur relatives)"
     ]
   },
   "stats": {
+<<<<<<< HEAD
     "teeth": "Serrated laterally compressed theropod teeth; total tooth count remains uncertain due to incomplete material.",
     "maxTooth": "Larger crown dimensions in robust abelisaurid jaws are generally in the several-centimeter range.",
     "eyeSize": "Orbit dimensions indicate forward-lateral visual coverage typical of large theropods.",
     "tailWeight": "Tail likely represented a substantial mass fraction for balance and locomotor stabilization."
+=======
+    "teeth": "Tooth form reflects feeding ecology.",
+    "maxTooth": "Largest tooth size varies by position and individual.",
+    "eyeSize": "Orbit size informs sensory inference.",
+    "tailWeight": "Tail mass varies by locomotor function."
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "extinctionContext": {
     "timeline": "Extinction timing depended on lineage and region.",
@@ -138,7 +189,11 @@
   ],
   "images": [
     {
+<<<<<<< HEAD
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Abelisaurus_skull.jpg/330px-Abelisaurus_skull.jpg",
+=======
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Abelisaurus_skull.jpg",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
       "caption": "Abelisaurus reference image"
     },
     {
@@ -169,6 +224,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Abelisaurus-skull.jpg/960px-Abelisaurus-skull.jpg",
       "caption": "Abelisaurus-skull"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Abelisaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -177,3 +233,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

@@ -1,7 +1,12 @@
 {
   "name": "Acrocanthosaurus",
+<<<<<<< HEAD
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Acrocanthosaurus_skeleton_%281%29.jpg/330px-Acrocanthosaurus_skeleton_%281%29.jpg",
   "overview": "Acrocanthosaurus is a dinosaur currently documented from Early Cretaceous in North America. Current interpretation suggests a carnivore feeding profile. It is typically classified as Theropod. Evidence quality for Acrocanthosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Acrocanthosaurus_skeleton_%281%29.jpg",
+  "overview": "Acrocanthosaurus was a Early Cretaceous dinosaur from North America. It is one of the notable carnivore members of the Theropod lineage.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "period": "Early Cretaceous",
     "diet": "Carnivore",
@@ -11,13 +16,21 @@
     "length": "Size estimates vary by specimen and reconstruction",
     "height": "Body height depended on age and posture",
     "weight": "Mass estimates differ across studies",
+<<<<<<< HEAD
     "speed": "Likely adapted to its ecological niche",
     "type": "Dinosaur"
+=======
+    "speed": "Likely adapted to its ecological niche"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Body covering likely included scales, and in some lineages feather-like structures.",
     "lips": "Mouth soft tissue is debated and may have varied by clade.",
+<<<<<<< HEAD
     "coloration": "Exact colors are Unknown. camouflage and display were both likely important.",
+=======
+    "coloration": "Exact colors are unknown; camouflage and display were both likely important.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "displayStructures": "Crests, horns, plates, sails, or feathers may have been used for communication and defense."
   },
   "huntingAndDiet": {
@@ -137,7 +150,11 @@
   ],
   "images": [
     {
+<<<<<<< HEAD
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Acrocanthosaurus_skeleton_%281%29.jpg/330px-Acrocanthosaurus_skeleton_%281%29.jpg",
+=======
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Acrocanthosaurus_skull_reconstruction.png/960px-Acrocanthosaurus_skull_reconstruction.png",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
       "caption": "Acrocanthosaurus skull reconstruction"
     },
     {
@@ -168,6 +185,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Best_estimate_reconstruction_of_Acrocanthosaurus.png/960px-Best_estimate_reconstruction_of_Acrocanthosaurus.png",
       "caption": "Best estimate reconstruction of Acrocanthosaurus"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Acrocanthosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -176,3 +194,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

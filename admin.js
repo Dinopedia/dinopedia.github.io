@@ -5,6 +5,7 @@ const loadIndexBtn = document.getElementById("loadIndex");
 const downloadIndexBtn = document.getElementById("downloadIndex");
 const loadArticleBtn = document.getElementById("loadArticle");
 const downloadArticleBtn = document.getElementById("downloadArticle");
+<<<<<<< HEAD
 const builderName = document.getElementById("builderName");
 const builderImage = document.getElementById("builderImage");
 const builderOverview = document.getElementById("builderOverview");
@@ -31,6 +32,8 @@ const builderInsertHeadingBtn = document.getElementById("builderInsertHeading");
 const builderInsertLinkBtn = document.getElementById("builderInsertLink");
 
 let builderMode = "visual";
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
 function downloadFile(filename, content) {
   const blob = new Blob([content], { type: "application/json;charset=utf-8" });
@@ -44,6 +47,7 @@ function downloadFile(filename, content) {
   URL.revokeObjectURL(url);
 }
 
+<<<<<<< HEAD
 function slugify(value) {
   return String(value || "")
     .trim()
@@ -267,6 +271,8 @@ function loadBuilderFromArticle(article) {
   builderCitations.value = cites.map((c) => [c.title || "", c.url || "", c.source || "", c.year || ""].join(" | ")).join("\n");
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 async function loadJson(path, target) {
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`Could not load ${path}`);
@@ -313,6 +319,7 @@ downloadArticleBtn.addEventListener("click", () => {
     alert("Article JSON is invalid.");
   }
 });
+<<<<<<< HEAD
 
 if (builderToArticleBtn) {
   builderToArticleBtn.addEventListener("click", () => {
@@ -380,3 +387,5 @@ async function initFromUrl() {
 setBuilderMode("visual");
 renderWikitextPreview(builderWikitext?.value || "");
 initFromUrl();
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

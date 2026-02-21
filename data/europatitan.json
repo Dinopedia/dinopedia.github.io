@@ -1,6 +1,7 @@
 {
   "name": "Europatitan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Europatitan_eastwoodi_Skeletal.png/960px-Europatitan_eastwoodi_Skeletal.png",
+<<<<<<< HEAD
   "overview": "Europatitan is a dinosaur currently documented from an uncertain time interval with uncertain geographic attribution. Its diet remains unresolved from currently published material. Its finer taxonomic placement is still under active review and may change as comparative datasets improve. Evidence quality for Europatitan is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
   "scientificData": {
     "type": "Dinosaur",
@@ -13,6 +14,20 @@
     "height": "Unknown but probably proportional to similarly sized close relatives",
     "weight": "Unknown but probably within the mass range of comparable close relatives",
     "speed": "Unknown but probably moderate for its body plan"
+=======
+  "overview": "Europatitan is a real prehistoric taxon included in Dino-pedia from published genus lists.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Mesozoic",
+    "diet": "Unknown",
+    "location": "Various regions",
+    "classification": "Dinosauria",
+    "discovered": "Summarized from published paleontological records",
+    "length": "Estimated from fossil material and comparative reconstructions",
+    "height": "Estimated from posture and skeletal proportions",
+    "weight": "Estimated from scaling and biomechanical models",
+    "speed": "Inferred from anatomy and locomotor modeling"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "External appearance is inferred from fossil evidence and close relatives.",
@@ -22,6 +37,7 @@
   },
   "huntingAndDiet": {
     "prey": [
+<<<<<<< HEAD
       "Specific prey remains unknown for this taxon."
     ],
     "strategy": "Feeding strategy is interpreted from preserved anatomy and wear evidence, but remains uncertain.",
@@ -39,12 +55,32 @@
       "Known from fossil-bearing formations; exact assignment varies by specimen and revision."
     ],
     "climate": "Local climate remains uncertain and is reconstructed from incomplete environmental proxies.",
+=======
+      "Diet likely depended on habitat and trophic role"
+    ],
+    "strategy": "Feeding behavior likely reflected anatomy, age, and local ecosystem.",
+    "biteForce": "Performance inferred from skull and muscle attachment morphology.",
+    "cannibalism": "No broad consensus without specimen-specific trace evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely varied with body mass and ecosystem productivity.",
+    "feedingStyle": "Likely combined opportunistic feeding with seasonal resource tracking.",
+    "preferredFood": "Diet likely changed through growth stages.",
+    "foodCompetition": "Likely competed with coexisting vertebrates for resources."
+  },
+  "environment": {
+    "formations": [
+      "Known from fossil-bearing Mesozoic formations"
+    ],
+    "climate": "Regional climate varied through time and locality.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "flora": [
       "Conifers",
       "Ferns",
       "Early flowering plants"
     ],
     "juvenileThreats": [
+<<<<<<< HEAD
       "Juvenile mortality pressure is uncertain and inferred rather than directly documented."
     ]
   },
@@ -115,12 +151,85 @@
   },
   "molecularData": {
     "softTissue": "Molecular evidence is extremely rare and currently unavailable for most specimens.",
+=======
+      "Predation pressure was likely highest in early life stages"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Behavior likely ranged from solitary movement to temporary grouping.",
+    "territoriality": "Competition likely increased around nesting zones and dense resources.",
+    "mainRivals": "Rivals included predators, competitors, or defended prey species.",
+    "combatEvidence": "Injury evidence in related taxa indicates periodic conflict."
+  },
+  "reproduction": {
+    "eggs": "Reproductive traits varied by clade and ecology.",
+    "clutchSize": "Likely varied with body size and reproductive strategy.",
+    "nesting": "Nesting likely balanced heat, drainage, and protection.",
+    "medullaryBone": "Reproductive tissue evidence is known in some related lineages."
+  },
+  "breedingAndNesting": {
+    "courtship": "Likely included visual and postural signaling.",
+    "nestingCycle": "Likely seasonal and linked to climate and food availability.",
+    "parentalCare": "Parental strategy likely varied by lineage.",
+    "hatchlingSurvival": "Juveniles likely faced high early mortality pressure."
+  },
+  "physiology": {
+    "heartRate": "Estimated by comparative physiology and allometric scaling.",
+    "heartMass": "Likely scaled with body size and metabolic demand.",
+    "stomachAcidPH": "Likely aligned with trophic strategy and digestive demands.",
+    "digestiveLength": "Digestive profile likely reflected diet specialization.",
+    "coproliteSize": "Coprolites provide indirect dietary evidence where preserved."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion reflected limb architecture and center-of-mass control.",
+    "acceleration": "Burst performance depended on musculoskeletal design.",
+    "endurance": "Range movement likely tracked seasonal resource gradients.",
+    "maneuverability": "Turning and stability reflected body plan and tail/neck control."
+  },
+  "growthStages": {
+    "hatchling": "Early stage with rapid development and high vulnerability.",
+    "juvenile": "Likely occupied ecological roles that differed from adults.",
+    "adult": "Mature stage with peak ecological and reproductive function.",
+    "oldAge": "Late stage with cumulative skeletal wear and reduced performance."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Bone structure balanced strength, mass, and mobility.",
+    "limbFunction": "Limb function reflected locomotor and ecological specialization.",
+    "tailRole": "Tail likely supported balance, maneuvering, and signaling."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual performance likely matched ecological and behavioral demands.",
+    "smell": "Olfaction likely supported foraging and communication.",
+    "hearing": "Auditory sensitivity likely captured environmental cues.",
+    "cognition": "Behavior likely mixed instinctive patterns with adaptive responses."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Known from published fossil discoveries and subsequent revision.",
+    "majorDiscoveries": "Additional finds continue to refine taxonomy and anatomy.",
+    "researchMilestones": "Imaging and biomechanical modeling improved reconstructions.",
+    "museumImpact": "Specimens contribute to education and public science outreach."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Occupied a distinct role in local food webs.",
+    "coexistingFauna": "Shared habitats with diverse contemporaneous vertebrates.",
+    "resourceDynamics": "Seasonality likely influenced distribution and behavior.",
+    "nicheShifts": "Ecological role likely shifted through ontogeny."
+  },
+  "pathologies": {
+    "injuries": "Some fossils preserve trauma consistent with ecological stress.",
+    "stressDamage": "Skeletal stress markers can reflect locomotor load.",
+    "diseaseSignals": "Pathological evidence appears in selected specimens."
+  },
+  "molecularData": {
+    "softTissue": "Molecular preservation is rare and context-dependent.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "closestLivingRelatives": [
       "Birds",
       "Crocodilians (distant archosaur relatives)"
     ]
   },
   "stats": {
+<<<<<<< HEAD
     "teeth": "Tooth counts and form are incompletely known for this taxon.",
     "maxTooth": "Maximum tooth size is uncertain due to incomplete material.",
     "eyeSize": "Eye-size estimates remain uncertain.",
@@ -131,6 +240,18 @@
     "primaryDrivers": "Extinction pressures likely involved environmental turnover and food-web instability.",
     "immediateEffects": "Habitat disruption likely reduced ecological stability near extinction intervals.",
     "legacy": "Ongoing discoveries continue to refine biodiversity reconstructions."
+=======
+    "teeth": "Tooth form and count varied by clade and ecology.",
+    "maxTooth": "Largest tooth dimensions varied by position and age.",
+    "eyeSize": "Orbit dimensions inform sensory interpretations.",
+    "tailWeight": "Tail mass reflected balancing and locomotor function."
+  },
+  "extinctionContext": {
+    "timeline": "Lineage persistence depended on regional and global change.",
+    "primaryDrivers": "Environmental turnover and food-web shifts shaped survival.",
+    "immediateEffects": "Habitat and resource disruption reduced ecological stability.",
+    "legacy": "Fossils continue to refine Mesozoic biodiversity reconstructions."
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "funFacts": [
     "Europatitan is a real prehistoric taxon in Dino-pedia.",
@@ -142,6 +263,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Europatitan_eastwoodi_Skeletal.png/960px-Europatitan_eastwoodi_Skeletal.png",
       "caption": "Europatitan reference image"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Europatitan is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -150,3 +272,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

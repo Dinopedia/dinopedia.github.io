@@ -1,7 +1,12 @@
 {
   "name": "Allosaurus",
+<<<<<<< HEAD
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Big_Al_2_cast.jpg/330px-Big_Al_2_cast.jpg",
   "overview": "Allosaurus is a dinosaur currently documented from Late Jurassic (155-145 million years ago) in North America and possible Europe. Current interpretation suggests a carnivore feeding profile. It is typically classified as Allosaurid theropod. Evidence quality for Allosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Big_Al_2_cast.jpg",
+  "overview": "Allosaurus was a dominant large predator of the Late Jurassic Morrison ecosystem, with a lightly built skull and powerful forelimbs for seizing prey.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Carnivore",
     "weight": "1.5-2.5 tonnes",
@@ -11,8 +16,12 @@
     "period": "Late Jurassic (155-145 million years ago)",
     "height": "3-3.5 m at hips",
     "location": "North America and possible Europe",
+<<<<<<< HEAD
     "length": "8-11 m",
     "type": "Dinosaur"
+=======
+    "length": "8-11 m"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Likely lips covering teeth at rest",
@@ -146,6 +155,7 @@
   },
   "images": [
     {
+<<<<<<< HEAD
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Big_Al_2_cast.jpg/330px-Big_Al_2_cast.jpg",
       "caption": "Allosaurus reference image"
     }
@@ -157,3 +167,10 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Big_Al_2_cast.jpg",
+      "caption": "Allosaurus reference image"
+    }
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

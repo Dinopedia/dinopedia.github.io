@@ -1,13 +1,18 @@
 {
   "name": "Plesiosauridae",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Paleo_Hall_at_HMNS_plesiosaur.jpg/330px-Paleo_Hall_at_HMNS_plesiosaur.jpg",
+<<<<<<< HEAD
   "overview": "Plesiosauridae is a marine reptile currently documented from Triassic-Cretaceous in Ancient seas worldwide. Current interpretation suggests a carnivore feeding profile. It is typically classified as Plesiosauria. Evidence quality for Plesiosauridae is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "overview": "Plesiosauridae is a real prehistoric taxon included in Dino-pedia.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "type": "Marine Reptile",
     "period": "Triassic-Cretaceous",
     "diet": "Carnivore",
     "location": "Ancient seas worldwide",
     "classification": "Plesiosauria",
+<<<<<<< HEAD
     "discovered": "Unknown. discovery history is not yet resolved to specimen-level detail.",
     "length": "Unknown. currently unresolved from available fossil evidence.",
     "height": "Unknown. current reconstructions are not sufficient for a reliable value.",
@@ -16,6 +21,16 @@
   },
   "externalAppearance": {
     "skin": "Inferred from fossil evidence and closely related taxa.",
+=======
+    "discovered": "Summarized from paleontological literature",
+    "length": "Estimated from fossil evidence",
+    "height": "Estimated from reconstructions",
+    "weight": "Estimated from scaling models",
+    "speed": "Inferred from anatomy"
+  },
+  "externalAppearance": {
+    "skin": "Inferred from fossil evidence and relatives.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "lips": "Soft tissue reconstruction remains uncertain.",
     "coloration": "Coloration is uncertain.",
     "displayStructures": "Display traits varied by lineage."
@@ -25,7 +40,11 @@
       "Diet varied by ecology and body size"
     ],
     "strategy": "Likely opportunistic within ecological constraints.",
+<<<<<<< HEAD
     "biteForce": "Inferred from skull morphology; exact value remains uncertain.",
+=======
+    "biteForce": "Inferred from skull morphology.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "cannibalism": "Uncertain without direct trace evidence."
   },
   "feedingPatterns": {
@@ -52,6 +71,7 @@
     "socialBehavior": "Likely ranged from solitary to temporary group behavior.",
     "territoriality": "Likely resource-dependent.",
     "mainRivals": "Included coexisting predators and defended prey.",
+<<<<<<< HEAD
     "combatEvidence": "Inferred from injury patterns in related taxa; direct evidence is limited."
   },
   "reproduction": {
@@ -59,6 +79,15 @@
     "clutchSize": "Unknown. clutch-size estimates are not yet constrained for this taxon.",
     "nesting": "Unknown. nesting ecology remains unresolved for this taxon.",
     "medullaryBone": "Unknown. medullary bone is not confirmed for this taxon."
+=======
+    "combatEvidence": "Inferred from injury patterns in related taxa."
+  },
+  "reproduction": {
+    "eggs": "Reproductive strategy varied by lineage.",
+    "clutchSize": "Likely varied by body size.",
+    "nesting": "Nesting ecology likely climate-linked.",
+    "medullaryBone": "Known in some lineages."
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "breedingAndNesting": {
     "courtship": "Likely included visual and postural displays.",
@@ -142,6 +171,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Paleo_Hall_at_HMNS_plesiosaur.jpg/330px-Paleo_Hall_at_HMNS_plesiosaur.jpg",
       "caption": "Plesiosauridae reference image"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Plesiosauridae is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -150,3 +180,7 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

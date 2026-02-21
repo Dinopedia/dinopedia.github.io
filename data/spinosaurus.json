@@ -1,7 +1,11 @@
 {
   "name": "Spinosaurus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/FSAC-KK-11888.jpg",
+<<<<<<< HEAD
   "overview": "Spinosaurus is a dinosaur currently documented from Cretaceous (about 112-93 million years ago) in North Africa. Current interpretation suggests a piscivore/carnivore feeding profile. It is typically classified as Spinosaurid theropod. Evidence quality for Spinosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "overview": "Spinosaurus was a giant theropod from Cretaceous North Africa with elongated jaws, conical teeth, and a high neural-spine sail. It is frequently interpreted as a semiaquatic predator.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Piscivore/Carnivore",
     "weight": "6-9 tonnes",
@@ -11,8 +15,12 @@
     "period": "Cretaceous (about 112-93 million years ago)",
     "height": "4-5 m at hips",
     "location": "North Africa",
+<<<<<<< HEAD
     "length": "14-16 m",
     "type": "Dinosaur"
+=======
+    "length": "14-16 m"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Uncertain, often reconstructed with partial lip coverage",
@@ -47,7 +55,11 @@
     ]
   },
   "physiology": {
+<<<<<<< HEAD
     "heartRate": "Unknown. likely comparable to other large theropods",
+=======
+    "heartRate": "Unknown; likely comparable to other large theropods",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "coproliteSize": "Large theropod coprolites known in similar settings",
     "digestiveLength": "Typical carnivore digestive tract",
     "stomachAcidPH": "Likely strongly acidic",
@@ -111,7 +123,11 @@
     "habitatUse": "Foraged along deltas, channels, and near-shore wetland zones."
   },
   "breedingAndNesting": {
+<<<<<<< HEAD
     "parentalCare": "Unknown. short-term nest guarding is plausible but unconfirmed.",
+=======
+    "parentalCare": "Unknown; short-term nest guarding is plausible but unconfirmed.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "nestingCycle": "Likely selected elevated sandbanks or stable floodplain margins for nesting.",
     "hatchlingSurvival": "Young likely occupied shallower protected habitats to avoid larger predators.",
     "courtship": "May have used sail display and body size cues in mate competition."
@@ -151,6 +167,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/FSAC-KK-11888.jpg",
       "caption": "Spinosaurus reference image"
     }
+<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Spinosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -162,3 +179,7 @@
 
 
 
+=======
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

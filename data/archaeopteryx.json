@@ -1,7 +1,12 @@
 {
   "name": "Archaeopteryx",
+<<<<<<< HEAD
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg/330px-Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg",
   "overview": "Archaeopteryx is a unknown currently documented from Late Jurassic in Europe. Current interpretation suggests a carnivore feeding profile. It is typically classified as Avialan. Evidence quality for Archaeopteryx is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+=======
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg",
+  "overview": "Archaeopteryx was a Late Jurassic dinosaur from Europe. It is one of the notable carnivore members of the Avialan lineage.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "period": "Late Jurassic",
     "diet": "Carnivore",
@@ -11,13 +16,21 @@
     "length": "Size estimates vary by specimen and reconstruction",
     "height": "Body height depended on age and posture",
     "weight": "Mass estimates differ across studies",
+<<<<<<< HEAD
     "speed": "Likely adapted to its ecological niche",
     "type": "Unknown"
+=======
+    "speed": "Likely adapted to its ecological niche"
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Body covering likely included scales, and in some lineages feather-like structures.",
     "lips": "Mouth soft tissue is debated and may have varied by clade.",
+<<<<<<< HEAD
     "coloration": "Exact colors are Unknown. camouflage and display were both likely important.",
+=======
+    "coloration": "Exact colors are unknown; camouflage and display were both likely important.",
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "displayStructures": "Crests, horns, plates, sails, or feathers may have been used for communication and defense."
   },
   "huntingAndDiet": {
@@ -137,6 +150,7 @@
   ],
   "images": [
     {
+<<<<<<< HEAD
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg/330px-Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg",
       "caption": "Archaeopteryx reference image"
     }
@@ -148,3 +162,10 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
+=======
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg",
+      "caption": "Archaeopteryx reference image"
+    }
+  ]
+}
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

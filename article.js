@@ -11,7 +11,10 @@ const favBtn = document.getElementById("favBtn");
 const compareBtn = document.getElementById("compareBtn");
 const printBtn = document.getElementById("printBtn");
 const copyLinkBtn = document.getElementById("copyLinkBtn");
+<<<<<<< HEAD
 const improveArticleBtn = document.getElementById("improveArticleBtn");
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 const tagsEl = document.getElementById("tags");
 const pronunciationEl = document.getElementById("pronunciation");
 const etymologyEl = document.getElementById("etymology");
@@ -27,6 +30,7 @@ const articleContentEl = document.querySelector(".article-content");
 const galleryBlockEl = document.querySelector(".article-gallery-block");
 const reportOutdatedBtn = document.getElementById("reportOutdatedBtn");
 const requestEditBtn = document.getElementById("requestEditBtn");
+<<<<<<< HEAD
 const speciesChooserEl = document.getElementById("speciesChooser");
 const speciesViewEl = document.getElementById("speciesView");
 const speciesViewTitleEl = document.getElementById("speciesViewTitle");
@@ -35,11 +39,14 @@ const speciesViewFactsEl = document.getElementById("speciesViewFacts");
 const speciesViewSectionsEl = document.getElementById("speciesViewSections");
 const speciesViewGalleryEl = document.getElementById("speciesViewGallery");
 const relatedBlockEl = document.getElementById("related");
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
 const FAVORITES_KEY = "dinoPediaFavorites";
 const COMPARE_KEY = "dinoPediaCompare";
 const wikiThumbCache = new Map();
 const LOCAL_FALLBACK_IMAGES = [
+<<<<<<< HEAD
   { url: "images/no-image.svg", caption: "Image unavailable for this section" }
 ];
 const LOCAL_FALLBACK_IMAGES_BY_ID = {
@@ -68,6 +75,10 @@ const LOCAL_FALLBACK_IMAGES_BY_ID = {
     }
   ]
 };
+=======
+  { url: "images/trex-skull.png", caption: "Image unavailable for this section" }
+];
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
 const CURATED_EXTRA_IMAGES = {
   trex: [
@@ -126,6 +137,7 @@ let nameToId = new Map();
 let sortedNames = [];
 let knownGenera = [];
 let latestGalleryItems = [];
+<<<<<<< HEAD
 let speciesIndexMap = new Map();
 let articleSearchHits = [];
 let activeSearchHit = -1;
@@ -135,6 +147,10 @@ let speciesTabButtons = [];
 const SPECIES_FETCH_CACHE = new Map();
 const LOCAL_SPECIES_PROFILES = new Map();
 const LOCAL_INFORMAL_TAXA = new Map();
+=======
+let articleSearchHits = [];
+let activeSearchHit = -1;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
 function safeJsonParse(raw, fallback) {
   try {
@@ -196,6 +212,7 @@ async function getWikiThumbByName(name) {
   }
 }
 
+<<<<<<< HEAD
 function isLikelyBrokenLocalImage(path) {
   const p = textFix(String(path || "")).trim().toLowerCase();
   if (!p) return true;
@@ -211,6 +228,8 @@ function isLikelyBrokenLocalImage(path) {
   return knownEmpty.has(p);
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function textFix(input) {
   return String(input)
     .replace(/â€“/g, "-")
@@ -222,12 +241,15 @@ function textFix(input) {
     .replace(/â€œ|â€/g, '"');
 }
 
+<<<<<<< HEAD
 function polishDataPhrase(text) {
   let out = textFix(String(text || "")).trim();
   out = out.replace(/^Unknown\.\s+([a-z])/, (_, c) => `Unknown. ${c.toUpperCase()}`);
   return out;
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function prettyTitle(key) {
   return textFix(
     key
@@ -238,12 +260,17 @@ function prettyTitle(key) {
 }
 
 function normalizeValue(value) {
+<<<<<<< HEAD
   if (Array.isArray(value)) return value.map((v) => polishDataPhrase(String(v))).join(", ");
+=======
+  if (Array.isArray(value)) return value.map((v) => textFix(String(v))).join(", ");
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (value && typeof value === "object") {
     return Object.entries(value)
       .map(([k, v]) => `${prettyTitle(k)}: ${normalizeValue(v)}`)
       .join("; ");
   }
+<<<<<<< HEAD
   const cleaned = polishDataPhrase(String(value));
   return isUnknownLike(cleaned) ? "Unknown" : cleaned;
 }
@@ -285,6 +312,9 @@ function hasSubstantiveData(value) {
 
 function humanizeField(value, fallback = "Unknown") {
   return isUnknownLike(value) ? fallback : polishDataPhrase(String(value));
+=======
+  return textFix(String(value));
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 function sentenceCase(text) {
@@ -293,6 +323,7 @@ function sentenceCase(text) {
   return clean[0].toUpperCase() + clean.slice(1);
 }
 
+<<<<<<< HEAD
 function normalizeSentence(text) {
   let out = textFix(String(text || "")).replace(/\s+/g, " ").trim();
   if (!out) return "Information is currently limited for this subsection.";
@@ -308,6 +339,8 @@ function normalizeSentence(text) {
   return out;
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function isBoundaryChar(ch) {
   return !ch || !/[a-z0-9]/i.test(ch);
 }
@@ -326,6 +359,7 @@ function buildNameLookup() {
   knownGenera = [...genera];
 }
 
+<<<<<<< HEAD
 async function loadSpeciesIndex() {
   if (speciesIndexMap.size > 0) return;
   try {
@@ -506,6 +540,8 @@ ORDER BY ?speciesLabel
   }
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function findNameMatches(text, currentId, maxMatches = 10) {
   const source = String(text || "");
   const lower = source.toLowerCase();
@@ -598,6 +634,7 @@ function addFact(label, value) {
   quickFactsEl.appendChild(row);
 }
 
+<<<<<<< HEAD
 function computeArticleCoverage(base, detail) {
   const scientific = detail?.scientificData && typeof detail.scientificData === "object" ? detail.scientificData : {};
   const coreFields = ["period", "diet", "location", "classification", "length", "height", "weight", "speed"];
@@ -628,6 +665,8 @@ function computeArticleCoverage(base, detail) {
   return { score, knownCore, coreTotal: coreFields.length, sectionCount, citations, images, missingCore };
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function buildQuickFacts(base, detail) {
   quickFactsEl.innerHTML = "";
   addFact("Name", detail?.name || base.name || "Unknown");
@@ -636,6 +675,7 @@ function buildQuickFacts(base, detail) {
   const scientificData = detail?.scientificData || null;
 
   if (scientificData && typeof scientificData === "object") {
+<<<<<<< HEAD
     const qualityFields = ["period", "diet", "location", "classification", "length", "height", "weight", "speed"];
     const knownCount = qualityFields.filter((key) => !isUnknownLike(scientificData[key])).length;
     const qLabel = knownCount >= 7 ? "High detail" : knownCount >= 5 ? "Moderate detail" : "Basic detail";
@@ -645,6 +685,8 @@ function buildQuickFacts(base, detail) {
     addFact("Sections", String(coverage.sectionCount));
     addFact("References", String(coverage.citations));
     addFact("Image coverage", `${coverage.images} image${coverage.images === 1 ? "" : "s"}`);
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     PREFERRED_FACT_KEYS.forEach((key) => {
       if (scientificData[key]) addFact(prettyTitle(key), scientificData[key]);
     });
@@ -660,6 +702,7 @@ function objectToNarrative(sectionKey, obj, dinoName) {
   const sentences = Object.entries(obj).map(([key, value]) => {
     const label = prettyTitle(key);
     const readable = normalizeValue(value);
+<<<<<<< HEAD
     if (isUnknownLike(value)) {
       return normalizeSentence(`Reliable ${label.toLowerCase()} evidence for ${dinoName} is still limited.`);
     }
@@ -690,6 +733,33 @@ function renderNarrativeSection(section, sectionKey, value, dinoName) {
   let appended = 0;
   Object.entries(value).forEach(([key, itemValue]) => {
     if (!hasSubstantiveData(itemValue)) return;
+=======
+
+    if (sectionKey === "externalAppearance") {
+      if (key === "skin") return `${dinoName} likely had ${readable}. This would have influenced heat management and external protection.`;
+      if (key === "lips") return `Current reconstructions suggest ${dinoName} may have had ${readable}.`;
+      if (key === "coloration") return `Its coloration is reconstructed as ${readable}, although pigment evidence is usually limited.`;
+      if (key === "displayStructures") return `Display structures included ${readable}, which may have supported species recognition and courtship signaling.`;
+      return `${label} is described as ${readable}.`;
+    }
+
+    if (sectionKey === "feedingPatterns") {
+      return `For ${dinoName}, ${label.toLowerCase()} is interpreted as ${readable}. This likely shifted with age, local prey density, and seasonal environmental pressure.`;
+    }
+
+    if (sectionKey === "breedingAndNesting") {
+      return `Current evidence for ${label.toLowerCase()} suggests ${readable}. As with many prehistoric taxa, reproductive behavior is reconstructed from fossils and comparison with living archosaurs.`;
+    }
+
+    return `${label} is currently described as ${readable}.`;
+  });
+
+  return textFix(sentences.join(" "));
+}
+
+function renderNarrativeSection(section, sectionKey, value, dinoName) {
+  Object.entries(value).forEach(([key, itemValue]) => {
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     const sub = document.createElement("div");
     sub.className = "detail-subsection";
     sub.dataset.topic = slugify(key);
@@ -703,13 +773,18 @@ function renderNarrativeSection(section, sectionKey, value, dinoName) {
     paragraph.className = "section-paragraph";
     const text = itemValue && typeof itemValue === "object" && !Array.isArray(itemValue)
       ? objectToNarrative(sectionKey, itemValue, dinoName)
+<<<<<<< HEAD
       : isUnknownLike(itemValue)
         ? `Reliable ${prettyTitle(key).toLowerCase()} evidence for ${dinoName} is still limited.`
         : `${dinoName} ${prettyTitle(key).toLowerCase()} is ${normalizeValue(itemValue)}.`;
+=======
+      : `${dinoName} ${prettyTitle(key).toLowerCase()} is interpreted as ${normalizeValue(itemValue)}. This interpretation may be revised as new specimens are described.`;
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     renderLinkedText(paragraph, text, dinoId);
     sub.appendChild(paragraph);
 
     section.appendChild(sub);
+<<<<<<< HEAD
     appended += 1;
   });
 
@@ -721,13 +796,20 @@ function renderNarrativeSection(section, sectionKey, value, dinoName) {
       "evidence-status"
     );
   }
+=======
+  });
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 function renderListSection(section, value) {
   if (Array.isArray(value)) {
     const paragraph = document.createElement("p");
     paragraph.className = "section-paragraph";
+<<<<<<< HEAD
     renderLinkedText(paragraph, normalizeSentence(normalizeValue(value)), dinoId);
+=======
+    renderLinkedText(paragraph, `Documented points include ${normalizeValue(value)}.`, dinoId);
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     section.appendChild(paragraph);
   } else if (value && typeof value === "object") {
     Object.entries(value).forEach(([k, v]) => {
@@ -742,7 +824,11 @@ function renderListSection(section, value) {
 
       const paragraph = document.createElement("p");
       paragraph.className = "section-paragraph";
+<<<<<<< HEAD
       renderLinkedText(paragraph, normalizeSentence(normalizeValue(v)), dinoId);
+=======
+      renderLinkedText(paragraph, `${prettyTitle(k)} is currently described as ${normalizeValue(v)}.`, dinoId);
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
       sub.appendChild(paragraph);
 
       section.appendChild(sub);
@@ -750,11 +836,16 @@ function renderListSection(section, value) {
   } else {
     const paragraph = document.createElement("p");
     paragraph.className = "section-paragraph";
+<<<<<<< HEAD
     renderLinkedText(paragraph, normalizeSentence(sentenceCase(normalizeValue(value))), dinoId);
+=======
+    renderLinkedText(paragraph, sentenceCase(normalizeValue(value)), dinoId);
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     section.appendChild(paragraph);
   }
 }
 
+<<<<<<< HEAD
 function renderCitationsSection(section, value) {
   const items = Array.isArray(value)
     ? value
@@ -834,6 +925,8 @@ function buildFallbackCitations(base, detail, activeName) {
   ];
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function addSectionNavItem(id, label) {
   const link = document.createElement("a");
   link.href = `#${id}`;
@@ -847,7 +940,10 @@ function canonicalSectionTitle(name) {
   if (name === "fossilDiscoveryHistory") return "History of research";
   if (name === "externalAppearance") return "Appearance";
   if (name === "huntingAndDiet") return "Paleobiology";
+<<<<<<< HEAD
   if (name === "citations") return "Citations";
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   return prettyTitle(name);
 }
 
@@ -876,39 +972,64 @@ function renderScientificDescription(section, value, dinoName) {
   }
 
   const sizeBits = ["length", "height", "weight", "speed"]
+<<<<<<< HEAD
     .filter((key) => value[key] && !isUnknownLike(value[key]))
+=======
+    .filter((key) => value[key])
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     .map((key) => `${prettyTitle(key)}: ${normalizeValue(value[key])}`);
 
   if (sizeBits.length > 0) {
     appendDetailSubsection(
       section,
       "Size",
+<<<<<<< HEAD
       `${dinoName} size estimates include ${sizeBits.join("; ")}. Reported values can shift as new specimens and methods refine reconstructions.`,
+=======
+      `${dinoName} had the following size estimates: ${sizeBits.join("; ")}. These ranges are produced from specimen scaling and can shift with improved reconstructions.`,
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
       "size"
     );
   }
 
+<<<<<<< HEAD
   const classification = value.classification && !isUnknownLike(value.classification) ? normalizeValue(value.classification) : "";
   const type = value.type && !isUnknownLike(value.type) ? normalizeValue(value.type) : "";
+=======
+  const classification = value.classification ? normalizeValue(value.classification) : "";
+  const type = value.type ? normalizeValue(value.type) : "";
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (classification || type) {
     const classText = [type, classification].filter(Boolean).join(" within ");
     appendDetailSubsection(
       section,
       "Classification",
+<<<<<<< HEAD
       `${dinoName} is classified as ${classText}. Placement may be revised when new comparative analyses are published.`,
+=======
+      `${dinoName} is currently placed as ${classText}. This placement can change when new comparative analyses are published.`,
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
       "classification"
     );
   }
 
   const historyBits = ["discovered", "period", "location"]
+<<<<<<< HEAD
     .filter((key) => value[key] && !isUnknownLike(value[key]))
+=======
+    .filter((key) => value[key])
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     .map((key) => `${prettyTitle(key)}: ${normalizeValue(value[key])}`);
 
   if (historyBits.length > 0) {
     appendDetailSubsection(
       section,
       "Research context",
+<<<<<<< HEAD
       `${historyBits.join("; ")}. This context helps show how strong the available evidence is for this taxon.`,
+=======
+      `${historyBits.join("; ")}. This context is important for understanding where evidence quality is strongest.`,
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
       "history"
     );
   }
@@ -916,6 +1037,7 @@ function renderScientificDescription(section, value, dinoName) {
   const covered = new Set(["length", "height", "weight", "speed", "classification", "type", "discovered", "period", "location"]);
   Object.entries(value).forEach(([key, itemValue]) => {
     if (covered.has(key)) return;
+<<<<<<< HEAD
     if (isUnknownLike(itemValue)) return;
     const normalized = normalizeValue(itemValue);
     appendDetailSubsection(
@@ -934,6 +1056,15 @@ function renderScientificDescription(section, value, dinoName) {
       "evidence-status"
     );
   }
+=======
+    appendDetailSubsection(
+      section,
+      prettyTitle(key),
+      `${dinoName} ${prettyTitle(key).toLowerCase()} is described as ${normalizeValue(itemValue)}.`,
+      key
+    );
+  });
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 function renderSection(name, value, dinoName) {
@@ -950,7 +1081,10 @@ function renderSection(name, value, dinoName) {
   const isNarrative = NARRATIVE_SECTIONS.has(name) && value && typeof value === "object" && !Array.isArray(value);
 
   if (name === "scientificData") renderScientificDescription(section, value, dinoName);
+<<<<<<< HEAD
   else if (name === "citations") renderCitationsSection(section, value);
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   else if (isNarrative) renderNarrativeSection(section, name, value, dinoName);
   else renderListSection(section, value);
 
@@ -976,6 +1110,7 @@ function renderGeneratedSection(idSuffix, title, text) {
   addSectionNavItem(section.id, title);
 }
 
+<<<<<<< HEAD
 async function renderSpeciesInGenusSection(base, activeName) {
   const record = speciesIndexMap.get(base?.id || "");
   const localSpecies = Array.isArray(record?.species) ? record.species : [];
@@ -1584,12 +1719,15 @@ async function setupSpeciesChooser(base, activeName) {
   speciesChooserEl.appendChild(menu);
 }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 function renderGeneratedDeepDive(base, detail, dinoName) {
   const scientific = detail?.scientificData || {};
   const period = scientific.period || base.period || "an uncertain interval";
   const region = scientific.location || base.where || "uncertain regions";
   const diet = scientific.diet || base.diet || "an uncertain diet";
   const type = base.type || scientific.type || "prehistoric reptile";
+<<<<<<< HEAD
   const coverage = computeArticleCoverage(base, detail);
   const qualityKeys = ["period", "location", "diet", "classification", "length", "height", "weight", "speed"];
   const knownCore = qualityKeys.filter((key) => hasSubstantiveData(scientific[key])).length;
@@ -1611,6 +1749,8 @@ function renderGeneratedDeepDive(base, detail, dinoName) {
       `Highest-priority gaps for ${dinoName} are ${topMissing}. Filling these with specimen-level ranges and cited studies will raise evidence quality faster than adding generic narrative text.`
     );
   }
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
   renderGeneratedSection(
     "ecosystem-context",
@@ -1633,7 +1773,11 @@ function renderGeneratedDeepDive(base, detail, dinoName) {
   renderGeneratedSection(
     "feeding-analysis",
     "Feeding strategy analysis",
+<<<<<<< HEAD
     `${dinoName} is generally understood as a ${String(diet).toLowerCase()} organism. Functional interpretation uses jaw mechanics, tooth form, body-mass scaling, and associated fauna where available. Evidence quality varies by specimen completeness, but most reconstructions indicate a specialized feeding profile rather than a fully generalized one.`
+=======
+    `${dinoName} is interpreted as a ${String(diet).toLowerCase()} organism. Functional interpretation uses jaw mechanics, tooth form, body-mass scaling, and associated fauna where available. Evidence quality varies by specimen completeness, but most reconstructions indicate a specialized feeding profile rather than a fully generalized one.`
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   );
 
   renderGeneratedSection(
@@ -1668,6 +1812,7 @@ function createInlineFigure(item, title, side = "right", usedInlineKeys = new Se
   img.src = item.url;
   img.alt = `${title} reference image`;
   img.loading = "lazy";
+<<<<<<< HEAD
   img.onerror = async () => {
     img.onerror = null;
     const byName = await getWikiThumbByName(title);
@@ -1688,6 +1833,12 @@ function createInlineFigure(item, title, side = "right", usedInlineKeys = new Se
     }
     const blocked = new Set([imageDedupKey(item.url), ...usedInlineKeys]);
     const local = pickLocalFallback(blocked, dinoId);
+=======
+  img.onerror = () => {
+    img.onerror = null;
+    const blocked = new Set([imageDedupKey(item.url), ...usedInlineKeys]);
+    const local = pickLocalFallback(blocked);
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     if (!local) {
       figure.remove();
       return;
@@ -1850,12 +2001,17 @@ function ensureMinimumImages(items, minimum = 10) {
   return out.slice(0, minimum);
 }
 
+<<<<<<< HEAD
 function pickLocalFallback(excluded = new Set(), entryId = dinoId) {
   const byEntry = Array.isArray(LOCAL_FALLBACK_IMAGES_BY_ID[entryId])
     ? LOCAL_FALLBACK_IMAGES_BY_ID[entryId]
     : [];
   const merged = [...byEntry, ...LOCAL_FALLBACK_IMAGES];
   for (const candidate of merged) {
+=======
+function pickLocalFallback(excluded = new Set()) {
+  for (const candidate of LOCAL_FALLBACK_IMAGES) {
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     const key = imageDedupKey(candidate.url);
     if (!key || excluded.has(key)) continue;
     return candidate;
@@ -2003,6 +2159,7 @@ function buildDinoInsight(base, detail) {
 
   const name = detail?.name || base?.name || "This animal";
   const scientific = detail?.scientificData || {};
+<<<<<<< HEAD
   const period = humanizeField(scientific.period || base?.period, "an uncertain period");
   const diet = humanizeField(scientific.diet || base?.diet, "an uncertain diet");
   const location = humanizeField(scientific.location || base?.where, "uncertain regions");
@@ -2022,11 +2179,20 @@ function buildDinoInsight(base, detail) {
   ];
   const unknownCount = qualityFields.filter((v) => isUnknownLike(v)).length;
   const qualityLabel = unknownCount <= 2 ? "High-detail profile" : unknownCount <= 5 ? "Moderate-detail profile" : "Limited-detail profile";
+=======
+  const period = scientific.period || base?.period || "an uncertain period";
+  const diet = scientific.diet || base?.diet || "an uncertain diet";
+  const location = scientific.location || base?.where || "uncertain regions";
+  const type = base?.type || scientific.type || "prehistoric reptile";
+  const length = scientific.length ? `Length estimates include ${scientific.length}.` : "";
+  const weight = scientific.weight ? `Mass estimates include ${scientific.weight}.` : "";
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 
   dinoInsightEl.innerHTML = "";
   const heading = document.createElement("h3");
   heading.textContent = "Dino-pedia Notes";
 
+<<<<<<< HEAD
   const quality = document.createElement("p");
   quality.className = "search-count";
   quality.textContent = qualityLabel;
@@ -2039,13 +2205,26 @@ function buildDinoInsight(base, detail) {
   );
 
   dinoInsightEl.append(heading, quality, para);
+=======
+  const para = document.createElement("p");
+  renderLinkedText(
+    para,
+    `${name} is currently interpreted as a ${diet.toLowerCase()} ${String(type).toLowerCase()} from ${period}, documented from ${location}. ${length} ${weight} This article combines index data, detailed entry notes, and linked related taxa so you can compare evidence quickly in one place.`,
+    dinoId
+  );
+
+  dinoInsightEl.append(heading, para);
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 function buildTags(base, detail) {
   tagsEl.innerHTML = "";
   const tags = new Set();
 
+<<<<<<< HEAD
   if (base?.hidden) tags.add("Secret");
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (base.period) tags.add(base.period);
   if (base.diet) tags.add(base.diet);
   if (base.where) tags.add(base.where);
@@ -2053,12 +2232,18 @@ function buildTags(base, detail) {
 
   const classification = detail?.scientificData?.classification;
   if (classification) tags.add(classification);
+<<<<<<< HEAD
   if (Array.isArray(detail?.tags)) {
     detail.tags.filter(Boolean).forEach((tag) => tags.add(String(tag)));
   }
 
   Object.keys(detail || {})
     .filter((key) => !["name", "image", "overview", "tags"].includes(key))
+=======
+
+  Object.keys(detail || {})
+    .filter((key) => !["name", "image", "overview"].includes(key))
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     .forEach((key) => tags.add(prettyTitle(key)));
 
   [...tags].slice(0, 14).forEach((tag) => {
@@ -2142,6 +2327,7 @@ function showError(message) {
   pronunciationEl.textContent = "";
   etymologyEl.textContent = "";
   if (dinoInsightEl) dinoInsightEl.textContent = "";
+<<<<<<< HEAD
   if (speciesChooserEl) {
     speciesChooserEl.hidden = true;
     speciesChooserEl.innerHTML = "";
@@ -2149,6 +2335,8 @@ function showError(message) {
   if (speciesViewEl) {
     speciesViewEl.hidden = true;
   }
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (galleryBlockEl) galleryBlockEl.hidden = false;
   clearArticleSearchHighlights();
 }
@@ -2294,6 +2482,7 @@ function renderGalleryItems(items, title) {
   }
 
   const guaranteed = ensureMinimumImages(cleaned, 10);
+<<<<<<< HEAD
   latestGalleryItems = guaranteed.slice(0, 10);
   const integratedCount = injectSectionFigures(title);
   if (galleryBlockEl && integratedCount > 0) {
@@ -2350,6 +2539,47 @@ function renderGalleryItems(items, title) {
     imageGalleryEl.appendChild(figure);
   });
 
+=======
+  latestGalleryItems = guaranteed.slice(0, 12);
+
+  const usedFallbackKeys = new Set(latestGalleryItems.map((x) => imageDedupKey(x.url)).filter(Boolean));
+
+  latestGalleryItems.forEach((item) => {
+      const figure = document.createElement("figure");
+      figure.className = "gallery-figure";
+
+      const img = document.createElement("img");
+      img.src = item.url;
+      img.alt = `${title} reference image`;
+      img.loading = "lazy";
+      img.className = "gallery-thumb";
+      img.onerror = () => {
+        img.onerror = null;
+        const local = pickLocalFallback(usedFallbackKeys);
+        if (!local) {
+          figure.remove();
+          return;
+        }
+        usedFallbackKeys.add(imageDedupKey(local.url));
+        img.src = local.url;
+        cap.textContent = local.caption;
+      };
+      figure.appendChild(img);
+
+      const cap = document.createElement("figcaption");
+      cap.className = "gallery-caption";
+      cap.textContent = item.caption;
+      figure.appendChild(cap);
+
+      imageGalleryEl.appendChild(figure);
+    });
+
+  const integratedCount = injectSectionFigures(title);
+  if (galleryBlockEl && integratedCount > 0) {
+    galleryBlockEl.hidden = true;
+  }
+
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   if (!imageGalleryEl.hasChildNodes()) {
     imageGalleryEl.textContent = "No extra images found for this page.";
   }
@@ -2384,6 +2614,7 @@ async function loadExtraImages(title, base, detail) {
   const genus = extractGenus(title);
   const curated = CURATED_EXTRA_IMAGES[idKey] || [];
   const localItems = collectLocalGalleryItems(base, detail);
+<<<<<<< HEAD
   const cached = IMAGE_SET_CACHE.get(idKey);
 
   // Fast first paint: local + curated only.
@@ -2395,6 +2626,8 @@ async function loadExtraImages(title, base, detail) {
     return;
   }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   const fromWiki = [];
   const fromCommons = [];
 
@@ -2457,8 +2690,11 @@ async function loadExtraImages(title, base, detail) {
   }
 
   const variantThumbs = await loadVariantThumbs(title);
+<<<<<<< HEAD
   const mergedRemote = [...fromWiki, ...fromCommons, ...variantThumbs];
   IMAGE_SET_CACHE.set(idKey, mergedRemote);
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   const relevant = filterRelevantImages(
     [...localItems, ...fromWiki, ...fromCommons, ...curated, ...variantThumbs],
     title,
@@ -2474,18 +2710,24 @@ async function loadArticle() {
   }
 
   try {
+<<<<<<< HEAD
     if (improveArticleBtn) {
       improveArticleBtn.href = `admin.html?id=${encodeURIComponent(dinoId)}`;
     }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     const indexResponse = await fetch("data/index.json", { cache: "no-store" });
     if (!indexResponse.ok) throw new Error(`Index load failed: HTTP ${indexResponse.status}`);
 
     allDinosaurs = await indexResponse.json();
     buildNameLookup();
+<<<<<<< HEAD
     await loadSpeciesIndex();
     await loadSpeciesProfiles();
     await loadInformalTaxa();
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     const base = allDinosaurs.find((item) => item.id === dinoId);
     currentBase = base;
 
@@ -2507,6 +2749,7 @@ async function loadArticle() {
     titleEl.textContent = activeName;
     updateContactLinks(activeName);
 
+<<<<<<< HEAD
     const primaryImage = imagePath(detail?.image || base.image || "");
     imageEl.src = !isLikelyBrokenLocalImage(primaryImage) ? primaryImage : "images/no-image.svg";
     imageEl.alt = activeName;
@@ -2535,6 +2778,15 @@ async function loadArticle() {
       const byName = await getWikiThumbByName(activeName);
       if (byName) imageEl.src = byName;
     }
+=======
+    imageEl.src = imagePath(detail?.image || base.image);
+    imageEl.alt = activeName;
+    imageEl.onerror = async () => {
+      imageEl.onerror = null;
+      const wikiThumb = await getWikiThumbByName(activeName);
+      imageEl.src = wikiThumb || "images/trex-skull.png";
+    };
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     imageEl.style.display = "block";
 
     renderLinkedText(
@@ -2547,12 +2799,15 @@ async function loadArticle() {
     );
     buildDinoInsight(base, detail);
 
+<<<<<<< HEAD
     if (!Array.isArray(detail?.citations) || detail.citations.length === 0) {
       if (detail && typeof detail === "object") {
         detail.citations = buildFallbackCitations(base, detail, activeName);
       }
     }
 
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     buildQuickFacts(base, detail);
     buildNameGuide(base, detail);
     buildTags(base, detail);
@@ -2569,11 +2824,14 @@ async function loadArticle() {
     } else {
       renderSection("Quick Facts", { period: base.period || "Unknown", diet: base.diet || "Unknown", region: base.where || "Unknown" }, activeName);
     }
+<<<<<<< HEAD
     if (speciesChooserEl) {
       speciesChooserEl.hidden = true;
       speciesChooserEl.innerHTML = "";
     }
     setViewMode("overview");
+=======
+>>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     renderGeneratedDeepDive(base, detail, activeName);
 
     buildRelated(base);
