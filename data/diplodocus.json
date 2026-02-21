@@ -1,11 +1,7 @@
 {
   "name": "Diplodocus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/CM_Diplodocus.jpg",
-<<<<<<< HEAD
   "overview": "Diplodocus is a dinosaur currently documented from Late Jurassic (about 154-150 million years ago) in North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Diplodocid sauropod. Evidence quality for Diplodocus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "overview": "Diplodocus was a long, whip-tailed sauropod from Late Jurassic North America, adapted for low-to-mid browsing and efficient long-distance movement.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Herbivore",
     "weight": "12-20 tonnes",
@@ -15,12 +11,8 @@
     "period": "Late Jurassic (about 154-150 million years ago)",
     "height": "4-5 m at shoulders",
     "location": "North America",
-<<<<<<< HEAD
     "length": "24-27 m",
     "type": "Dinosaur"
-=======
-    "length": "24-27 m"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Likely soft tissue covering narrow jaws",
@@ -158,7 +150,6 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/CM_Diplodocus.jpg",
       "caption": "Diplodocus reference image"
     }
-<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Diplodocus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -167,7 +158,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

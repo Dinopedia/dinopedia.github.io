@@ -1,11 +1,7 @@
 {
   "name": "Velociraptor",
   "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Velociraptor_skeleton_white_background.jpg",
-<<<<<<< HEAD
   "overview": "Velociraptor is a dinosaur currently documented from Late Cretaceous (75-71 million years ago) in Mongolia and nearby Asia. Current interpretation suggests a carnivore feeding profile. It is typically classified as Dromaeosaurid theropod. Evidence quality for Velociraptor is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "overview": "Velociraptor was a small dromaeosaur from Late Cretaceous Asia, closely related to birds and likely covered in feathers. It was an agile predator with a prominent sickle claw.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Carnivore",
     "weight": "15-20 kg",
@@ -15,12 +11,8 @@
     "period": "Late Cretaceous (75-71 million years ago)",
     "height": "0.5 m at hips",
     "location": "Mongolia and nearby Asia",
-<<<<<<< HEAD
     "length": "2-2.2 m",
     "type": "Dinosaur"
-=======
-    "length": "2-2.2 m"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Likely lips covering teeth at rest",
@@ -155,7 +147,6 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Velociraptor_skeleton_white_background.jpg",
       "caption": "Velociraptor reference image"
     }
-<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Velociraptor is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -164,7 +155,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

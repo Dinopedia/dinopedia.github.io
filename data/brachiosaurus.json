@@ -1,11 +1,7 @@
 {
   "name": "Brachiosaurus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Brachiosaurus_mount.jpg",
-<<<<<<< HEAD
   "overview": "Brachiosaurus is a dinosaur currently documented from Late Jurassic (about 154-150 million years ago) in North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Brachiosaurid sauropod. Evidence quality for Brachiosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "overview": "Brachiosaurus was a giant long-necked sauropod known for its forelimbs being longer than its hindlimbs, giving it a high-shouldered profile adapted for high browsing.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Herbivore",
     "weight": "30-50 tonnes",
@@ -15,12 +11,8 @@
     "period": "Late Jurassic (about 154-150 million years ago)",
     "height": "12-13 m head height",
     "location": "North America",
-<<<<<<< HEAD
     "length": "22-26 m",
     "type": "Dinosaur"
-=======
-    "length": "22-26 m"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Broad soft tissue around peg-like teeth likely",
@@ -157,7 +149,6 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Brachiosaurus_mount.jpg",
       "caption": "Brachiosaurus reference image"
     }
-<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Brachiosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -166,7 +157,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

@@ -1,12 +1,7 @@
 {
   "name": "Triceratops",
-<<<<<<< HEAD
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/330px-LA-Triceratops_mount-2.jpg",
   "overview": "Triceratops is a dinosaur currently documented from Late Cretaceous (68-66 million years ago) in Western North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Ceratopsian ornithischian. Evidence quality for Triceratops is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/LA-Triceratops_mount-2.jpg",
-  "overview": "Triceratops was a large horned herbivore that lived in western North America at the end of the Cretaceous. Its robust skull and facial horns made it one of the best-known ceratopsians.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "diet": "Herbivore",
     "weight": "6-12 tonnes",
@@ -16,12 +11,8 @@
     "period": "Late Cretaceous (68-66 million years ago)",
     "height": "3 m at shoulder",
     "location": "Western North America",
-<<<<<<< HEAD
     "length": "8-9 m",
     "type": "Dinosaur"
-=======
-    "length": "8-9 m"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "lips": "Likely beaked mouth with keratinous covering",
@@ -157,7 +148,6 @@
   },
   "images": [
     {
-<<<<<<< HEAD
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/330px-LA-Triceratops_mount-2.jpg",
       "caption": "Triceratops reference image"
     }
@@ -169,10 +159,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/LA-Triceratops_mount-2.jpg",
-      "caption": "Triceratops reference image"
-    }
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

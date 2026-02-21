@@ -1,11 +1,7 @@
 {
   "name": "Tenontosaurus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Perot_Museum_Tenontosaurus.jpg",
-<<<<<<< HEAD
   "overview": "Tenontosaurus is a dinosaur currently documented from Early Cretaceous in North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Ornithopod. Evidence quality for Tenontosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "overview": "Tenontosaurus was a Early Cretaceous dinosaur from North America, and is commonly discussed in studies of ornithopod evolution.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "period": "Early Cretaceous",
     "diet": "Herbivore",
@@ -14,14 +10,9 @@
     "discovered": "Described from fossil material in paleontological literature",
     "length": "Varies by specimen",
     "height": "Varies by posture and growth stage",
-<<<<<<< HEAD
     "weight": "Estimated from comparative scaling; exact value remains uncertain.",
     "speed": "Unknown. anatomy does not yet constrain this value strongly enough.",
     "type": "Dinosaur"
-=======
-    "weight": "Estimated from comparative scaling",
-    "speed": "Inferred from anatomy and biomechanics"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Likely had scale-dominated body covering, with clade-specific variation.",
@@ -74,11 +65,7 @@
     "hatchlingSurvival": "Juveniles faced high mortality and rapid selection pressure."
   },
   "physiology": {
-<<<<<<< HEAD
     "heartRate": "Inferred from comparative physiology and body size; still uncertain.",
-=======
-    "heartRate": "Inferred from comparative physiology and body size.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "heartMass": "Scaled with mass and metabolic demand.",
     "stomachAcidPH": "Likely matched trophic strategy.",
     "digestiveLength": "Digestive structure reflected diet specialization.",
@@ -125,11 +112,7 @@
     "diseaseSignals": "Some specimens preserve infection or abnormal growth."
   },
   "molecularData": {
-<<<<<<< HEAD
     "softTissue": "Molecular evidence is extremely rare and currently unavailable for most specimens.",
-=======
-    "softTissue": "Molecular preservation is rare and context-dependent.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "closestLivingRelatives": [
       "Birds",
       "Crocodilians (distant archosaur relatives)"
@@ -157,7 +140,6 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Perot_Museum_Tenontosaurus.jpg",
       "caption": "Tenontosaurus reference image"
     }
-<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Tenontosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -166,7 +148,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

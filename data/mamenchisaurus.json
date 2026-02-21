@@ -1,11 +1,7 @@
 {
   "name": "Mamenchisaurus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg",
-<<<<<<< HEAD
   "overview": "Mamenchisaurus is a dinosaur currently documented from Late Jurassic in Asia. Current interpretation suggests a herbivore feeding profile. It is typically classified as Sauropod. Evidence quality for Mamenchisaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "overview": "Mamenchisaurus was a Late Jurassic dinosaur from Asia. It is one of the notable herbivore members of the Sauropod lineage.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "period": "Late Jurassic",
     "diet": "Herbivore",
@@ -15,21 +11,13 @@
     "length": "Size estimates vary by specimen and reconstruction",
     "height": "Body height depended on age and posture",
     "weight": "Mass estimates differ across studies",
-<<<<<<< HEAD
     "speed": "Likely adapted to its ecological niche",
     "type": "Dinosaur"
-=======
-    "speed": "Likely adapted to its ecological niche"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Body covering likely included scales, and in some lineages feather-like structures.",
     "lips": "Mouth soft tissue is debated and may have varied by clade.",
-<<<<<<< HEAD
     "coloration": "Exact colors are Unknown. camouflage and display were both likely important.",
-=======
-    "coloration": "Exact colors are unknown; camouflage and display were both likely important.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "displayStructures": "Crests, horns, plates, sails, or feathers may have been used for communication and defense."
   },
   "huntingAndDiet": {
@@ -152,7 +140,6 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg",
       "caption": "Mamenchisaurus reference image"
     }
-<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Mamenchisaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -161,7 +148,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

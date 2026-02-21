@@ -1,12 +1,7 @@
 {
   "name": "Alvarezsaurus",
-<<<<<<< HEAD
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Alvarezsaurus.jpg/330px-Alvarezsaurus.jpg",
   "overview": "Alvarezsaurus is a unknown currently documented from Late Cretaceous in South America. Current interpretation suggests a carnivore feeding profile. It is typically classified as Alvarezsaurid. Evidence quality for Alvarezsaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
-=======
-  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Alvarezsaurus.jpg",
-  "overview": "Alvarezsaurus was a Late Cretaceous dinosaur from South America, and is commonly discussed in studies of alvarezsaurid evolution.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   "scientificData": {
     "period": "Late Cretaceous",
     "diet": "Carnivore",
@@ -15,14 +10,9 @@
     "discovered": "Described from fossil material in paleontological literature",
     "length": "Varies by specimen",
     "height": "Varies by posture and growth stage",
-<<<<<<< HEAD
     "weight": "Estimated from comparative scaling; exact value remains uncertain.",
     "speed": "Unknown. anatomy does not yet constrain this value strongly enough.",
     "type": "Unknown"
-=======
-    "weight": "Estimated from comparative scaling",
-    "speed": "Inferred from anatomy and biomechanics"
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "externalAppearance": {
     "skin": "Likely had scale-dominated body covering, with clade-specific variation.",
@@ -75,11 +65,7 @@
     "hatchlingSurvival": "Juveniles faced high mortality and rapid selection pressure."
   },
   "physiology": {
-<<<<<<< HEAD
     "heartRate": "Inferred from comparative physiology and body size; still uncertain.",
-=======
-    "heartRate": "Inferred from comparative physiology and body size.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "heartMass": "Scaled with mass and metabolic demand.",
     "stomachAcidPH": "Likely matched trophic strategy.",
     "digestiveLength": "Digestive structure reflected diet specialization.",
@@ -126,11 +112,7 @@
     "diseaseSignals": "Some specimens preserve infection or abnormal growth."
   },
   "molecularData": {
-<<<<<<< HEAD
     "softTissue": "Molecular evidence is extremely rare and currently unavailable for most specimens.",
-=======
-    "softTissue": "Molecular preservation is rare and context-dependent.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "closestLivingRelatives": [
       "Birds",
       "Crocodilians (distant archosaur relatives)"
@@ -155,7 +137,6 @@
   ],
   "images": [
     {
-<<<<<<< HEAD
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Alvarezsaurus.jpg/330px-Alvarezsaurus.jpg",
       "caption": "Alvarezsaurus reference image"
     }
@@ -167,10 +148,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Alvarezsaurus.jpg",
-      "caption": "Alvarezsaurus reference image"
-    }
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

@@ -1,7 +1,6 @@
 {
   "name": "Volgadraco",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Pteranodon_longiceps_mount_01.jpg/640px-Pteranodon_longiceps_mount_01.jpg",
-<<<<<<< HEAD
   "overview": "Volgadraco is a aerial reptile currently documented from an uncertain time interval with uncertain geographic attribution. Current interpretation suggests a carnivore feeding profile. It is typically classified as Pterosauria. Evidence quality for Volgadraco is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
   "scientificData": {
     "type": "Aerial Reptile",
@@ -17,23 +16,6 @@
   },
   "externalAppearance": {
     "skin": "Inferred from fossil evidence and closely related taxa.",
-=======
-  "overview": "Volgadraco is a real prehistoric taxon included in Dino-pedia.",
-  "scientificData": {
-    "type": "Avian Reptile",
-    "period": "Mesozoic",
-    "diet": "Carnivore",
-    "location": "Various regions",
-    "classification": "Pterosauria",
-    "discovered": "Summarized from paleontological literature",
-    "length": "Estimated from fossil evidence",
-    "height": "Estimated from reconstructions",
-    "weight": "Estimated from scaling models",
-    "speed": "Inferred from anatomy"
-  },
-  "externalAppearance": {
-    "skin": "Inferred from fossil evidence and relatives.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "lips": "Soft tissue reconstruction remains uncertain.",
     "coloration": "Coloration is uncertain.",
     "displayStructures": "Display traits varied by lineage."
@@ -43,11 +25,7 @@
       "Diet varied by ecology and body size"
     ],
     "strategy": "Likely opportunistic within ecological constraints.",
-<<<<<<< HEAD
     "biteForce": "Inferred from skull morphology; exact value remains uncertain.",
-=======
-    "biteForce": "Inferred from skull morphology.",
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     "cannibalism": "Uncertain without direct trace evidence."
   },
   "feedingPatterns": {
@@ -74,7 +52,6 @@
     "socialBehavior": "Likely ranged from solitary to temporary group behavior.",
     "territoriality": "Likely resource-dependent.",
     "mainRivals": "Included coexisting predators and defended prey.",
-<<<<<<< HEAD
     "combatEvidence": "Inferred from injury patterns in related taxa; direct evidence is limited."
   },
   "reproduction": {
@@ -82,15 +59,6 @@
     "clutchSize": "Unknown. clutch-size estimates are not yet constrained for this taxon.",
     "nesting": "Unknown. nesting ecology remains unresolved for this taxon.",
     "medullaryBone": "Unknown. medullary bone is not confirmed for this taxon."
-=======
-    "combatEvidence": "Inferred from injury patterns in related taxa."
-  },
-  "reproduction": {
-    "eggs": "Reproductive strategy varied by lineage.",
-    "clutchSize": "Likely varied by body size.",
-    "nesting": "Nesting ecology likely climate-linked.",
-    "medullaryBone": "Known in some lineages."
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   },
   "breedingAndNesting": {
     "courtship": "Likely included visual and postural displays.",
@@ -174,7 +142,6 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Pteranodon_longiceps_mount_01.jpg/640px-Pteranodon_longiceps_mount_01.jpg",
       "caption": "Volgadraco reference image"
     }
-<<<<<<< HEAD
   ],
   "researchContext": {
     "evidenceBase": "Volgadraco is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
@@ -183,7 +150,3 @@
     "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
   }
 }
-=======
-  ]
-}
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935

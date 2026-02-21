@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --ink: #202122;
   --muted: #54595d;
   --paper: #f8f9fa;
@@ -337,10 +337,7 @@ html[data-theme="dark"] .theme-toggle::after {
   border: 1px solid var(--line-soft);
   background: var(--panel);
   padding: 0;
-<<<<<<< HEAD
   position: relative;
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 .entry-header {
@@ -395,7 +392,6 @@ html[data-theme="dark"] .new-badge {
   white-space: nowrap;
 }
 
-<<<<<<< HEAD
 .quality-badge {
   font-weight: 600;
 }
@@ -436,8 +432,6 @@ html[data-theme="dark"] .quality-low {
   color: #dfb2b2;
 }
 
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 .mini-btn {
   border: 1px solid var(--line);
   background: var(--button-bg);
@@ -455,7 +449,6 @@ html[data-theme="dark"] .quality-low {
   padding: 12px;
 }
 
-<<<<<<< HEAD
 .card-species-dropdown {
   margin: 0 12px 12px;
   border: 1px solid var(--line-soft);
@@ -478,7 +471,7 @@ html[data-theme="dark"] .quality-low {
 }
 
 .card-species-summary::after {
-  content: "▾";
+  content: "?";
   font-size: 13px;
   line-height: 1;
 }
@@ -554,8 +547,6 @@ html[data-theme="dark"] .quality-low {
   }
 }
 
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 .entry-thumb,
 .article-image {
   width: 100%;
@@ -819,7 +810,7 @@ html[data-theme="dark"] .quality-low {
 }
 
 .section-nav-link::before {
-  content: "› ";
+  content: "� ";
   color: var(--muted);
 }
 
@@ -842,7 +833,6 @@ html[data-theme="dark"] .quality-low {
   grid-template-columns: minmax(220px, 1fr) auto auto auto auto;
   gap: 8px;
   align-items: center;
-<<<<<<< HEAD
   padding: 8px 10px;
   border: 1px solid var(--line-soft);
   background: color-mix(in srgb, var(--panel-soft) 70%, transparent);
@@ -857,8 +847,6 @@ html[data-theme="dark"] .quality-low {
   padding: 5px 10px;
   font-size: 12px;
   opacity: 0.9;
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 }
 
 .search-count {
@@ -984,10 +972,7 @@ mark.article-hit-active {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 .table-wrap {
   overflow: auto;
 }
@@ -1013,7 +998,6 @@ mark.article-hit-active {
   z-index: 1;
 }
 
-<<<<<<< HEAD
 .species-link-list {
   margin: 8px 12px 12px;
   padding-left: 18px;
@@ -1126,8 +1110,6 @@ mark.article-hit-active {
   gap: 10px;
 }
 
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 .compare-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1405,7 +1387,6 @@ mark.article-hit-active {
   padding: 10px;
 }
 
-<<<<<<< HEAD
 .builder-mode-bar {
   margin-bottom: 8px;
 }
@@ -1541,8 +1522,6 @@ mark.article-hit-active {
   100% { opacity: 0; transform: translateY(10px) scale(0.97); }
 }
 
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
 @media (max-width: 980px) {
   .wiki-grid { grid-template-columns: 1fr; }
   .wiki-aside { order: 2; }
@@ -1572,7 +1551,6 @@ mark.article-hit-active {
   .timeline-page { grid-template-columns: 1fr; }
   .timeline-side-list { max-height: 280px; }
   .timeline-chart-scrollview { max-height: 560px; }
-<<<<<<< HEAD
   .species-chooser-header {
     min-height: 36px;
     padding-right: 42px;
@@ -1591,15 +1569,6 @@ mark.article-hit-active {
 
   .wiki-shell { padding: 12px; }
   .article-main { padding: 12px; }
-=======
-}
-
-@media (max-width: 680px) {
-  .controls,
-  .topbar-actions { grid-template-columns: 1fr; }
-
-  .wiki-shell { padding: 12px; }
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   .topbar { padding: 10px 12px; }
 
   .topbar-inner {
@@ -1607,7 +1576,6 @@ mark.article-hit-active {
     flex-direction: column;
   }
 
-<<<<<<< HEAD
   .topbar-actions {
     width: 100%;
     display: flex;
@@ -1624,12 +1592,6 @@ mark.article-hit-active {
 
   .entry-thumb {
     max-width: 100%;
-=======
-  .entry-body { grid-template-columns: 1fr; }
-
-  .entry-thumb {
-    max-width: 320px;
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
     height: 190px;
   }
 
@@ -1639,7 +1601,6 @@ mark.article-hit-active {
   .fact-row dt,
   .article-fact-row dt { border-bottom: 1px solid var(--line-soft); }
 
-<<<<<<< HEAD
   .article-toolbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1686,8 +1647,6 @@ mark.article-hit-active {
     overflow: visible;
   }
 
-=======
->>>>>>> eb5bc0419e2d2523b8f33fa53c68b9e22cb56935
   .daily-side-panel {
     right: 8px;
     left: 8px;
