@@ -1,80 +1,90 @@
 const eraTabsEl = document.getElementById("eraTabs");
-const eraPanelEl = document.getElementById("eraPanel");
+const eraTitleEl = document.getElementById("eraTitle");
+const eraOverviewEl = document.getElementById("eraOverview");
+const eraSectionNavEl = document.getElementById("eraSectionNav");
+const eraSectionsEl = document.getElementById("eraSections");
+const eraFactsEl = document.getElementById("eraFacts");
+const eraImageEl = document.getElementById("eraImage");
+const eraImageCaptionEl = document.getElementById("eraImageCaption");
 
 const ERA_CONTENT = {
   mesozoic: {
-    label: "Mesozoic Era",
+    title: "Mesozoic Era",
     range: "252 to 66 million years ago",
+    duration: "about 186 million years",
     image: "https://upload.wikimedia.org/wikipedia/commons/f/f0/FSAC-KK-11888.jpg",
-    imageCaption: "Mesozoic archosaur-dominated ecosystems included many giant reptiles.",
-    summary:
-      "The Mesozoic was a long interval of warm greenhouse climates, repeated sea-level changes, and major evolutionary turnover. Dinosaurs rose from minor archosaur groups to globally dominant terrestrial vertebrates, while marine reptiles and pterosaurs diversified in parallel.",
-    conditions: [
-      "Climate was generally warmer than today, with little or no permanent polar ice for long intervals.",
-      "Continents drifted from Pangaea toward more modern positions, reshaping coastlines and rainfall patterns.",
-      "Plant communities shifted from gymnosperm dominance toward increasing angiosperm influence by Late Cretaceous time."
-    ],
-    life: [
-      "Early Mesozoic faunas were mixed, then dinosaurs became the dominant large land vertebrates.",
-      "Pterosaurs filled aerial predator and fish-hunter niches long before modern birds diversified.",
-      "Marine systems hosted ichthyosaurs, plesiosaurs, and mosasaurs at different times."
-    ]
+    imageCaption: "Mesozoic ecosystems were dominated by archosaurs on land and marine reptiles in the oceans.",
+    overview:
+      "The Mesozoic was a long greenhouse interval marked by continental breakup, repeated sea-level shifts, and rapid biological turnover. Dinosaurs, pterosaurs, marine reptiles, and early birds diversified in different waves as climates, coastlines, and food webs changed.",
+    conditions:
+      "Global temperatures were generally warmer than modern averages for much of the era, with limited long-term polar ice. Pangaea fragmented over time, creating new coastlines and regional climate zones.",
+    life:
+      "Early Mesozoic systems were mixed archosaur communities, but dinosaurs became dominant large land vertebrates by the Jurassic. In parallel, pterosaurs expanded in aerial niches and marine reptiles occupied apex predator roles in many seas.",
+    plants:
+      "Gymnosperms dominated early and middle intervals, while flowering plants spread strongly in the Cretaceous and reshaped terrestrial food webs.",
+    transitions:
+      "The era begins after the end-Permian extinction and ends at the K-Pg extinction around 66 million years ago."
   },
   triassic: {
-    label: "Triassic Period",
+    title: "Triassic Period",
     range: "252 to 201 million years ago",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tyrannosaurus_rex_size_comparison.svg",
-    imageCaption: "Triassic ecosystems had smaller early dinosaurs among many archosaur competitors.",
-    summary:
-      "The Triassic followed the end-Permian mass extinction and began as a recovery world with harsh climatic extremes. By the Late Triassic, early dinosaurs appeared and started diversifying, but they still coexisted with many non-dinosaur archosaurs.",
-    conditions: [
-      "Most land was joined in Pangaea, producing extensive interior arid zones and strong seasonal swings.",
-      "CO2 levels were elevated and climates were often hot, with episodic instability.",
-      "River and floodplain habitats created local biodiversity hotspots despite broader dryness."
-    ],
-    life: [
-      "Early dinosaurs were generally smaller and not yet ecologically dominant worldwide.",
-      "Croc-line archosaurs, rauisuchians, and other groups were major competitors or predators.",
-      "End-Triassic turnover opened ecological space that favored dinosaur expansion in the Jurassic."
-    ]
+    duration: "about 51 million years",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coelophysis_BW.jpg",
+    imageCaption: "Triassic ecosystems included early dinosaurs among many competing archosaurs.",
+    overview:
+      "The Triassic was a recovery interval after Earth’s largest mass extinction. Early in the period, ecosystems were simplified and often harsh; by the Late Triassic, dinosaur lineages had appeared and were diversifying, though not yet globally dominant.",
+    conditions:
+      "Most continents were joined in Pangaea, creating vast inland belts with arid climates and strong seasonal extremes. Volcanism and elevated greenhouse gases likely amplified environmental instability.",
+    life:
+      "Faunas included many non-dinosaur archosaurs, synapsid survivors, early crocodile-line predators, and the first known dinosaurs. Ecological competition remained intense through much of the period.",
+    plants:
+      "Vegetation was dominated by conifers, seed ferns, cycads, and other gymnosperm groups adapted to warm conditions.",
+    transitions:
+      "The end-Triassic extinction removed many competitor groups and opened ecological space that dinosaurs expanded into during the Jurassic."
   },
   jurassic: {
-    label: "Jurassic Period",
+    title: "Jurassic Period",
     range: "201 to 145 million years ago",
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Spinosaurus_aegyptiacus_reconstruction.png",
-    imageCaption: "Jurassic terrestrial systems supported large sauropods and big theropod predators.",
-    summary:
-      "During the Jurassic, dinosaurs became globally dominant in many terrestrial food webs. Vast floodplains and warm conditions supported giant sauropods, while theropod predators and early birds diversified in parallel.",
-    conditions: [
-      "Pangaea began to split, creating new coastlines, humid belts, and regionally distinct climates.",
-      "Warm greenhouse conditions persisted, with broad vegetated lowlands in many basins.",
-      "Marine transgressions expanded shallow seas and changed continental ecosystem connectivity."
-    ],
-    life: [
-      "Sauropods reached exceptional body sizes and dominated many herbivore guilds.",
-      "Theropods diversified into multiple apex and mesopredator lineages.",
-      "Early avialans and feathered theropods mark key steps toward modern bird evolution."
-    ]
+    duration: "about 56 million years",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Brachiosaurus_DB.jpg",
+    imageCaption: "Jurassic floodplains supported giant sauropods and large theropod predators.",
+    overview:
+      "During the Jurassic, dinosaurs became dominant in many terrestrial ecosystems. Large herbivore and predator guilds stabilized in numerous regions, and early bird-line dinosaurs diversified alongside classic theropod and sauropod lineages.",
+    conditions:
+      "Pangaea continued to split, increasing coastline length and regional climate variation. Warm greenhouse conditions remained widespread with productive floodplain systems in many basins.",
+    life:
+      "Sauropods achieved extreme body sizes, stegosaurs and other herbivore groups expanded, and large theropods occupied apex roles. Early avialans represent key steps toward modern birds.",
+    plants:
+      "Conifers and other gymnosperms remained dominant, with extensive fern understories in humid environments.",
+    transitions:
+      "By Late Jurassic time, faunal provinces were becoming more regionalized as continental separation accelerated."
   },
   cretaceous: {
-    label: "Cretaceous Period",
+    title: "Cretaceous Period",
     range: "145 to 66 million years ago",
+    duration: "about 79 million years",
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Sue_at_the_Field_Museum.jpg",
-    imageCaption: "Late Cretaceous ecosystems included giant theropods and highly diverse herbivore lineages.",
-    summary:
-      "The Cretaceous saw major biogeographic partitioning, flowering plant radiation, and high dinosaur diversity across continents. It ended with the K-Pg mass extinction at 66 million years ago, which removed non-avian dinosaurs and many marine groups.",
-    conditions: [
-      "High sea levels and epicontinental seas shaped regional climates and migration barriers.",
-      "Angiosperms expanded, altering food webs and herbivore adaptation patterns.",
-      "Late Cretaceous climates varied regionally but remained generally warmer than modern averages."
-    ],
-    life: [
-      "Ceratopsians, hadrosaurs, titanosaurs, abelisaurids, and tyrannosaurids radiated in different regions.",
-      "Bird-line dinosaurs continued diversifying and crossed the K-Pg boundary as surviving avian clades.",
-      "Marine systems were dominated by mosasaurs and advanced plesiosaurs before end-Cretaceous collapse."
-    ]
+    imageCaption: "Late Cretaceous ecosystems were highly diverse and regionally specialized.",
+    overview:
+      "The Cretaceous combined high biodiversity with strong regional differentiation. Flowering plants expanded, herbivore guilds became more specialized, and major predator clades diversified across separate continental systems.",
+    conditions:
+      "Sea levels were often high, with epicontinental seas shaping habitat and dispersal barriers. Climate stayed generally warm but varied substantially by latitude and time slice.",
+    life:
+      "Ceratopsians, hadrosaurs, titanosaurs, abelisaurids, and tyrannosaurids diversified in different regions. Marine systems included mosasaurs and advanced plesiosaurs before terminal collapse at the K-Pg boundary.",
+    plants:
+      "Angiosperms spread widely and likely changed herbivore feeding strategies, seasonal dynamics, and terrestrial ecosystem structure.",
+    transitions:
+      "The period ends at the K-Pg extinction around 66 million years ago, removing non-avian dinosaurs and many marine reptiles."
   }
 };
+
+function slugify(text) {
+  return String(text || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
 
 function setActiveTab(key) {
   const tabs = [...eraTabsEl.querySelectorAll(".era-tab")];
@@ -85,42 +95,71 @@ function setActiveTab(key) {
   });
 }
 
-function bulletList(items) {
-  return `<ul>${items.map((item) => `<li>${item}</li>`).join("")}</ul>`;
+function addFact(label, value) {
+  const row = document.createElement("div");
+  row.className = "article-fact-row";
+  const dt = document.createElement("dt");
+  dt.textContent = label;
+  const dd = document.createElement("dd");
+  dd.textContent = value;
+  row.append(dt, dd);
+  eraFactsEl.appendChild(row);
+}
+
+function addSectionNavItem(id, label) {
+  const link = document.createElement("a");
+  link.href = `#${id}`;
+  link.className = "section-nav-link";
+  link.textContent = label;
+  eraSectionNavEl.appendChild(link);
+}
+
+function addSection(title, text) {
+  const section = document.createElement("section");
+  section.className = "detail-section";
+  section.id = `section-${slugify(title)}`;
+
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  section.appendChild(heading);
+
+  const paragraph = document.createElement("p");
+  paragraph.className = "section-paragraph";
+  paragraph.textContent = text;
+  section.appendChild(paragraph);
+
+  eraSectionsEl.appendChild(section);
+  addSectionNavItem(section.id, title);
 }
 
 function renderEra(key) {
   const era = ERA_CONTENT[key] || ERA_CONTENT.mesozoic;
   setActiveTab(key);
-  eraPanelEl.innerHTML = `
-    <article class="era-article">
-      <header class="era-head">
-        <h3>${era.label}</h3>
-        <p class="search-count">${era.range}</p>
-      </header>
-      <div class="era-grid">
-        <figure class="era-figure">
-          <img src="${era.image}" alt="${era.label} illustration" loading="lazy">
-          <figcaption>${era.imageCaption}</figcaption>
-        </figure>
-        <section>
-          <p>${era.summary}</p>
-          <h4>Earth Conditions</h4>
-          ${bulletList(era.conditions)}
-          <h4>Life In General</h4>
-          ${bulletList(era.life)}
-        </section>
-      </div>
-    </article>
-  `;
 
-  const img = eraPanelEl.querySelector("img");
-  if (img) {
-    img.onerror = () => {
-      img.onerror = null;
-      img.src = "images/trex-skull.png";
-    };
-  }
+  eraTitleEl.textContent = era.title;
+  eraOverviewEl.textContent = era.overview;
+
+  eraFactsEl.innerHTML = "";
+  addFact("Interval", era.range);
+  addFact("Duration", era.duration);
+  addFact("Climate", "Predominantly greenhouse conditions");
+  addFact("Dominant groups", "Dinosaurs, pterosaurs, marine reptiles");
+  addFact("Major transitions", era.transitions);
+
+  eraImageEl.src = era.image;
+  eraImageEl.alt = `${era.title} illustration`;
+  eraImageEl.onerror = () => {
+    eraImageEl.onerror = null;
+    eraImageEl.src = "images/no-image.svg";
+  };
+  eraImageCaptionEl.textContent = era.imageCaption;
+
+  eraSectionNavEl.innerHTML = "";
+  eraSectionsEl.innerHTML = "";
+  addSection("Earth Conditions", era.conditions);
+  addSection("Life In General", era.life);
+  addSection("Plant World", era.plants);
+  addSection("Transitions And Turning Points", era.transitions);
 }
 
 eraTabsEl.addEventListener("click", (event) => {

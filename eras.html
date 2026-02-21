@@ -34,12 +34,8 @@
   </div>
 </header>
 
-<main class="wiki-shell">
-  <section class="hero hero-wiki">
-    <h2>Mesozoic Era Guide</h2>
-    <p>How Earth changed across Triassic, Jurassic, and Cretaceous time, and what life was generally like.</p>
-  </section>
-
+<main class="article-main">
+  <h1 id="eraTitle">Mesozoic Era</h1>
   <section class="card-paper">
     <div id="eraTabs" class="era-tabs" role="tablist" aria-label="Geologic era tabs">
       <button class="era-tab era-tab-active" type="button" data-era="mesozoic" role="tab" aria-selected="true">Mesozoic</button>
@@ -49,7 +45,28 @@
     </div>
   </section>
 
-  <section id="eraPanel" class="card-paper era-panel" aria-live="polite"></section>
+  <section class="article-layout">
+    <aside class="article-toc card">
+      <h2>Contents</h2>
+      <nav id="eraSectionNav" class="section-nav" aria-label="Era sections"></nav>
+    </aside>
+
+    <section class="article-content card" aria-live="polite">
+      <h2>Overview</h2>
+      <p id="eraOverview"></p>
+      <div id="eraSections" class="article-sections"></div>
+    </section>
+
+    <aside class="article-infobox card">
+      <img id="eraImage" class="article-image" alt="Era illustration">
+      <h2>Quick Facts</h2>
+      <dl id="eraFacts" class="article-facts"></dl>
+      <section class="article-meta">
+        <h3>Image note</h3>
+        <p id="eraImageCaption"></p>
+      </section>
+    </aside>
+  </section>
 </main>
 
 <script src="theme.js"></script>
