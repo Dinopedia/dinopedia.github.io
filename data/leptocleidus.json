@@ -1,0 +1,152 @@
+{
+  "name": "Leptocleidus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Leptocleidus_capensis.png/330px-Leptocleidus_capensis.png",
+  "overview": "Leptocleidus is a marine reptile currently documented from Triassic-Cretaceous in Ancient seas worldwide. Current interpretation suggests a carnivore feeding profile. It is typically classified as Plesiosauria. Evidence quality for Leptocleidus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "type": "Marine Reptile",
+    "period": "Triassic-Cretaceous",
+    "diet": "Carnivore",
+    "location": "Ancient seas worldwide",
+    "classification": "Plesiosauria",
+    "discovered": "Unknown. discovery history is not yet resolved to specimen-level detail.",
+    "length": "Unknown. currently unresolved from available fossil evidence.",
+    "height": "Unknown. current reconstructions are not sufficient for a reliable value.",
+    "weight": "Unknown. scaling models are currently too uncertain for this taxon.",
+    "speed": "Unknown. anatomy does not yet constrain this value strongly enough."
+  },
+  "externalAppearance": {
+    "skin": "Inferred from fossil evidence and closely related taxa.",
+    "lips": "Soft tissue reconstruction remains uncertain.",
+    "coloration": "Coloration is uncertain.",
+    "displayStructures": "Display traits varied by lineage."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Diet varied by ecology and body size"
+    ],
+    "strategy": "Likely opportunistic within ecological constraints.",
+    "biteForce": "Inferred from skull morphology; exact value remains uncertain.",
+    "cannibalism": "Uncertain without direct trace evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Varied with body mass and metabolism.",
+    "feedingStyle": "Likely adapted to local resource cycles.",
+    "preferredFood": "Likely shifted through growth stages.",
+    "foodCompetition": "Likely competed with coexisting predators/herbivores."
+  },
+  "environment": {
+    "formations": [
+      "Known from fossil-bearing formations"
+    ],
+    "climate": "Varied by time and region.",
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Early flowering plants"
+    ],
+    "juvenileThreats": [
+      "Predation pressure high in early stages"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Likely ranged from solitary to temporary group behavior.",
+    "territoriality": "Likely resource-dependent.",
+    "mainRivals": "Included coexisting predators and defended prey.",
+    "combatEvidence": "Inferred from injury patterns in related taxa; direct evidence is limited."
+  },
+  "reproduction": {
+    "eggs": "Unknown. reproductive strategy is not yet resolved for this taxon.",
+    "clutchSize": "Unknown. clutch-size estimates are not yet constrained for this taxon.",
+    "nesting": "Unknown. nesting ecology remains unresolved for this taxon.",
+    "medullaryBone": "Unknown. medullary bone is not confirmed for this taxon."
+  },
+  "breedingAndNesting": {
+    "courtship": "Likely included visual and postural displays.",
+    "nestingCycle": "Likely seasonal.",
+    "parentalCare": "Varied by lineage.",
+    "hatchlingSurvival": "Likely low in early life stages."
+  },
+  "physiology": {
+    "heartRate": "Estimated via comparative physiology.",
+    "heartMass": "Scaled with body size.",
+    "stomachAcidPH": "Likely diet-dependent.",
+    "digestiveLength": "Likely diet-dependent.",
+    "coproliteSize": "Indirect evidence where preserved."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion reflected body plan and habitat.",
+    "acceleration": "Likely musculoskeletal-limited.",
+    "endurance": "Likely resource-distribution dependent.",
+    "maneuverability": "Likely linked to body morphology."
+  },
+  "growthStages": {
+    "hatchling": "High vulnerability stage.",
+    "juvenile": "Likely different ecological role than adults.",
+    "adult": "Peak ecological role.",
+    "oldAge": "Wear and reduced performance likely increased."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Balanced load-bearing and mobility.",
+    "limbFunction": "Adapted to ecological niche.",
+    "tailRole": "Balance/propulsion/signaling varied by clade."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Likely ecology-dependent.",
+    "smell": "Likely important for foraging/communication.",
+    "hearing": "Likely adapted to habitat and behavior.",
+    "cognition": "Likely mixed innate and adaptive behavior."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Described from fossil material in the literature.",
+    "majorDiscoveries": "New finds continue refining taxonomy.",
+    "researchMilestones": "Modern imaging improved reconstruction.",
+    "museumImpact": "Important for public paleontology."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Distinct role within local food webs.",
+    "coexistingFauna": "Shared habitats with diverse vertebrates.",
+    "resourceDynamics": "Likely seasonal and region-specific.",
+    "nicheShifts": "Likely changed through ontogeny."
+  },
+  "pathologies": {
+    "injuries": "Some specimens preserve trauma.",
+    "stressDamage": "Skeletal stress indicates locomotor/ecological load.",
+    "diseaseSignals": "Pathological indicators present in select fossils."
+  },
+  "molecularData": {
+    "softTissue": "Rare and preservation-dependent.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Varied by lineage and diet.",
+    "maxTooth": "Varied by individual and jaw position.",
+    "eyeSize": "Supports sensory inference.",
+    "tailWeight": "Likely tied to locomotor demands."
+  },
+  "extinctionContext": {
+    "timeline": "Extinction timing varied by clade.",
+    "primaryDrivers": "Environmental and ecological change.",
+    "immediateEffects": "Food-web and habitat disruption.",
+    "legacy": "Improves reconstruction of prehistoric biodiversity."
+  },
+  "funFacts": [
+    "Leptocleidus is a real prehistoric taxon.",
+    "New finds may revise interpretations.",
+    "Growth stage likely changed ecological role."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Leptocleidus_capensis.png/330px-Leptocleidus_capensis.png",
+      "caption": "Leptocleidus reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Leptocleidus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

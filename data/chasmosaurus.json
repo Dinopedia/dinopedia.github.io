@@ -1,0 +1,150 @@
+{
+  "name": "Chasmosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/ChasmosaurusROM.JPG",
+  "overview": "Chasmosaurus is a dinosaur currently documented from Late Cretaceous in North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Ceratopsian. Evidence quality for Chasmosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "location": "North America",
+    "classification": "Ceratopsian",
+    "discovered": "Described from fossil material in paleontological literature",
+    "length": "Varies by specimen",
+    "height": "Varies by posture and growth stage",
+    "weight": "Estimated from comparative scaling; exact value remains uncertain.",
+    "speed": "Unknown. anatomy does not yet constrain this value strongly enough.",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "skin": "Likely had scale-dominated body covering, with clade-specific variation.",
+    "lips": "Soft tissue around jaws is debated and model-dependent.",
+    "coloration": "Color patterns are uncertain and inferred from ecology.",
+    "displayStructures": "May have included crests, horns, armor, or ornamental features."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Food targets depended on diet and habitat"
+    ],
+    "strategy": "Feeding strategy reflected anatomy, competition, and local resources.",
+    "biteForce": "Jaw performance varied with skull structure.",
+    "cannibalism": "No broad consensus without specimen-specific evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely varied with body mass, temperature, and ecosystem productivity.",
+    "feedingStyle": "Foraging likely tracked seasonal resource peaks.",
+    "preferredFood": "Diet likely shifted across growth stages.",
+    "foodCompetition": "Competition with coexisting fauna likely influenced behavior."
+  },
+  "environment": {
+    "formations": [
+      "Known from regionally important fossil formations"
+    ],
+    "climate": "Regional climate changed across the lineage timespan.",
+    "flora": [
+      "Plant communities varied by local paleogeography"
+    ],
+    "juvenileThreats": [
+      "Predation risk was generally greatest in early life stages"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Behavior likely ranged from solitary to temporary aggregation.",
+    "territoriality": "Resource concentration likely increased conflict frequency.",
+    "mainRivals": "Rivals included predators, competitors, or defended herbivores.",
+    "combatEvidence": "Healed injuries in related taxa suggest periodic physical conflict."
+  },
+  "reproduction": {
+    "eggs": "Egg characteristics differed by lineage and nesting ecology.",
+    "clutchSize": "Clutch size likely varied with body size and reproductive strategy.",
+    "nesting": "Nests were probably placed for drainage, warmth, and concealment.",
+    "medullaryBone": "Confirmed in some dinosaur groups, not universal in current evidence."
+  },
+  "breedingAndNesting": {
+    "courtship": "Display behavior likely played a role in mate selection.",
+    "nestingCycle": "Breeding likely followed seasonal ecological rhythms.",
+    "parentalCare": "Care strategies likely varied by clade.",
+    "hatchlingSurvival": "Juveniles faced high mortality and rapid selection pressure."
+  },
+  "physiology": {
+    "heartRate": "Inferred from comparative physiology and body size; still uncertain.",
+    "heartMass": "Scaled with mass and metabolic demand.",
+    "stomachAcidPH": "Likely matched trophic strategy.",
+    "digestiveLength": "Digestive structure reflected diet specialization.",
+    "coproliteSize": "Coprolites provide indirect digestive evidence when available."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion depended on limb proportions and center of mass.",
+    "acceleration": "Burst capacity varied by musculoskeletal design.",
+    "endurance": "Long-range movement likely tied to food and water distribution.",
+    "maneuverability": "Turning ability varied strongly with body plan."
+  },
+  "growthStages": {
+    "hatchling": "Early stage with high vulnerability and fast growth.",
+    "juvenile": "Often occupied different ecological roles than adults.",
+    "adult": "Mature stage with peak reproductive role.",
+    "oldAge": "Later stage with increased wear and injury accumulation."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Bone architecture balanced load and mobility.",
+    "limbFunction": "Fore- and hindlimb function tracked ecological demands.",
+    "tailRole": "Tail function could include balance, defense, and display."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual strategy likely reflected predatory or anti-predatory demands.",
+    "smell": "Olfaction likely aided foraging and communication.",
+    "hearing": "Hearing likely captured environmental and social cues.",
+    "cognition": "Behavior likely combined instinct with flexible ecological responses."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Initial fossils were identified through regional fieldwork.",
+    "majorDiscoveries": "Subsequent finds refined taxonomy and anatomy.",
+    "researchMilestones": "Modern tools continue to revise reconstructions.",
+    "museumImpact": "Specimens contribute to public understanding of dinosaur evolution."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Played a distinct role in regional food webs.",
+    "coexistingFauna": "Shared habitat with diverse vertebrate communities.",
+    "resourceDynamics": "Resource seasonality likely influenced movement and density.",
+    "nicheShifts": "Ecological niche likely changed through growth."
+  },
+  "pathologies": {
+    "injuries": "Fossil trauma can indicate predation, combat, or accidents.",
+    "stressDamage": "Stress markers reflect locomotor and behavioral load.",
+    "diseaseSignals": "Some specimens preserve infection or abnormal growth."
+  },
+  "molecularData": {
+    "softTissue": "Molecular evidence is extremely rare and currently unavailable for most specimens.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Tooth form reflects feeding ecology.",
+    "maxTooth": "Largest tooth size varies by position and individual.",
+    "eyeSize": "Orbit size informs sensory inference.",
+    "tailWeight": "Tail mass varies by locomotor function."
+  },
+  "extinctionContext": {
+    "timeline": "Extinction timing depended on lineage and region.",
+    "primaryDrivers": "Long-term environmental and ecological shifts shaped persistence.",
+    "immediateEffects": "Habitat and food-web disruption reduced resilience.",
+    "legacy": "Fossils inform reconstruction of Mesozoic biodiversity."
+  },
+  "funFacts": [
+    "Its fossils continue to update how experts model dinosaur biology.",
+    "Growth stage likely changed behavior and ecological role.",
+    "New specimens can still substantially revise scientific reconstructions."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/ChasmosaurusROM.JPG",
+      "caption": "Chasmosaurus reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Chasmosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Spinosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/FSAC-KK-11888.jpg",
+  "overview": "Spinosaurus is a dinosaur currently documented from Cretaceous (about 112-93 million years ago) in North Africa. Current interpretation suggests a piscivore/carnivore feeding profile. It is typically classified as Spinosaurid theropod. Evidence quality for Spinosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "diet": "Piscivore/Carnivore",
+    "weight": "6-9 tonnes",
+    "discovered": "1912 by Ernst Stromer (described 1915)",
+    "classification": "Spinosaurid theropod",
+    "speed": "Likely moderate on land, efficient in water",
+    "period": "Cretaceous (about 112-93 million years ago)",
+    "height": "4-5 m at hips",
+    "location": "North Africa",
+    "length": "14-16 m",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "lips": "Uncertain, often reconstructed with partial lip coverage",
+    "skin": "Scaly integument expected in large theropods",
+    "displayStructures": "Tall dorsal sail formed by elongated neural spines",
+    "coloration": "Likely countershaded riverine camouflage"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Large fish",
+      "Aquatic vertebrates",
+      "Small terrestrial prey"
+    ],
+    "biteForce": "Lower than T. rex but adapted for gripping slippery prey",
+    "cannibalism": "No direct evidence",
+    "strategy": "Ambush and pursuit in river-delta systems"
+  },
+  "environment": {
+    "climate": "Warm coastal and river-delta environments",
+    "formations": [
+      "Kem Kem beds",
+      "Bahariya Formation"
+    ],
+    "juvenileThreats": [
+      "Carcharodontosaurids",
+      "Large crocodilians"
+    ],
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Aquatic vegetation"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Unknown. likely comparable to other large theropods",
+    "coproliteSize": "Large theropod coprolites known in similar settings",
+    "digestiveLength": "Typical carnivore digestive tract",
+    "stomachAcidPH": "Likely strongly acidic",
+    "heartMass": "Large cardiovascular demand for semiaquatic behavior"
+  },
+  "growthStages": {
+    "hatchling": "Small, lightly built carnivore",
+    "oldAge": "Skeletal stress concentrated in hips and tail",
+    "juvenile": "Increasingly long-snouted with rapid sail growth",
+    "adult": "Large semiaquatic apex predator"
+  },
+  "famousSpecimens": [
+    "FSAC-KK 11888",
+    "MSNM V4047 (destroyed wartime original)",
+    "Neotype material from Morocco"
+  ],
+  "reproduction": {
+    "medullaryBone": "Not yet confirmed for Spinosaurus",
+    "nesting": "Ground nests near stable floodplain margins",
+    "eggs": "Likely elongated theropod eggs",
+    "clutchSize": "Estimated moderate clutch sizes"
+  },
+  "biomechanics": {
+    "pubicBoot": "Reduced compared with many theropods",
+    "wishbone": "Theropod furcula present in close relatives",
+    "footStructure": "Hindlimbs and tail indicate strong aquatic propulsion role"
+  },
+  "molecularData": {
+    "softTissue": "No verified molecular proteins published from Spinosaurus fossils",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant)"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Tooth wear consistent with fish capture",
+    "tailFusion": "Not a defining known feature"
+  },
+  "stats": {
+    "maxTooth": "Large conical teeth in front of jaws",
+    "teeth": "Conical, unserrated teeth suited to fish capture",
+    "eyeSize": "Forward-lateral placement with long rostrum",
+    "tailWeight": "Substantial muscular tail for thrust"
+  },
+  "funFacts": [
+    "Its sail may have aided display or thermoregulation",
+    "Spinosaurus had unusually dense limb bones",
+    "Tail anatomy supports strong swimming ability"
+  ],
+  "behaviorAndConflict": {
+    "territoriality": "May have shown territorial behavior in productive river systems.",
+    "conflictPressure": "Competition likely centered on fish-rich water access points.",
+    "socialBehavior": "Probably semi-solitary with overlap near rich aquatic feeding corridors.",
+    "mainRivals": "Large crocodilians and other giant theropods in North African ecosystems."
+  },
+  "feedingPatterns": {
+    "aquaticStrategy": "Used long jaws and conical teeth to grip slippery prey in river channels.",
+    "dailyIntake": "Likely had high protein demands met through frequent aquatic feeding events.",
+    "feedingStyle": "Focused on fish capture with opportunistic predation on other vertebrates.",
+    "habitatUse": "Foraged along deltas, channels, and near-shore wetland zones."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Unknown. short-term nest guarding is plausible but unconfirmed.",
+    "nestingCycle": "Likely selected elevated sandbanks or stable floodplain margins for nesting.",
+    "hatchlingSurvival": "Young likely occupied shallower protected habitats to avoid larger predators.",
+    "courtship": "May have used sail display and body size cues in mate competition."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Changing coastal and fluvial systems likely altered prey structures.",
+    "timeline": "Went extinct well before the end-Cretaceous event.",
+    "legacy": "Central to debates on dinosaur aquatic adaptation.",
+    "primaryDrivers": "Regional ecological turnover and long-term faunal replacement."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Moroccan material reshaped body plan reconstructions in recent decades.",
+    "museumImpact": "A high-profile case study in how new fossils can overturn classic reconstructions.",
+    "researchMilestones": "Tail and bone-density studies strengthened semiaquatic interpretations.",
+    "firstFinds": "Initial remains were described from Egypt in the early 20th century."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Terrestrial locomotion likely competent but less cursorial than classic theropods.",
+    "endurance": "Potentially efficient at prolonged foraging in shallow aquatic settings.",
+    "maneuverability": "Tail and limb anatomy supported strong aquatic steering/thrust.",
+    "acceleration": "Built for controlled movement rather than high-speed pursuit on land."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Large predator specialized for riverine and deltaic food webs.",
+    "coexistingFauna": "Shared habitats with giant fish, crocodilians, and other theropods.",
+    "nicheShifts": "Different life stages may have partitioned shallower vs deeper channels.",
+    "resourceDynamics": "Water level and fish abundance likely drove seasonal movement."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior likely involved habitat-aware hunting strategies near waterways.",
+    "smell": "Olfactory ability likely useful but less dominant than in tyrannosaurids.",
+    "hearing": "Likely tuned to mixed terrestrial and aquatic environmental cues.",
+    "vision": "Skull form suggests visual tracking suited to aquatic-edge foraging."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/FSAC-KK-11888.jpg",
+      "caption": "Spinosaurus reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Spinosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}
+
+
+

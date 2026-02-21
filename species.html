@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Species Article</title>
+<link rel="stylesheet" href="style.css">
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a id="backToGenusTop" class="util-link" href="index.html">Back to genus</a>
+      <a class="util-link" href="eras.html">Eras</a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+    </div>
+  </div>
+</header>
+
+<main class="article-main">
+  <h1 id="speciesTitle">Loading species...</h1>
+  <div class="article-toolbar">
+    <a id="backToGenus" class="control-button" href="index.html">Back to genus</a>
+    <a class="control-button" href="index.html">Browse all</a>
+  </div>
+  <section class="article-layout">
+    <aside class="article-toc card">
+      <h2>Contents</h2>
+      <nav id="sectionNav" class="section-nav" aria-label="Species sections"></nav>
+    </aside>
+    <aside class="article-infobox card">
+      <img id="speciesImage" class="article-image" alt="Species image">
+      <h2>Quick Facts</h2>
+      <dl id="speciesFacts" class="article-facts"></dl>
+    </aside>
+    <section class="article-content card">
+      <h2>Overview</h2>
+      <p id="speciesOverview"></p>
+      <div id="speciesSections" class="article-sections"></div>
+      <section class="article-gallery-block">
+        <h3>Species Images</h3>
+        <div id="speciesGallery" class="image-gallery"></div>
+      </section>
+    </section>
+  </section>
+</main>
+
+<script src="theme.js"></script>
+<script src="species.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Quality Audit</title>
+<link rel="stylesheet" href="style.css">
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a class="util-link" href="index.html">Home</a>
+      <a class="util-link" href="eras.html">Eras</a>
+      <a class="util-link" href="admin.html">Editor</a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+    </div>
+  </div>
+</header>
+
+<main class="wiki-shell">
+  <section class="hero hero-wiki">
+    <h2>Article Quality Audit</h2>
+    <p>Find thin articles fast and prioritize upgrades by score, image depth, and section coverage.</p>
+  </section>
+
+  <section class="controls controls-wiki" aria-label="Audit filters">
+    <input id="auditSearch" class="control-input" type="search" placeholder="Search article name">
+    <select id="auditFilter" class="control-select" aria-label="Filter audit results">
+      <option value="all">All entries</option>
+      <option value="needs-work">Needs work only</option>
+      <option value="images-low">Low images (&lt;3)</option>
+      <option value="sections-low">Low sections (&lt;8)</option>
+      <option value="words-low">Low words (&lt;220)</option>
+    </select>
+    <select id="auditSort" class="control-select" aria-label="Sort audit results">
+      <option value="score-asc">Sort: Lowest score first</option>
+      <option value="score-desc">Sort: Highest score first</option>
+      <option value="name-asc">Sort: Name A-Z</option>
+    </select>
+  </section>
+
+  <section id="auditSummary" class="status status-paper" aria-live="polite">Loading quality audit...</section>
+  <section id="auditCards" class="compare-grid"></section>
+  <section class="card-paper">
+    <div class="table-wrap">
+      <table class="audit-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Images</th>
+            <th>Sections</th>
+            <th>Words</th>
+            <th>Status</th>
+            <th>Open</th>
+          </tr>
+        </thead>
+        <tbody id="auditBody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="theme.js"></script>
+<script src="quality.js"></script>
+</body>
+</html>

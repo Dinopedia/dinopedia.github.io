@@ -1,0 +1,34 @@
+{
+  "name": "Orkoraptor",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Orkoraptor_drawing.jpg/330px-Orkoraptor_drawing.jpg",
+  "overview": "Orkoraptor is a genus of medium-sized megaraptoran theropod dinosaur from the late Cretaceous Period of Argentina. It is known from incomplete fossil remains including parts of the skull, teeth, tail vertebrae, and a partial tibia. The specialized teeth resemble those of some maniraptoriform theropods, namely the deinonychosaurs and compsognathids. This and other anatomical features led the authors who described it to suggest that it was a maniraptoran coelurosaur. However, subsequent studies found it to be a megaraptoran. Found in the Cerro Fortaleza Formation of Southern Patagonia, it is one of the southernmost carnivorous dinosaurs known from South America.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Orkoraptor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orkoraptor",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Orkoraptor is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Orkoraptor remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

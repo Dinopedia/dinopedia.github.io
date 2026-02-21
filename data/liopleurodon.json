@@ -1,0 +1,152 @@
+{
+  "name": "Liopleurodon",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/A_descriptive_catalogue_of_the_marine_reptiles_of_the_Oxford_clay._Based_on_the_Leeds_Collection_in_the_British_Museum_%28Natural_History%29%2C_London_%281910%29_%2820864103542%29.jpg",
+  "overview": "Liopleurodon is a marine reptile currently documented from Middle-Late Jurassic (166-155 million years ago) in Europe. Current interpretation suggests a carnivore feeding profile. It is typically classified as Pliosaur. Evidence quality for Liopleurodon is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "type": "Marine Reptile",
+    "period": "Middle-Late Jurassic (166-155 million years ago)",
+    "diet": "Carnivore",
+    "location": "Europe",
+    "classification": "Pliosaur",
+    "discovered": "Documented from fossil evidence in peer-reviewed paleontological studies",
+    "length": "Unknown. currently unresolved from available fossil evidence.",
+    "height": "Estimated from skeletal reconstruction; exact value remains uncertain.",
+    "weight": "Estimated from volumetric and biomechanical models; exact value remains uncertain.",
+    "speed": "Unknown. anatomy does not yet constrain this value strongly enough."
+  },
+  "externalAppearance": {
+    "skin": "Integument and surface structures are inferred from fossils and close relatives.",
+    "lips": "Soft tissue around jaws remains model-dependent in current reconstructions.",
+    "coloration": "Coloration is uncertain and inferred from habitat and behavior.",
+    "displayStructures": "Likely used cranial or body display traits for signaling."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Dietary targets depended on habitat and trophic role"
+    ],
+    "strategy": "Feeding strategy likely reflected anatomy, age, and ecological pressure.",
+    "biteForce": "Jaw performance inferred from skull and muscle attachment morphology.",
+    "cannibalism": "No broad consensus without direct specimen-level evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely varied with body mass, metabolism, and ecosystem productivity.",
+    "feedingStyle": "Feeding style is uncertain and inferred from limited fossil evidence.",
+    "preferredFood": "Diet likely shifted through growth stages.",
+    "foodCompetition": "Likely competed with coexisting vertebrates for key resources."
+  },
+  "environment": {
+    "formations": [
+      "Known from major Mesozoic fossil-bearing formations"
+    ],
+    "climate": "Local climate remains uncertain and is reconstructed from incomplete environmental proxies.",
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Early flowering plants"
+    ],
+    "juvenileThreats": [
+      "Predation pressure was highest in early life stages"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Behavior likely ranged from solitary movement to temporary aggregations.",
+    "territoriality": "Competition likely increased near nesting grounds and concentrated food.",
+    "mainRivals": "Specific ecological rivals are not firmly documented.",
+    "combatEvidence": "Injury patterns in related taxa suggest periodic conflict."
+  },
+  "reproduction": {
+    "eggs": "Egg and reproductive traits varied by clade and ecology.",
+    "clutchSize": "Clutch size remains uncertain for this taxon.",
+    "nesting": "Nest placement likely balanced heat, drainage, and protection.",
+    "medullaryBone": "Reproductive tissue evidence is known in some reptile lineages."
+  },
+  "breedingAndNesting": {
+    "courtship": "Likely involved visual, postural, and possibly acoustic signals.",
+    "nestingCycle": "Likely seasonal and linked to local climate and food supply.",
+    "parentalCare": "Care strategy likely varied by lineage.",
+    "hatchlingSurvival": "Juveniles likely faced high early mortality."
+  },
+  "physiology": {
+    "heartRate": "Estimated by comparative physiology and scaling models.",
+    "heartMass": "Organ scaling is inferred from comparative models and remains uncertain.",
+    "stomachAcidPH": "Likely matched trophic strategy and digestive requirements.",
+    "digestiveLength": "Digestive profile likely reflected dietary specialization.",
+    "coproliteSize": "Coprolites provide indirect evidence where preserved."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion reflected limb proportions, posture, and center of mass.",
+    "acceleration": "Acceleration has not yet been directly estimated.",
+    "endurance": "Movement range likely tracked resource distribution.",
+    "maneuverability": "Maneuverability is inferred rather than directly measured."
+  },
+  "growthStages": {
+    "hatchling": "Early stage with high vulnerability and rapid growth.",
+    "juvenile": "Likely occupied a different ecological role than adults.",
+    "adult": "Adult life-history profile is still incompletely known.",
+    "oldAge": "Late stage with accumulated skeletal wear."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Bone architecture balanced strength, mass, and mobility.",
+    "limbFunction": "Detailed limb-function modeling is currently limited.",
+    "tailRole": "Tail likely contributed to balance, signaling, and maneuver control."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual function likely reflected predatory and anti-predatory demands.",
+    "smell": "Olfaction likely supported foraging and intraspecies communication.",
+    "hearing": "Auditory sensitivity likely captured environmental and social cues.",
+    "cognition": "Behavior likely combined instinctive patterns with flexible responses."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Known from fossil discoveries documented in paleontological literature.",
+    "majorDiscoveries": "New specimens continue to refine anatomical interpretation.",
+    "researchMilestones": "Modern imaging and modeling continue to refine reconstruction quality.",
+    "museumImpact": "Specimens are widely used in education and public science outreach."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Occupied a distinct trophic role in its ecosystem.",
+    "coexistingFauna": "Shared habitat with diverse reptiles, fish, and early birds/mammals.",
+    "resourceDynamics": "Seasonality and habitat shifts likely shaped population patterns.",
+    "nicheShifts": "Ecological role likely changed through ontogeny."
+  },
+  "pathologies": {
+    "injuries": "Some fossil material shows trauma consistent with ecological stress.",
+    "stressDamage": "Skeletal stress markers can reflect movement and behavior.",
+    "diseaseSignals": "Pathological signs are present in select specimens."
+  },
+  "molecularData": {
+    "softTissue": "Molecular preservation is rare and strongly context-dependent.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Tooth form and count varied by clade and diet.",
+    "maxTooth": "Largest teeth varied by jaw position and age.",
+    "eyeSize": "Orbit size informs sensory inference where preserved.",
+    "tailWeight": "Tail mass reflected locomotor and stabilizing function."
+  },
+  "extinctionContext": {
+    "timeline": "Lineage survival depended on regional and global change through time.",
+    "primaryDrivers": "Environmental shifts and food-web instability shaped persistence.",
+    "immediateEffects": "Habitat disruption reduced ecosystem resilience.",
+    "legacy": "Fossils continue to inform reconstructions of Mesozoic biodiversity."
+  },
+  "funFacts": [
+    "Its fossils are used to refine modern paleoart and biomechanical models.",
+    "New specimen discoveries can significantly update scientific interpretations.",
+    "Growth stage likely changed ecological role and behavior."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/A_descriptive_catalogue_of_the_marine_reptiles_of_the_Oxford_clay._Based_on_the_Leeds_Collection_in_the_British_Museum_%28Natural_History%29%2C_London_%281910%29_%2820864103542%29.jpg",
+      "caption": "Liopleurodon reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Liopleurodon is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

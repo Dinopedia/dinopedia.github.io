@@ -1,0 +1,34 @@
+{
+  "name": "Ultrasaurus",
+  "image": "images/trex-skull.png",
+  "overview": "Ultrasaurus is a genus of sauropod dinosaur discovered by Haang Mook Kim in South Korea. However, the name was first used unofficially in 1979 by Jim Jensen to describe a set of giant dinosaur bones he discovered in the United States. Because Kim published the name for his specimen before Jensen could do so officially, George Olshevsky renamed the specimen as Ultrasauros. Jensen's giant sauropod was later found to be a chimera, and the type remains are now assigned to Supersaurus.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Mesozoic",
+    "diet": "Herbivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Ultrasaurus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ultrasaurus",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Ultrasaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Ultrasaurus remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

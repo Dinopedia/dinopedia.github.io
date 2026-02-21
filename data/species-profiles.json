@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-02-20T00:00:00Z",
+  "entries": [
+    {
+      "name": "Spinosaurus mirabilis",
+      "genus": "Spinosaurus",
+      "type": "Dinosaur",
+      "temporalRange": "Late Cretaceous (Cenomanian), about 95 million years ago",
+      "location": "Farak Formation, Niger (localities: Iguidi and Jenguebi)",
+      "diet": "Carnivore",
+      "namedBy": "Sereno et al., 2026",
+      "nameMeaning": "\"Astonishing spine lizard\"",
+      "overview": "Spinosaurus mirabilis is a named species-level interpretation within Spinosaurus, described from cranial and postcranial remains from Niger. Current interpretation emphasizes a long, low snout, a prominent scimitar-like cranial crest, and elongated neural spines that indicate a dorsal sail.",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "clade": "Dinosauria; Saurischia; Theropoda",
+        "family": "Spinosauridae",
+        "tribe": "Spinosaurini",
+        "genus": "Spinosaurus",
+        "species": "Spinosaurus mirabilis"
+      },
+      "sections": [
+        {
+          "title": "Discovery and naming",
+          "text": "Fossils referred to Spinosaurus mirabilis were collected from outcrops of the Farak Formation in Niger during expeditions in 2000, 2019, and 2022 led by Paul Sereno and colleagues. Material came from two principal localities, Iguidi and Jenguebi. The species was formally described in 2026 and assigned to Spinosaurus based on a combined cranial and postcranial diagnosis. The name mirabilis (Latin, \"astonishing\") references the unusually enlarged scimitar-like nasal-prefrontal crest."
+        },
+        {
+          "title": "Holotype and referred specimens",
+          "text": "The holotype, MNBH JEN1, includes a fragmentary skull preserving right premaxilla, both maxillae, crest elements, part of the right dentary, and associated teeth. Referred specimen MNBH JEN2 includes additional maxillary material, crest fragments, cervical and dorsal vertebral pieces, part of the left ischium, and part of the femur. Additional Jenguebi specimens (MNBH JEN3-9) and Iguidi material (including MNBH IGU11, 25, and 38-40) expand the sample with isolated teeth, vertebral fragments, and limb/tail elements."
+        },
+        {
+          "title": "Taxonomic history of key Niger material",
+          "text": "Some Niger specimens now referred to S. mirabilis had a complex assignment history before the 2026 revision. Certain vertebral elements were previously compared with carcharodontosaurid material and later discussed as indeterminate spinosaurid remains or alternative spinosaurine assignments. The 2026 diagnosis unified these remains under S. mirabilis using crest morphology, rostral proportions, and associated axial anatomy as the central lines of evidence."
+        },
+        {
+          "title": "Anatomical diagnosis",
+          "text": "Spinosaurus mirabilis is interpreted as having a relatively low-profile snout, distinctive dentary-premaxillary contour relationships, and posterior maxillary spacing differences compared with S. aegyptiacus. Preserved dorsal elements support elongated neural spines consistent with a trunk sail, although complete sail outline remains uncertain due to incomplete serial preservation."
+        },
+        {
+          "title": "Cranial crest and display interpretation",
+          "text": "Its most distinctive feature is the scimitar-shaped crest formed by nasal and prefrontal bones. Surface vascular traces and striations are consistent with soft-tissue enhancement in life, possibly a keratinous covering. Functional interpretation currently favors visual signaling (species recognition, social display, maturity signaling), with purely mechanical interpretations considered secondary."
+        },
+        {
+          "title": "Comparison with Spinosaurus aegyptiacus",
+          "text": "Compared with S. aegyptiacus, S. mirabilis appears to differ in crest geometry, some jaw-proportion metrics, and rostral profile. Both taxa share core spinosaurine traits such as elongate jaws and neural-spine development, but current datasets support species-level separation. Because several elements are still fragmentary, future specimens may refine the strength or polarity of some proposed differences."
+        },
+        {
+          "title": "Phylogenetic placement",
+          "text": "Current analyses recover S. mirabilis within Spinosaurini as the closest sampled relative of S. aegyptiacus. This placement supports keeping both species in Spinosaurus rather than splitting into separate genera. Stability of this placement depends on future matrix expansion and additional overlapping cranial/postcranial material."
+        },
+        {
+          "title": "Open research questions",
+          "text": "High-priority questions include adult size range, degree of intraspecific crest variation, and the extent to which currently referred specimens represent one versus multiple local populations. Future work combining CT imaging, broader stratigraphic sampling, and specimen-level morphometric datasets will be essential for testing species boundaries and functional interpretation."
+        }
+      ],
+      "references": [
+        {
+          "title": "Scimitar-crested Spinosaurus species from the Sahara caps stepwise spinosaurid radiation",
+          "url": "https://doi.org/10.1126/science.adx5486",
+          "source": "Science",
+          "year": "2026"
+        },
+        {
+          "title": "A new species of Carcharodontosaurus from the Cenomanian of Niger",
+          "url": "https://doi.org/10.1671/0272-4634(2007)27[902:ANSOCD]2.0.CO;2",
+          "source": "Journal of Vertebrate Paleontology",
+          "year": "2007"
+        },
+        {
+          "title": "Spinosaurus is not an aquatic dinosaur",
+          "url": "https://doi.org/10.7554/eLife.80092",
+          "source": "eLife",
+          "year": "2022"
+        },
+        {
+          "title": "Spinosaurus mirabilis - taxon page and description summary",
+          "url": "https://en.wikipedia.org/wiki/Spinosaurus_mirabilis",
+          "source": "Wikipedia",
+          "year": "2026"
+        },
+        {
+          "title": "Spinosaurus - genus context and comparative systematics",
+          "url": "https://en.wikipedia.org/wiki/Spinosaurus",
+          "source": "Wikipedia",
+          "year": ""
+        }
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/FSAC-KK-11888.jpg",
+          "caption": "Spinosaurus aegyptiacus skeletal specimen (comparative reference)"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Spinosaurus_aegyptiacus_reconstruction.png",
+          "caption": "Spinosaurus aegyptiacus life restoration for genus-level comparison"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Spinosaurus_vertebrae.jpg",
+          "caption": "Spinosaurid dorsal vertebrae and elongated neural spines"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/FSAC-KK-11888.jpg/1280px-FSAC-KK-11888.jpg",
+          "caption": "Spinosaurid body-proportion reference used in mirabilis vs aegyptiacus comparison"
+        }
+      ]
+    }
+  ]
+}

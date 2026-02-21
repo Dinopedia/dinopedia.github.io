@@ -1,0 +1,34 @@
+{
+  "name": "Patagosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Patagosaurus_%281%29.jpg/330px-Patagosaurus_%281%29.jpg",
+  "overview": "Patagosaurus is an extinct genus of eusauropod dinosaur from the middle Toarcian of Patagonia, Argentina. It was first found in deposits of the Cañadón Asfalto Formation, which date to around 178 million years ago. Although originally twelve specimens were assigned to the taxon, at least one of them may belong to a different genus. Patagosaurus probably lived alongside genera such as Piatnitzkysaurus, Condorraptor, and Volkheimeria.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Mesozoic",
+    "diet": "Herbivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Patagosaurus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Patagosaurus",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Patagosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Patagosaurus remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Ninjatitan",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pterodactylus_antiquus_BMMS_7.jpg",
+  "overview": "Ninjatitan is a dinosaur currently documented from an uncertain time interval with uncertain geographic attribution. Its diet remains unresolved from currently published material. Its finer taxonomic placement is still under active review and may change as comparative datasets improve. Evidence quality for Ninjatitan is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Unknown",
+    "diet": "Unknown",
+    "location": "Unknown",
+    "classification": "Unknown but probably Dinosauria (exact clade unresolved)",
+    "discovered": "Unknown but probably established from fragmentary finds and later taxonomic revision",
+    "length": "Unknown but probably within the size range of close relatives",
+    "height": "Unknown but probably proportional to similarly sized close relatives",
+    "weight": "Unknown but probably within the mass range of comparable close relatives",
+    "speed": "Unknown but probably moderate for its body plan"
+  },
+  "externalAppearance": {
+    "skin": "External appearance is inferred from fossil evidence and close relatives.",
+    "lips": "Soft tissue features remain uncertain and model-dependent.",
+    "coloration": "Coloration is uncertain and inferred from ecology.",
+    "displayStructures": "Likely used anatomical structures for display and recognition."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Specific prey remains unknown for this taxon."
+    ],
+    "strategy": "Feeding strategy is interpreted from preserved anatomy and wear evidence, but remains uncertain.",
+    "biteForce": "Direct bite-force values are not currently constrained by specimen-level biomechanical studies.",
+    "cannibalism": "Cannibalism has not been demonstrated for this taxon with specimen-level trace evidence."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Daily intake is unknown because species-level metabolic estimates are not yet reliable.",
+    "feedingStyle": "Feeding style is uncertain and inferred from limited fossil evidence.",
+    "preferredFood": "Ontogenetic dietary shifts are possible but not confirmed for this taxon.",
+    "foodCompetition": "Competition pressure is uncertain and has not been directly quantified for this taxon."
+  },
+  "environment": {
+    "formations": [
+      "Known from fossil-bearing formations; exact assignment varies by specimen and revision."
+    ],
+    "climate": "Local climate remains uncertain and is reconstructed from incomplete environmental proxies.",
+    "flora": [
+      "Conifers",
+      "Ferns",
+      "Early flowering plants"
+    ],
+    "juvenileThreats": [
+      "Juvenile mortality pressure is uncertain and inferred rather than directly documented."
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Social behavior remains unresolved for this taxon.",
+    "territoriality": "Territorial behavior is not yet strongly constrained for this taxon.",
+    "mainRivals": "Specific ecological rivals are not firmly documented.",
+    "combatEvidence": "Direct conflict evidence is currently limited for this taxon."
+  },
+  "reproduction": {
+    "eggs": "Reproductive biology is still poorly constrained for this taxon.",
+    "clutchSize": "Clutch size remains uncertain for this taxon.",
+    "nesting": "Nesting strategy is inferred from broader clade patterns, but species-level evidence is limited.",
+    "medullaryBone": "Species-level reproductive tissue evidence is currently lacking."
+  },
+  "breedingAndNesting": {
+    "courtship": "Courtship behavior is inferred rather than directly observed.",
+    "nestingCycle": "Breeding timing remains uncertain.",
+    "parentalCare": "Parental care is not yet established for this taxon.",
+    "hatchlingSurvival": "Hatchling survival rates are not directly known."
+  },
+  "physiology": {
+    "heartRate": "Physiological values are inferred with broad uncertainty.",
+    "heartMass": "Organ scaling is inferred from comparative models and remains uncertain.",
+    "stomachAcidPH": "Digestive chemistry is not directly measurable from current evidence.",
+    "digestiveLength": "Digestive anatomy remains incompletely constrained.",
+    "coproliteSize": "Coprolite evidence is absent or inconclusive for this taxon."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotor mode is inferred from skeletal proportions and remains uncertain.",
+    "acceleration": "Acceleration has not yet been directly estimated.",
+    "endurance": "Endurance behavior remains uncertain.",
+    "maneuverability": "Maneuverability is inferred rather than directly measured."
+  },
+  "growthStages": {
+    "hatchling": "Hatchling biology is poorly documented for this taxon.",
+    "juvenile": "Juvenile niche separation is plausible but currently unconfirmed.",
+    "adult": "Adult life-history profile is still incompletely known.",
+    "oldAge": "Senescence patterns are not yet well constrained."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Biomechanical optimization is inferred from preserved material and remains uncertain.",
+    "limbFunction": "Detailed limb-function modeling is currently limited.",
+    "tailRole": "Tail function beyond balance remains uncertain."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual acuity is not directly established.",
+    "smell": "Olfactory performance is inferred from comparative anatomy and remains uncertain.",
+    "hearing": "Hearing range is not directly measurable from current fossils.",
+    "cognition": "Cognition is inferred from braincase comparisons and remains uncertain."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "Documented from published fossil discoveries and later taxonomic revision.",
+    "majorDiscoveries": "New finds may change taxonomy and anatomical interpretation.",
+    "researchMilestones": "Modern imaging and modeling continue to refine reconstruction quality.",
+    "museumImpact": "Specimens remain important for research, curation, and public outreach."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Likely occupied a defined food-web role, though precise niche boundaries remain uncertain.",
+    "coexistingFauna": "Coexisted with multiple vertebrate taxa; exact associations depend on locality.",
+    "resourceDynamics": "Seasonality may have influenced distribution, but direct evidence is limited.",
+    "nicheShifts": "Ontogenetic niche shift is possible but not firmly demonstrated."
+  },
+  "pathologies": {
+    "injuries": "Pathology evidence is limited and specimen-dependent.",
+    "stressDamage": "Stress markers may reflect locomotor load, but interpretation is uncertain.",
+    "diseaseSignals": "Disease/pathology evidence is sparse for this taxon."
+  },
+  "molecularData": {
+    "softTissue": "Molecular evidence is extremely rare and currently unavailable for most specimens.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Tooth counts and form are incompletely known for this taxon.",
+    "maxTooth": "Maximum tooth size is uncertain due to incomplete material.",
+    "eyeSize": "Eye-size estimates remain uncertain.",
+    "tailWeight": "Tail-mass estimates remain uncertain."
+  },
+  "extinctionContext": {
+    "timeline": "Survival history is interpreted from regional and global environmental change.",
+    "primaryDrivers": "Extinction pressures likely involved environmental turnover and food-web instability.",
+    "immediateEffects": "Habitat disruption likely reduced ecological stability near extinction intervals.",
+    "legacy": "Ongoing discoveries continue to refine biodiversity reconstructions."
+  },
+  "funFacts": [
+    "Ninjatitan is a real prehistoric taxon in Dino-pedia.",
+    "New fossil finds can significantly update scientific reconstructions.",
+    "Ontogeny likely changed ecological role and behavior."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pterodactylus_antiquus_BMMS_7.jpg",
+      "caption": "Ninjatitan reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Ninjatitan is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

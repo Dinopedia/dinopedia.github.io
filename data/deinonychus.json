@@ -1,0 +1,150 @@
+{
+  "name": "Deinonychus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Deinonychus_FMNH.jpg",
+  "overview": "Deinonychus is a dinosaur currently documented from Early Cretaceous in North America. Current interpretation suggests a carnivore feeding profile. It is typically classified as Dromaeosaurid. Evidence quality for Deinonychus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "period": "Early Cretaceous",
+    "diet": "Carnivore",
+    "location": "North America",
+    "classification": "Dromaeosaurid",
+    "discovered": "Documented through historical and modern paleontological expeditions",
+    "length": "Size estimates vary by specimen and reconstruction",
+    "height": "Body height depended on age and posture",
+    "weight": "Mass estimates differ across studies",
+    "speed": "Likely adapted to its ecological niche",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "skin": "Body covering likely included scales, and in some lineages feather-like structures.",
+    "lips": "Mouth soft tissue is debated and may have varied by clade.",
+    "coloration": "Exact colors are Unknown. camouflage and display were both likely important.",
+    "displayStructures": "Crests, horns, plates, sails, or feathers may have been used for communication and defense."
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Regional plants or animals depending on diet specialization"
+    ],
+    "strategy": "Feeding behavior likely balanced energy efficiency with local resource availability.",
+    "biteForce": "Jaw performance varied by skull architecture and feeding style.",
+    "cannibalism": "Direct evidence is limited and usually specimen-dependent."
+  },
+  "feedingPatterns": {
+    "dailyIntake": "Likely followed feast-and-rest cycles shaped by body size and metabolism.",
+    "feedingStyle": "Foraging strategy adapted to available plants, prey, and seasonal conditions.",
+    "preferredFood": "Diet composition shifted with habitat, growth stage, and competition.",
+    "foodCompetition": "Shared resources with other contemporaneous dinosaurs and vertebrates."
+  },
+  "environment": {
+    "formations": [
+      "Fossil-bearing formations associated with known specimens"
+    ],
+    "climate": "Lived in regional climates that changed over long geological intervals.",
+    "flora": [
+      "Local vegetation communities varied by latitude and season"
+    ],
+    "juvenileThreats": [
+      "Predation pressure was generally higher for younger individuals"
+    ]
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "May have ranged from solitary behavior to temporary group interaction.",
+    "territoriality": "Resource-rich zones likely increased competition and defensive behavior.",
+    "mainRivals": "Rivals included predators, competitors, or similarly sized herbivores.",
+    "combatEvidence": "Injuries in fossils can record encounters with rivals or predators."
+  },
+  "reproduction": {
+    "eggs": "Egg shape and shell structure depended on reproductive lineage.",
+    "clutchSize": "Clutch size varied widely among dinosaur groups.",
+    "nesting": "Nest placement likely balanced warmth, drainage, and predator avoidance.",
+    "medullaryBone": "Reproductive bone tissue is confirmed in some theropods and close relatives."
+  },
+  "breedingAndNesting": {
+    "courtship": "Display structures and posture likely played a role in mate selection.",
+    "nestingCycle": "Breeding probably followed seasonal ecological cycles.",
+    "parentalCare": "Care level likely varied from minimal guarding to extended brooding in some lineages.",
+    "hatchlingSurvival": "Juveniles faced high mortality and relied on fast growth or concealment."
+  },
+  "physiology": {
+    "heartRate": "Cardiovascular dynamics inferred from body size and phylogeny.",
+    "heartMass": "Circulatory scale increased with body mass and activity profile.",
+    "stomachAcidPH": "Digestive chemistry likely reflected diet specialization.",
+    "digestiveLength": "Gut configuration supported either plant fermentation or protein processing.",
+    "coproliteSize": "Coprolite evidence provides indirect insight into diet and digestion."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Locomotion style followed limb proportions and center-of-mass constraints.",
+    "acceleration": "Burst movement capability depended on musculature and body plan.",
+    "endurance": "Long-distance movement likely occurred where resources were patchy.",
+    "maneuverability": "Turning performance varied strongly between heavy-bodied and agile forms."
+  },
+  "growthStages": {
+    "hatchling": "Early stage with high vulnerability and rapid growth demands.",
+    "juvenile": "Intermediate stage often occupying a different ecological role than adults.",
+    "adult": "Mature stage with peak reproductive and competitive performance.",
+    "oldAge": "Late-life stage marked by wear, stress injuries, and reduced mobility."
+  },
+  "biomechanics": {
+    "skeletalStrength": "Bone architecture balanced weight support, movement, and impact resistance.",
+    "limbFunction": "Forelimb and hindlimb roles reflected clade-specific ecology.",
+    "tailRole": "Tail contributed to balance, display, defense, or locomotor control."
+  },
+  "sensoryAndIntelligence": {
+    "vision": "Visual capacity likely supported habitat-aware feeding and threat detection.",
+    "smell": "Olfaction may have aided foraging, navigation, and social communication.",
+    "hearing": "Auditory sensitivity likely captured both environmental and social cues.",
+    "cognition": "Behavior suggests flexible responses to competition, risk, and opportunity."
+  },
+  "fossilDiscoveryHistory": {
+    "firstFinds": "First fossil evidence was identified through regional geological surveys.",
+    "majorDiscoveries": "Key specimens refined taxonomy, body plan, and ecological interpretation.",
+    "researchMilestones": "New imaging and biomechanical methods continue to revise reconstructions.",
+    "museumImpact": "The taxon contributes to public understanding of dinosaur evolution and ecology."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Participated in regional food webs as a primary consumer, predator, or omnivore.",
+    "coexistingFauna": "Shared habitat with diverse dinosaurs, crocodilians, mammals, and other vertebrates.",
+    "resourceDynamics": "Seasonality and water access strongly influenced distribution and behavior.",
+    "nicheShifts": "Ecological role often changed through ontogeny."
+  },
+  "pathologies": {
+    "injuries": "Healed trauma can preserve evidence of predation, combat, or accidents.",
+    "stressDamage": "Joint and vertebral stress patterns reflect locomotor demands.",
+    "diseaseSignals": "Some fossils preserve infection or abnormal bone growth."
+  },
+  "molecularData": {
+    "softTissue": "Molecular preservation is rare and highly dependent on taphonomy.",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "stats": {
+    "teeth": "Tooth count and shape varied with feeding ecology.",
+    "maxTooth": "Largest tooth dimensions depended on taxon and jaw position.",
+    "eyeSize": "Orbital anatomy supports inferences about sensory strategy.",
+    "tailWeight": "Tail mass varied with locomotor and defensive adaptation."
+  },
+  "extinctionContext": {
+    "timeline": "Extinction timing depended on lineage and regional turnover patterns.",
+    "primaryDrivers": "Climate shifts, ecosystem change, and biotic competition shaped long-term persistence.",
+    "immediateEffects": "Habitat and food-web disruption likely reduced population resilience.",
+    "legacy": "Fossils remain central to reconstructing Mesozoic ecosystems."
+  },
+  "funFacts": [
+    "Its fossils help test how anatomy relates to ecology and behavior.",
+    "Different growth stages may have occupied distinct ecological niches.",
+    "New specimens still change how this dinosaur is reconstructed."
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Deinonychus_FMNH.jpg",
+      "caption": "Deinonychus reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Deinonychus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

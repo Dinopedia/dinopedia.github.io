@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Timeline</title>
+<link rel="stylesheet" href="style.css">
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a class="util-link" href="eras.html">Eras</a>
+      <a class="util-link" href="compare.html">Compare</a>
+      <a class="util-link" href="quiz.html">Quiz</a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+    </div>
+  </div>
+</header>
+
+<main class="wiki-shell timeline-shell">
+  <section class="timeline-page">
+    <aside class="timeline-sidebar card-paper">
+      <h2>Prehistoric Timeline</h2>
+      <p class="entry-description">Scroll to pan. Zoom changes horizontal time scale.</p>
+      <div class="timeline-side-controls">
+        <div class="timeline-zoom-row">
+          <button id="zoomOut" class="control-button" type="button">-</button>
+          <input id="zoomRange" class="timeline-zoom-range" type="range" min="4" max="18" step="1" value="8" aria-label="Timeline zoom">
+          <button id="zoomIn" class="control-button" type="button">+</button>
+        </div>
+        <input id="timelineSearch" class="control-input" type="search" placeholder="Search names or region">
+      </div>
+      <div class="timeline-type-filters">
+        <label class="toggle-filter"><input id="typeDinosaur" type="checkbox" checked> <span>Dinosaur</span></label>
+        <label class="toggle-filter"><input id="typeAerial" type="checkbox" checked> <span>Aerial</span></label>
+        <label class="toggle-filter"><input id="typeOcean" type="checkbox" checked> <span>Marine</span></label>
+      </div>
+      <section id="timelineStatus" class="status status-paper" aria-live="polite">Loading timeline...</section>
+      <div id="timelineList" class="timeline-side-list"></div>
+    </aside>
+
+    <section class="timeline-main card-paper">
+      <header class="timeline-main-head">
+        <h3 id="timelineTitle">Timeline</h3>
+        <p>Triassic, Jurassic, and Cretaceous ranges in million years ago.</p>
+      </header>
+      <div id="timelineCanvas" class="timeline-canvas"></div>
+    </section>
+  </section>
+</main>
+
+<script src="theme.js"></script>
+<script src="timeline.js"></script>
+</body>
+</html>

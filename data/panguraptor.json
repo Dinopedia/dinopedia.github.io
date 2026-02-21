@@ -1,0 +1,34 @@
+{
+  "name": "Panguraptor",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Panguraptor_skull.png/330px-Panguraptor_skull.png",
+  "overview": "Panguraptor is a genus of coelophysid theropod dinosaur known from fossils discovered in Lower Jurassic rocks of southern China. The type and only known species is Panguraptor lufengensis. The generic name refers to the deity Pangu but also to the supercontinent Pangaea for which in a geological context the same characters are used: 盘古. Raptor means \"seizer\", \"robber\" in Latin. The specific name is a reference to the Lufeng Formation. It was described in 2014 by You Hai-Lu and colleagues.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Jurassic",
+    "diet": "Carnivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Panguraptor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Panguraptor",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Panguraptor is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Panguraptor remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

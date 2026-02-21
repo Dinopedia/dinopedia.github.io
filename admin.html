@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Local Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a class="util-link" href="eras.html">Eras</a>
+      <a class="util-link" href="quality.html">Audit</a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+    </div>
+  </div>
+</header>
+<main class="wiki-shell">
+  <h2>Local Admin Editor</h2>
+  <p>This editor helps you manage data locally and export JSON files. (Browser cannot overwrite local files directly.)</p>
+
+  <section class="card-paper">
+    <h3>Index JSON</h3>
+    <textarea id="indexEditor" class="json-editor" spellcheck="false"></textarea>
+    <div class="article-toolbar">
+      <button id="loadIndex" class="control-button" type="button">Load index.json</button>
+      <button id="downloadIndex" class="control-button" type="button">Download index.json</button>
+    </div>
+  </section>
+
+  <section class="card-paper">
+    <h3>Article JSON</h3>
+    <input id="articleId" class="control-input" placeholder="dino id (e.g. trex)">
+    <textarea id="articleEditor" class="json-editor" spellcheck="false"></textarea>
+    <div class="article-toolbar">
+      <button id="loadArticle" class="control-button" type="button">Load article</button>
+      <button id="downloadArticle" class="control-button" type="button">Download article JSON</button>
+    </div>
+  </section>
+
+  <section class="card-paper">
+    <h3>Contributor Builder (Visual + Wikitext)</h3>
+    <p>Use this to draft article content without writing raw JSON.</p>
+    <div class="article-toolbar builder-mode-bar" role="tablist" aria-label="Builder mode">
+      <button id="builderModeVisual" class="control-button builder-mode-active" type="button" role="tab" aria-selected="true">Visual mode</button>
+      <button id="builderModeWikitext" class="control-button" type="button" role="tab" aria-selected="false">Wikitext mode</button>
+      <button id="builderInsertHeading" class="control-button" type="button">Insert heading</button>
+      <button id="builderInsertLink" class="control-button" type="button">Insert link</button>
+    </div>
+    <div id="builderVisualFields" class="advanced-grid">
+      <input id="builderName" class="control-input" placeholder="Display name (e.g. Spinosaurus)">
+      <input id="builderImage" class="control-input" placeholder="Main image URL">
+      <input id="builderType" class="control-input" placeholder="Type (Dinosaur / Aerial Reptile / Marine Reptile)">
+      <input id="builderPeriod" class="control-input" placeholder="Period">
+      <input id="builderDiet" class="control-input" placeholder="Diet">
+      <input id="builderLocation" class="control-input" placeholder="Location">
+      <input id="builderClassification" class="control-input" placeholder="Classification">
+      <input id="builderLength" class="control-input" placeholder="Length">
+      <input id="builderHeight" class="control-input" placeholder="Height">
+      <input id="builderWeight" class="control-input" placeholder="Weight">
+      <input id="builderSpeed" class="control-input" placeholder="Speed">
+      <input id="builderDiscovered" class="control-input" placeholder="Discovered">
+    </div>
+    <textarea id="builderOverview" class="json-editor builder-visual-only" spellcheck="false" style="min-height:120px" placeholder="Overview paragraph"></textarea>
+    <textarea id="builderWikitext" class="json-editor" spellcheck="false" style="min-height:180px" placeholder="Simple wikitext notes (example):&#10;== Appearance ==&#10;Body had robust hindlimbs.&#10;== Behavior ==&#10;Likely an ambush hunter."></textarea>
+    <section id="builderWikitextPreviewWrap" class="builder-preview card-paper">
+      <h4>Wikitext preview</h4>
+      <div id="builderWikitextPreview" class="builder-preview-body">Start typing wikitext to preview it here.</div>
+    </section>
+    <textarea id="builderCitations" class="json-editor builder-visual-only" spellcheck="false" style="min-height:120px" placeholder="Citations (one per line):&#10;Title | https://link | Source | 2024"></textarea>
+    <div class="article-toolbar">
+      <button id="builderToArticle" class="control-button" type="button">Build JSON into Article Editor</button>
+      <button id="builderFromArticle" class="control-button" type="button">Load Builder from Article Editor</button>
+    </div>
+  </section>
+</main>
+<script src="theme.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

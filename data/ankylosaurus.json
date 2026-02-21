@@ -1,0 +1,159 @@
+{
+  "name": "Ankylosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ankylosaur_head_-_cast_-_Custer_County_Montana_-_Museum_of_the_Rockies_-_2013-07-08.jpg",
+  "overview": "Ankylosaurus is a dinosaur currently documented from Late Cretaceous (68-66 million years ago) in Western North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Ankylosaurid ornithischian. Evidence quality for Ankylosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "diet": "Herbivore",
+    "weight": "5-8 tonnes",
+    "discovered": "1906 by Barnum Brown",
+    "classification": "Ankylosaurid ornithischian",
+    "speed": "Slow, heavily built locomotion",
+    "period": "Late Cretaceous (68-66 million years ago)",
+    "height": "1.7 m",
+    "location": "Western North America",
+    "length": "6-8 m",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "lips": "Beaked snout likely sheathed in keratin",
+    "skin": "Extensive osteoderm armor over body",
+    "displayStructures": "Tail club and cranial ornamentation",
+    "coloration": "Likely disruptive low-contrast coloration"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Low vegetation",
+      "Ferns",
+      "Shrubs"
+    ],
+    "biteForce": "Moderate herbivore bite",
+    "cannibalism": "No evidence",
+    "strategy": "Ground-level browsing with armored defense"
+  },
+  "environment": {
+    "climate": "Warm seasonal plains and woodlands",
+    "formations": [
+      "Hell Creek",
+      "Lance"
+    ],
+    "juvenileThreats": [
+      "Large theropods including T. rex"
+    ],
+    "flora": [
+      "Flowering plants",
+      "Conifers",
+      "Ferns"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Likely low resting rate for large armored herbivore",
+    "coproliteSize": "Large fibrous droppings expected",
+    "digestiveLength": "Long herbivore digestive system",
+    "stomachAcidPH": "Acidic plant-processing digestive tract",
+    "heartMass": "Robust cardiovascular support for dense body"
+  },
+  "growthStages": {
+    "hatchling": "Lightly armored juvenile",
+    "oldAge": "Armor wear and arthritic limbs likely",
+    "juvenile": "Progressive osteoderm and club development",
+    "adult": "Fully armored defensive specialist"
+  },
+  "famousSpecimens": [
+    "AMNH 5214",
+    "CMN 8880"
+  ],
+  "reproduction": {
+    "medullaryBone": "Not confirmed",
+    "nesting": "Ground nests with sediment cover",
+    "eggs": "Likely buried eggs similar to other ornithischians",
+    "clutchSize": "Estimated moderate clutches"
+  },
+  "biomechanics": {
+    "pubicBoot": "Broad pelvis for low-slung body support",
+    "wishbone": "Not applicable",
+    "footStructure": "Wide stance and strong hindlimbs for club swings"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed molecular sequence",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant)"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Armor and tail injuries likely from intraspecific impacts",
+    "tailFusion": "Tail club vertebrae naturally reinforced"
+  },
+  "stats": {
+    "maxTooth": "Relatively small compared to body size",
+    "teeth": "Small leaf-shaped teeth for cropping",
+    "eyeSize": "Small lateral eyes protected by armor",
+    "tailWeight": "Massive ossified club at tail end"
+  },
+  "funFacts": [
+    "Its tail club was one of the most specialized weapons among dinosaurs",
+    "Body armor included fused bony plates",
+    "Ankylosaurus lived alongside T. rex"
+  ],
+  "behaviorAndConflict": {
+    "injuryEvidence": "Skeletal trauma patterns are consistent with repeated defensive impacts.",
+    "socialBehavior": "Probably mostly solitary or in loose small groups.",
+    "defensiveCombat": "Tail club provided a powerful deterrent against large predators.",
+    "mainRivals": "Large theropods, especially tyrannosaurids in shared habitats."
+  },
+  "feedingPatterns": {
+    "preferredPlants": "Ferns, low shrubs, and tough understory plant material.",
+    "dailyIntake": "Likely fed steadily on low vegetation throughout the day.",
+    "feedingStyle": "Ground-level browsing using beak cropping and simple tooth processing.",
+    "digestiveStrategy": "Bulk fermentation in a large gut compensated for simple teeth."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Direct evidence is sparse; short-term nest attendance is possible.",
+    "nestingCycle": "Likely seasonal nesting in protected lowland sites.",
+    "hatchlingSurvival": "Juveniles were less armored and more vulnerable than adults.",
+    "courtship": "Display behavior may have included posture and tail movement signaling."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Rapid ecosystem instability reduced survivable herbivore niches.",
+    "timeline": "Lost at the end-Cretaceous mass extinction event.",
+    "legacy": "Central to studies of defensive evolution in large herbivores.",
+    "primaryDrivers": "K-Pg climate shock and food-web collapse."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Skull and armor finds clarified body protection strategies.",
+    "museumImpact": "An iconic armored dinosaur in public and educational exhibits.",
+    "researchMilestones": "Tail-club biomechanics work quantified impact potential.",
+    "firstFinds": "First described in the early 20th century from North American material."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Low, stable quadrupedal gait optimized for armored body support.",
+    "endurance": "Could likely sustain steady slow movement while browsing.",
+    "maneuverability": "Tail-club swing mechanics were more important than pursuit mobility.",
+    "acceleration": "Limited acceleration but strong short-range defensive bracing."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Armored megaherbivore resistant to many predatory attacks.",
+    "coexistingFauna": "Shared ecosystems with hadrosaurs, ceratopsians, and large tyrannosaurids.",
+    "nicheShifts": "Juveniles likely occupied safer niches before full armor development.",
+    "resourceDynamics": "Likely tracked low vegetation near open woodland and floodplain edges."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior likely prioritized threat detection and defensive positioning.",
+    "smell": "Likely important for locating forage and detecting predators.",
+    "hearing": "Probably tuned to ground-level environmental cues and low-frequency signals.",
+    "vision": "Protected lateral eyes favored situational awareness over depth-focused predation vision."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ankylosaur_head_-_cast_-_Custer_County_Montana_-_Museum_of_the_Rockies_-_2013-07-08.jpg",
+      "caption": "Ankylosaurus reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Ankylosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

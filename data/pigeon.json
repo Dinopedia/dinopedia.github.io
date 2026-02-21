@@ -1,0 +1,126 @@
+{
+  "name": "Pigeon",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Columba_livia_-_portrait.jpg",
+  "overview": "Pigeon is a avian reptile currently documented from Holocene (living lineage tracing back to Mesozoic theropod ancestors) in Worldwide (domestic and feral populations). Current interpretation suggests a omnivore feeding profile. It is typically classified as Aves, Neornithes, Columbidae. Evidence quality for Pigeon is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "type": "Avian Reptile",
+    "period": "Holocene (living lineage tracing back to Mesozoic theropod ancestors)",
+    "diet": "Omnivore",
+    "location": "Worldwide (domestic and feral populations)",
+    "classification": "Aves, Neornithes, Columbidae",
+    "discovered": "Rock dove described by Linnaeus in 1758; deep dinosaur ancestry established through modern phylogenetics",
+    "length": "About 31-34 cm (typical feral pigeon)",
+    "height": "About 20-24 cm standing height",
+    "weight": "About 230-380 g in typical adults",
+    "speed": "Common sustained flight around 60-80 km/h; can exceed this in bursts"
+  },
+  "historyOfResearch": {
+    "birdDinosaurLink": "Modern paleontology and cladistics place birds within theropod dinosaurs, especially maniraptoran coelurosaurs.",
+    "fossilContext": "Feathered non-avian dinosaurs and transitional taxa support continuity between classic theropods and birds.",
+    "modernEvidence": "Skeletal homology, nesting behavior, medullary bone, and molecular phylogenetics all support dinosaurian ancestry."
+  },
+  "externalAppearance": {
+    "bodyPlan": "Compact body with short neck, small head, and strong flight musculature.",
+    "feathers": "Dense contour feathers with high urban-adaptive variation in color morphs.",
+    "beak": "Keratinous beak with soft cere; no teeth, unlike earlier avialan and non-avian theropod ancestors."
+  },
+  "behaviorAndConflict": {
+    "socialBehavior": "Highly social and flock-forming, with strong site fidelity in urban and cliff environments.",
+    "navigation": "Well known for homing ability using multisensory orientation.",
+    "conflict": "Most conflict is intraspecific over nesting sites and food patches rather than high-risk combat."
+  },
+  "paleoecology": {
+    "dinosaurLegacy": "Pigeons represent the living branch of dinosaur evolution and are an accessible example of deep-time continuity.",
+    "coexistingFauna": "They coexist with diverse modern vertebrates and thrive in anthropogenic ecosystems.",
+    "niche": "Generalist urban-adapted forager with high behavioral flexibility."
+  },
+  "taxonomyAndBreeds": {
+    "speciesInGenusColumba": [
+      "Columba livia (rock dove)",
+      "Columba oenas (stock dove)",
+      "Columba palumbus (common wood pigeon)",
+      "Columba guinea (speckled pigeon)",
+      "Columba rupestris (hill pigeon)",
+      "Columba janthina (black wood pigeon)"
+    ],
+    "note": "Domestic fancy pigeons are breeds derived mainly from Columba livia, not separate biological species.",
+    "wildSpecies": [
+      "Rock dove (Columba livia)"
+    ],
+    "domesticBreeds": [
+      "English Long-faced Tumbler",
+      "Jacobin pigeon",
+      "Lahore Pigeon",
+      "Strasser pigeon",
+      "Ghent Owl",
+      "Donek",
+      "Agaran Pigeon",
+      "Gascogne Pigeon",
+      "Coburg Lark pigeon",
+      "Budapest Highflyer",
+      "Komorn Tumbler",
+      "Damascene pigeon",
+      "English Trumpeter",
+      "Saxon Shield",
+      "Cumulet",
+      "Ukrainian Skycutter",
+      "Old German Magpie Tumbler",
+      "Old German Cropper",
+      "Wywrotek mazurski",
+      "Cologne Tumbler",
+      "French Tumbler",
+      "Lucerne Gold Collar",
+      "Crested Soultz",
+      "Australian Saddleback Tumbler",
+      "British Show Racer",
+      "Anatolian Owl",
+      "French Krymka Tumbler",
+      "Turbiteen"
+    ]
+  },
+  "funFacts": [
+    "Every city pigeon is part of a living dinosaur lineage.",
+    "Bird respiration and skeletal architecture preserve major theropod evolutionary innovations.",
+    "This hidden page exists because Dino-pedia users asked for pigeon representation."
+  ],
+  "tags": [
+    "Secret"
+  ],
+  "citations": [
+    {
+      "title": "Birds are living dinosaurs (overview)",
+      "url": "https://en.wikipedia.org/wiki/Bird",
+      "source": "Wikipedia"
+    },
+    {
+      "title": "Rock dove species account",
+      "url": "https://en.wikipedia.org/wiki/Rock_dove",
+      "source": "Wikipedia"
+    },
+    {
+      "title": "Theropod origins of birds",
+      "url": "https://en.wikipedia.org/wiki/Origin_of_birds",
+      "source": "Wikipedia"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Columba_livia_-_portrait.jpg",
+      "caption": "Rock dove portrait"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Feral_pigeons.jpg",
+      "caption": "Feral pigeons in an urban environment"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Columba_livia_flight.jpg",
+      "caption": "Pigeon in flight"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Pigeon is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

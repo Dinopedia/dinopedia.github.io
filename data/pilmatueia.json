@@ -1,0 +1,34 @@
+{
+  "name": "Pilmatueia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Pilmatueia_skeletal.jpg/330px-Pilmatueia_skeletal.jpg",
+  "overview": "Pilmatueia is a genus of diplodocoid sauropods belonging to the family Dicraeosauridae that lived during the Early Cretaceous in what is now Argentina. Its type and only species is Pilmatueia faundezi. Pilmatueia was probably closely related to other South American dicraeosaurids such as Amargasaurus. Like other dicraeosaurids, Pilmatueia was relatively small for a sauropod. The vertebrae of Pilmatueia were more extensively hollowed out by air sacs than in other dicraeosaurids, which otherwise were characterized by a reduction in the air sac system compared to other sauropods. Pilmatueia dates to the Valanginian, an age of the Cretaceous period for which dinosaur faunas are poorly known.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Early Cretaceous",
+    "diet": "Herbivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Pilmatueia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pilmatueia",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Pilmatueia is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Pilmatueia remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

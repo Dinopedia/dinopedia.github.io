@@ -1,0 +1,34 @@
+{
+  "name": "Poekilopleuron",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Poekilopleuron_bucklandi.JPG/330px-Poekilopleuron_bucklandi.JPG",
+  "overview": "Poekilopleuron is a genus of carnosaurian theropod dinosaur, which lived during the middle Bathonian of the Jurassic, about 168 to 166 million years ago. The genus has been used under many different spelling variants, although only one, Poekilopleuron, is valid. The type species is P. bucklandii, named after William Buckland, and many junior synonyms of it have also been erected. Little material is currently known, as the holotype was destroyed in World War II, although many casts of the material still exist.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Jurassic",
+    "diet": "Carnivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Poekilopleuron (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Poekilopleuron",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Poekilopleuron is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Poekilopleuron remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

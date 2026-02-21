@@ -1,0 +1,157 @@
+{
+  "name": "Velociraptor",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Velociraptor_skeleton_white_background.jpg",
+  "overview": "Velociraptor is a dinosaur currently documented from Late Cretaceous (75-71 million years ago) in Mongolia and nearby Asia. Current interpretation suggests a carnivore feeding profile. It is typically classified as Dromaeosaurid theropod. Evidence quality for Velociraptor is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "diet": "Carnivore",
+    "weight": "15-20 kg",
+    "discovered": "1923 by American Museum expeditions",
+    "classification": "Dromaeosaurid theropod",
+    "speed": "Fast, agile runner",
+    "period": "Late Cretaceous (75-71 million years ago)",
+    "height": "0.5 m at hips",
+    "location": "Mongolia and nearby Asia",
+    "length": "2-2.2 m",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "lips": "Likely lips covering teeth at rest",
+    "skin": "Feathered body with quill knobs on ulna",
+    "displayStructures": "Forelimb feathers and tail fan for display/control",
+    "coloration": "Likely patterned plumage for signaling"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Small vertebrates",
+      "Juvenile dinosaurs",
+      "Lizards"
+    ],
+    "biteForce": "Moderate, focused on holding prey",
+    "cannibalism": "No direct evidence",
+    "strategy": "Agile grappling predator using forelimbs and sickle claw"
+  },
+  "environment": {
+    "climate": "Arid dune fields with seasonal storms",
+    "formations": [
+      "Djadochta Formation"
+    ],
+    "juvenileThreats": [
+      "Larger theropods",
+      "Desert predators"
+    ],
+    "flora": [
+      "Sparse shrubs",
+      "Hardy ferns in wetter zones"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Likely elevated metabolic rate compared with large theropods",
+    "coproliteSize": "Small theropod coprolites expected",
+    "digestiveLength": "Shorter digestive tract suited to meat diet",
+    "stomachAcidPH": "Carnivore-level acidity",
+    "heartMass": "Small but efficient avian-like circulation expected"
+  },
+  "growthStages": {
+    "hatchling": "Feathered hatchling with rapid early growth",
+    "oldAge": "Tooth wear and limb stress likely",
+    "juvenile": "Highly cursorial subadult hunter",
+    "adult": "Compact, agile predator"
+  },
+  "famousSpecimens": [
+    "Fighting Dinosaurs specimen",
+    "IGM 100/985"
+  ],
+  "reproduction": {
+    "medullaryBone": "Known in related maniraptorans",
+    "nesting": "Ground nests with brooding behavior plausible",
+    "eggs": "Elongated eggs in paired laying sequence typical of maniraptorans",
+    "clutchSize": "Likely 4-12 eggs"
+  },
+  "biomechanics": {
+    "pubicBoot": "Reduced pelvic expansion relative to giant theropods",
+    "wishbone": "Furcula present, aiding torso mechanics",
+    "footStructure": "Hyperextendable second toe claw and stiffened tail for balance"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed molecular sequence from Velociraptor",
+    "closestLivingRelatives": [
+      "Birds"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Some specimens show healed trauma",
+    "tailFusion": "Tail rods stiffened movement, not pathological fusion"
+  },
+  "stats": {
+    "maxTooth": "Small recurved ziphodont teeth",
+    "teeth": "About 26-28 serrated teeth",
+    "eyeSize": "Large relative to skull size",
+    "tailWeight": "Stiffened tail significant for maneuvering"
+  },
+  "funFacts": [
+    "The famous fighting specimen is preserved mid-combat",
+    "Real Velociraptor was much smaller than in movies",
+    "It likely had extensive feather covering"
+  ],
+  "behaviorAndConflict": {
+    "territoriality": "Small territories may have been defended around prey-rich zones.",
+    "socialBehavior": "Likely flexible, from solitary hunting to temporary cooperative behavior.",
+    "conflictStyle": "Close-range grappling and slashing likely dominated interactions.",
+    "mainRivals": "Larger theropods and other small carnivores in arid ecosystems."
+  },
+  "feedingPatterns": {
+    "preyRange": "Small vertebrates, juvenile dinosaurs, and carrion when available.",
+    "dailyIntake": "Needed frequent small-to-medium prey captures because of high activity levels.",
+    "feedingStyle": "Ambush-and-grapple strategy using forelimbs and sickle claw to pin prey.",
+    "huntingRhythm": "Likely hunted in repeated short bursts rather than prolonged chases."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Brooding behavior is plausible by close relationship to birds and other maniraptorans.",
+    "nestingCycle": "Probably laid eggs in shallow ground nests with seasonal timing.",
+    "hatchlingSurvival": "Juveniles depended on concealment and rapid growth to avoid predation.",
+    "courtship": "Display feathers and body postures likely influenced mate choice."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Small-prey networks and habitat stability were rapidly disrupted.",
+    "timeline": "Disappeared by the end of the Cretaceous, along with non-avian dinosaurs.",
+    "legacy": "A flagship species for understanding feathered predatory dinosaurs.",
+    "primaryDrivers": "Global ecosystem collapse at the K-Pg boundary."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "The Fighting Dinosaurs specimen captured direct predator-prey interaction.",
+    "museumImpact": "Frequently used to communicate the bird-dinosaur evolutionary link.",
+    "researchMilestones": "Feather evidence in dromaeosaurs transformed visual reconstructions.",
+    "firstFinds": "Known from Mongolian expeditions in the early 20th century."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Light bipedal runner with strong balance from stiffened tail.",
+    "endurance": "Optimized for repeated short hunts rather than marathon pursuit.",
+    "maneuverability": "Excellent agility in close quarters during grappling attacks.",
+    "acceleration": "Good burst performance for short ambush engagements."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Mesopredator in arid Late Cretaceous ecosystems.",
+    "coexistingFauna": "Lived alongside protoceratopsians and larger theropods.",
+    "nicheShifts": "Age classes likely differed in prey size preference.",
+    "resourceDynamics": "Patchy prey distribution in desert margins shaped hunting behavior."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Likely behaviorally flexible, with rapid attack and retreat decisions.",
+    "smell": "Likely adequate olfaction for scavenging and territory cues.",
+    "hearing": "Predatory lifestyle implies sensitivity to movement and subtle sound cues.",
+    "vision": "Relatively large eyes suggest strong visual hunting capability."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Velociraptor_skeleton_white_background.jpg",
+      "caption": "Velociraptor reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Velociraptor is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

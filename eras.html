@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Eras</title>
+<link rel="stylesheet" href="style.css">
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a class="util-link" href="timeline.html">Timeline</a>
+      <a class="util-link" href="compare.html">Compare</a>
+      <a class="util-link" href="quiz.html">Quiz</a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+    </div>
+  </div>
+</header>
+
+<main class="wiki-shell">
+  <section class="hero hero-wiki">
+    <h2>Mesozoic Era Guide</h2>
+    <p>How Earth changed across Triassic, Jurassic, and Cretaceous time, and what life was generally like.</p>
+  </section>
+
+  <section class="card-paper">
+    <div id="eraTabs" class="era-tabs" role="tablist" aria-label="Geologic era tabs">
+      <button class="era-tab era-tab-active" type="button" data-era="mesozoic" role="tab" aria-selected="true">Mesozoic</button>
+      <button class="era-tab" type="button" data-era="triassic" role="tab" aria-selected="false">Triassic</button>
+      <button class="era-tab" type="button" data-era="jurassic" role="tab" aria-selected="false">Jurassic</button>
+      <button class="era-tab" type="button" data-era="cretaceous" role="tab" aria-selected="false">Cretaceous</button>
+    </div>
+  </section>
+
+  <section id="eraPanel" class="card-paper era-panel" aria-live="polite"></section>
+</main>
+
+<script src="theme.js"></script>
+<script src="eras.js"></script>
+</body>
+</html>

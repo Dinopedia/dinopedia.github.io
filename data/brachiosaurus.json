@@ -1,0 +1,159 @@
+{
+  "name": "Brachiosaurus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Brachiosaurus_mount.jpg",
+  "overview": "Brachiosaurus is a dinosaur currently documented from Late Jurassic (about 154-150 million years ago) in North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Brachiosaurid sauropod. Evidence quality for Brachiosaurus is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "diet": "Herbivore",
+    "weight": "30-50 tonnes",
+    "discovered": "1900 by Elmer Riggs",
+    "classification": "Brachiosaurid sauropod",
+    "speed": "Slow to moderate walking pace",
+    "period": "Late Jurassic (about 154-150 million years ago)",
+    "height": "12-13 m head height",
+    "location": "North America",
+    "length": "22-26 m",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "lips": "Broad soft tissue around peg-like teeth likely",
+    "skin": "Large scales and possible regional keratin structures",
+    "displayStructures": "Extremely elevated shoulder profile and long neck",
+    "coloration": "Likely muted grays/greens/browns"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Conifer foliage",
+      "Ginkgo leaves",
+      "High-canopy vegetation"
+    ],
+    "biteForce": "Low slicing force; cropping rather than chewing",
+    "cannibalism": "No evidence",
+    "strategy": "High browser using long neck reach"
+  },
+  "environment": {
+    "climate": "Seasonal floodplains with dry intervals",
+    "formations": [
+      "Morrison Formation"
+    ],
+    "juvenileThreats": [
+      "Allosaurus",
+      "Ceratosaurus"
+    ],
+    "flora": [
+      "Conifers",
+      "Cycads",
+      "Tree ferns"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Likely low resting rate with massive cardiac output",
+    "coproliteSize": "Very large herbivore dung volumes expected",
+    "digestiveLength": "Extremely long gut for plant processing",
+    "stomachAcidPH": "Likely acidic foregut plus hindgut fermentation pathways",
+    "heartMass": "Very large cardiovascular system required for neck perfusion"
+  },
+  "growthStages": {
+    "hatchling": "Small-bodied juvenile with proportionally shorter neck",
+    "oldAge": "Joint wear and vertebral stress likely",
+    "juvenile": "Rapid size increase with columnar limbs",
+    "adult": "High-browsing giant"
+  },
+  "famousSpecimens": [
+    "FMNH P 25107",
+    "Riggs original material"
+  ],
+  "reproduction": {
+    "medullaryBone": "Not conclusively documented in Brachiosaurus",
+    "nesting": "Colonial nesting plausible by analogy with other sauropods",
+    "eggs": "Sauropod eggs likely spherical to sub-spherical",
+    "clutchSize": "Possibly dozens of eggs over repeated nesting"
+  },
+  "biomechanics": {
+    "pubicBoot": "Massive pelvic support for weight-bearing",
+    "wishbone": "Not applicable in sauropods",
+    "footStructure": "Columnar limbs and broad feet for load distribution"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed molecular sequence from Brachiosaurus",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant)"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Stress lesions possible in weight-bearing joints",
+    "tailFusion": "Occasional vertebral pathologies in sauropods"
+  },
+  "stats": {
+    "maxTooth": "Relatively broad-crowned compared with diplodocids",
+    "teeth": "Spatulate teeth suited for stripping foliage",
+    "eyeSize": "Large lateral orbits",
+    "tailWeight": "Substantial balancing counterweight"
+  },
+  "funFacts": [
+    "Forelimbs were longer than hindlimbs",
+    "It could browse much higher than many other sauropods",
+    "Its nostrils sat high on the skull"
+  ],
+  "behaviorAndConflict": {
+    "defensiveResponse": "Adults relied on size and mass; juveniles were far more vulnerable.",
+    "socialBehavior": "May have traveled in loose herds, especially among subadults.",
+    "mainRivals": "Predatory pressure from large theropods focused mostly on younger individuals.",
+    "resourcePressure": "Competition likely centered on water and high-canopy forage corridors."
+  },
+  "feedingPatterns": {
+    "digestiveStrategy": "Relied on long gut retention and microbial fermentation for nutrient extraction.",
+    "dailyIntake": "Required massive daily plant intake to support giant body size and growth.",
+    "feedingStyle": "High browsing on conifer and ginkgo foliage beyond reach of many herbivores.",
+    "movementPattern": "Likely moved between feeding patches across broad floodplain corridors."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Direct long-term parental care is considered unlikely in giant sauropods.",
+    "nestingCycle": "Probably laid eggs in repeated seasonal nesting events on open ground.",
+    "hatchlingSurvival": "High early mortality likely offset by large clutch output.",
+    "courtship": "Likely involved size-based and posture-based display rather than direct combat."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Shifts in flora and herbivore competition likely influenced decline.",
+    "timeline": "Extinct by the end of the Jurassic, long before K-Pg.",
+    "legacy": "Important for studying gigantism and sauropod physiology.",
+    "primaryDrivers": "Regional faunal turnover and environmental change over millions of years."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Mounted skeletons established the classic high-browsing silhouette.",
+    "museumImpact": "One of the most recognizable giant sauropods in public exhibits.",
+    "researchMilestones": "Biomechanics and respiratory studies revised mass and posture models.",
+    "firstFinds": "Described in North America at the start of the 20th century."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Columnar-limbed, energy-efficient quadrupedal walking.",
+    "endurance": "Excellent long-distance walking efficiency at low speed.",
+    "maneuverability": "Wide turning radius typical of giant-bodied sauropods.",
+    "acceleration": "Limited acceleration due to extreme mass."
+  },
+  "paleoecology": {
+    "ecosystemRole": "High-canopy megaherbivore shaping vegetation structure.",
+    "coexistingFauna": "Shared the Morrison ecosystem with stegosaurs, diplodocids, and large theropods.",
+    "nicheShifts": "Different size classes probably used different feeding heights.",
+    "resourceDynamics": "Water and browse distribution likely structured herd movement."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior may have focused on migration-like movement and social spacing.",
+    "smell": "Olfaction likely important for locating productive browsing areas.",
+    "hearing": "Probably tuned to low-frequency signals over long distances.",
+    "vision": "Elevated head position likely provided broad visual surveillance."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Brachiosaurus_mount.jpg",
+      "caption": "Brachiosaurus reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Brachiosaurus is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

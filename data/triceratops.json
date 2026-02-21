@@ -1,0 +1,161 @@
+{
+  "name": "Triceratops",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/330px-LA-Triceratops_mount-2.jpg",
+  "overview": "Triceratops is a dinosaur currently documented from Late Cretaceous (68-66 million years ago) in Western North America. Current interpretation suggests a herbivore feeding profile. It is typically classified as Ceratopsian ornithischian. Evidence quality for Triceratops is currently limited by specimen completeness and historical naming complexity. Dino-pedia tracks this taxon with conservative wording so future specimen-level studies can be integrated without overwriting uncertain claims.",
+  "scientificData": {
+    "diet": "Herbivore",
+    "weight": "6-12 tonnes",
+    "discovered": "1887 by Othniel C. Marsh",
+    "classification": "Ceratopsian ornithischian",
+    "speed": "20-25 km/h",
+    "period": "Late Cretaceous (68-66 million years ago)",
+    "height": "3 m at shoulder",
+    "location": "Western North America",
+    "length": "8-9 m",
+    "type": "Dinosaur"
+  },
+  "externalAppearance": {
+    "lips": "Likely beaked mouth with keratinous covering",
+    "skin": "Large scales with regional variation",
+    "displayStructures": "Large frill and three horns for display and defense",
+    "coloration": "Likely mottled earth tones for habitat blending"
+  },
+  "huntingAndDiet": {
+    "prey": [
+      "Low-growing angiosperms",
+      "Cycads",
+      "Ferns"
+    ],
+    "biteForce": "Powerful shearing bite for fibrous plants",
+    "cannibalism": "No direct evidence",
+    "strategy": "Bulk browser using strong beak and dental batteries"
+  },
+  "environment": {
+    "climate": "Seasonal subtropical floodplains",
+    "formations": [
+      "Hell Creek",
+      "Lance"
+    ],
+    "juvenileThreats": [
+      "Tyrannosaurus",
+      "Dromaeosaurs"
+    ],
+    "flora": [
+      "Flowering shrubs",
+      "Conifers",
+      "Ferns"
+    ]
+  },
+  "physiology": {
+    "heartRate": "Estimated 25-40 bpm resting",
+    "coproliteSize": "Large herbivore coprolites documented in same ecosystems",
+    "digestiveLength": "Long gut adapted for fibrous diet",
+    "stomachAcidPH": "Likely strongly acidic for plant matter fermentation support",
+    "heartMass": "Large multi-chambered heart likely similar to birds/crocodilians"
+  },
+  "growthStages": {
+    "hatchling": "Small hornless juvenile with short frill",
+    "oldAge": "Tooth battery wear and joint degeneration",
+    "juvenile": "Rapid skull growth with developing horns",
+    "adult": "Massive frilled and horned grazer"
+  },
+  "famousSpecimens": [
+    "YPM 1820 (holotype skull fragments)",
+    "Lane Triceratops mount",
+    "Black Hills Triceratops skulls"
+  ],
+  "reproduction": {
+    "medullaryBone": "Not yet conclusively identified",
+    "nesting": "Ground nests in sandy or silty substrates",
+    "eggs": "Likely elongated eggs in clustered nests",
+    "clutchSize": "Estimated 15-30 eggs"
+  },
+  "biomechanics": {
+    "pubicBoot": "Expanded pelvic structures for weight support",
+    "wishbone": "Not present as in theropods",
+    "footStructure": "Broad weight-bearing feet with strong forelimbs"
+  },
+  "molecularData": {
+    "softTissue": "No confirmed soft tissue proteins unique to Triceratops",
+    "closestLivingRelatives": [
+      "Birds",
+      "Crocodilians (distant archosaur relatives)"
+    ]
+  },
+  "pathologies": {
+    "brainIssues": "No direct evidence",
+    "injuries": "Frill punctures and healed cranial lesions are common",
+    "tailFusion": "Occasional vertebral pathologies in ceratopsians"
+  },
+  "stats": {
+    "maxTooth": "Small slicing teeth in stacked columns",
+    "teeth": "Hundreds of replacement teeth in batteries",
+    "eyeSize": "Large lateral eyes for broad field of view",
+    "tailWeight": "Moderate compared with body mass"
+  },
+  "funFacts": [
+    "Its frill likely helped with species recognition",
+    "Some skull lesions may record horn-to-horn combat",
+    "Triceratops was among the last non-avian dinosaurs"
+  ],
+  "behaviorAndConflict": {
+    "fossilEvidence": "Cranial lesions support intraspecific horn-to-horn conflict in some individuals.",
+    "socialBehavior": "Could have formed loose age-structured groups in rich habitats.",
+    "defensiveCombat": "Used horns and body mass to deter or injure predators.",
+    "mainRivals": "Large tyrannosaurids and other horned herbivores competing for territory/resources."
+  },
+  "feedingPatterns": {
+    "seasonalShifts": "Diet likely shifted with seasonal plant availability and drought cycles.",
+    "preferredPlants": "Ferns, cycads, and flowering understory plants in floodplain ecosystems.",
+    "dailyIntake": "Likely consumed very large volumes of tough vegetation every day to sustain body mass.",
+    "feedingStyle": "Low-to-mid browsing using beak cropping and dental-battery grinding."
+  },
+  "breedingAndNesting": {
+    "parentalCare": "Juveniles may have stayed near adults in early life stages, though evidence is indirect.",
+    "nestingCycle": "Probably nested in repeated seasonal cycles near productive feeding areas.",
+    "hatchlingSurvival": "Small juveniles were vulnerable to theropods until horns and size increased.",
+    "courtship": "Horn and frill display likely played a role in mate selection."
+  },
+  "extinctionContext": {
+    "immediateEffects": "Rapid vegetation and climate changes stressed large herbivore populations.",
+    "timeline": "Persisted until near the end of the Cretaceous, ~66 million years ago.",
+    "legacy": "Key taxon for understanding latest Cretaceous dinosaur communities.",
+    "primaryDrivers": "Boundary-level environmental collapse disrupted food resources."
+  },
+  "fossilDiscoveryHistory": {
+    "majorDiscoveries": "Numerous skulls clarified horn variation and growth changes.",
+    "museumImpact": "Among the most iconic herbivorous dinosaurs in museum collections.",
+    "researchMilestones": "Frill histology and pathology studies improved understanding of combat/display.",
+    "firstFinds": "Fragmentary remains were first recognized in the late 19th century."
+  },
+  "locomotionAndAthletics": {
+    "gait": "Quadrupedal locomotion with strong forelimbs and stable center of mass.",
+    "endurance": "Well suited to sustained daily movement between feeding zones.",
+    "maneuverability": "Horned head and broad stance favored frontal defense over tight turning.",
+    "acceleration": "Capable of short defensive surges despite heavy build."
+  },
+  "paleoecology": {
+    "ecosystemRole": "Large primary consumer shaping vegetation through heavy browsing.",
+    "coexistingFauna": "Lived with hadrosaurs, ankylosaurs, and tyrannosaur predators.",
+    "nicheShifts": "Juveniles may have used safer microhabitats than adults.",
+    "resourceDynamics": "Seasonal plant turnover likely influenced movement and group spacing."
+  },
+  "sensoryAndIntelligence": {
+    "cognition": "Behavior likely emphasized social signaling and defensive decision-making.",
+    "smell": "Olfaction probably supported foraging and social recognition.",
+    "hearing": "Likely sensitive to mid-to-low frequency environmental cues.",
+    "vision": "Wide lateral vision likely aided predator detection in open habitats."
+  },
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/330px-LA-Triceratops_mount-2.jpg",
+      "caption": "Triceratops reference image"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Triceratops is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  }
+}

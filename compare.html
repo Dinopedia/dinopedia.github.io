@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dino-pedia Compare</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo-area">
+      <a href="index.html" class="logo-home-link" aria-label="Go to Dino-pedia home">
+        <img src="images/trex-skull.png" class="logo logo-small" alt="Dino-pedia logo">
+        <span class="logo-home-text">Dino-pedia</span>
+      </a>
+    </div>
+    <div class="topbar-actions">
+      <a class="util-link" href="eras.html">Eras</a>
+      <a class="util-link" href="timeline.html">Timeline</a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle</button>
+    </div>
+  </div>
+</header>
+<main class="wiki-shell">
+  <section class="hero hero-wiki">
+    <h2>Comparison Lab</h2>
+    <p>Select up to 4 dinosaurs and compare their period, region, diet, and key stats side by side.</p>
+  </section>
+
+  <section class="card-paper compare-controls">
+    <select id="addCompareSelect" class="control-select"></select>
+    <button id="addCompareBtn" class="control-button" type="button">Add to Compare</button>
+    <button id="clearCompare" class="control-button" type="button">Clear List</button>
+  </section>
+
+  <section id="compareSummary" class="status status-paper">Loading comparison...</section>
+  <section id="compareGrid" class="compare-grid"></section>
+</main>
+<script src="theme.js"></script>
+<script src="compare.js"></script>
+</body>
+</html>

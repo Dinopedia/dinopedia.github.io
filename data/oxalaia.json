@@ -1,0 +1,34 @@
+{
+  "name": "Oxalaia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Holotype_of_Oxalaia_quilombensis.PNG/330px-Holotype_of_Oxalaia_quilombensis.PNG",
+  "overview": "Oxalaia is a genus of spinosaurid dinosaur that lived in what is now the Northeast Region of Brazil during the Cenomanian stage of the Late Cretaceous period, sometime between 100.5 and 93.9 million years ago. Its only known fossils were found in 1999 on Cajual Island in the rocks of the Alcântara Formation, which is known for its abundance of fragmentary, isolated fossil specimens. The remains of Oxalaia were described in 2011 by Brazilian palaeontologist Alexander Kellner and colleagues, who assigned the specimens to a new genus containing one species, Oxalaia quilombensis. The species name refers to the Brazilian quilombo settlements. Oxalaia quilombensis is the eighth officially named theropod species from Brazil and the largest carnivorous dinosaur discovered there. One study suggested that this taxon is a junior synonym of the closely related African genus Spinosaurus, but this was disputed by subsequent studies which consider the genus to be diagnostic.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Oxalaia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Oxalaia",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Oxalaia is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Oxalaia remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

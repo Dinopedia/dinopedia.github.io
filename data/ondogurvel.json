@@ -1,0 +1,34 @@
+{
+  "name": "Ondogurvel",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ondogurvel_Restoration.png/330px-Ondogurvel_Restoration.png",
+  "overview": "Ondogurvel is a genus of alvarezsaurid dinosaur from the Late Cretaceous (Campanian) Barun Goyot Formation in southern Mongolia. The type and only species is O. alifanovi, known from a partial skeleton consisting of fragments of two last dorsal vertebrae, three anterior sacral vertebrae, right ilium, left and right pubis and ischium, articulated right tibia, fibula, metatarsals II and IV, and phalanges IV-1 and IV-2, right carpometacarpus, left and right manual phalanx II-1, right femur, left pedal phalanx II-1, and fragments of unidentified phalanges.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Late Cretaceous",
+    "diet": "Unknown",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Ondogurvel (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ondogurvel",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Ondogurvel is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Ondogurvel remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}

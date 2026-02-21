@@ -1,0 +1,34 @@
+{
+  "name": "Patagotitan",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/FMNH_Patagotitan.jpg/330px-FMNH_Patagotitan.jpg",
+  "overview": "Patagotitan is a genus of titanosaurian sauropod dinosaur from the Early Cretaceous Cerro Barcino Formation in Chubut Province, Patagonia, Argentina. The genus contains a single species known from at least six young adult individuals, Patagotitan mayorum, which was first announced in 2014 and then named in 2017 by José Carballido and colleagues. Preliminary studies and press releases suggested that Patagotitan was the largest known titanosaur and land animal overall, with an estimated length of 37 m (121 ft) and an estimated weight of 69 tonnes. Later research revised the length estimate down to 31 m (102 ft) and weight estimates down to approximately 50–60 tonnes, suggesting that Patagotitan was of a similar size to, if not smaller than, its closest relatives Argentinosaurus and Puertasaurus. Still, Patagotitan is one of the best-known titanosaurs, and so its interrelationships with other titanosaurs have been relatively consistent in phylogenetic analyses. This led to its use in a re-definition of the group Colossosauria by Carballido and colleagues in 2022.",
+  "scientificData": {
+    "type": "Dinosaur",
+    "period": "Early Cretaceous",
+    "diet": "Herbivore",
+    "location": "Unknown",
+    "classification": "Unknown",
+    "discovered": "Unknown",
+    "length": "Unknown",
+    "height": "Unknown",
+    "weight": "Unknown",
+    "speed": "Unknown"
+  },
+  "citations": [
+    {
+      "title": "Patagotitan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Patagotitan",
+      "source": "Wikipedia"
+    }
+  ],
+  "researchContext": {
+    "evidenceBase": "Patagotitan is represented by published fossil material, but completeness and diagnostic overlap can limit high-confidence biological reconstruction.",
+    "currentLimits": "Several ecological and life-history traits remain inferential rather than directly measured for this taxon.",
+    "nextDataNeeded": "Priority evidence includes better-preserved cranial/postcranial overlap, robust stratigraphic control, and specimen-linked morphometrics.",
+    "revisionOutlook": "Interpretation is expected to improve as new finds and reanalyses clarify taxonomy and anatomy."
+  },
+  "funFacts": [
+    "Patagotitan remains an active target for revision as new material is compared across related taxa.",
+    "Dino-pedia marks uncertain claims explicitly so this article can be upgraded with specimen-level evidence."
+  ]
+}
